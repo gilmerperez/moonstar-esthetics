@@ -176,9 +176,7 @@ AnaKarina explains her process clearly, listens to concerns, and recommends prod
 
 # Team Page
 
-## AnaKarina
-
-(Short story and personal introduction about AnaKarina)
+- (Short story and personal introduction about AnaKarina)
 
 - [Pictures Placeholder]
 
