@@ -263,6 +263,8 @@ Quick and easy contact form directing emails to moonstaresthetics@gmail.com
 
 ### Terms of Service Page
 
+### Contact Page (Maybe put this in Information Page)
+
 ---
 
 ## 🔒 Basic Security Checklist
