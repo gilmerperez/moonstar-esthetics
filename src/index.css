@@ -1,5 +1,29 @@
-/* Google Fonts Montserrat Font */
+/* Google Fonts Montserrat */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Dark Mode */
+:root {
+  --bg-color: hsl(0, 0%, 15%);
+  --primary: hsl(261, 61%, 70%);
+  --text-primary: hsl(0, 0%, 100%);
+  --text-secondary: hsl(0, 0%, 80%);
+  --primary-dark: hsl(262, 33%, 46%);
+  --primary-light: hsl(264, 58%, 85%);
+  --header-footer-bg-color: hsl(0, 0%, 10%);
+}
+
+/* Light Mode */
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: hsl(0, 0%, 100%);
+    --primary: hsl(261, 61%, 50%);
+    --text-primary: hsl(0, 0%, 10%);
+    --text-secondary: hsl(0, 0%, 40%);
+    --primary-dark: hsl(262, 33%, 30%);
+    --primary-light: hsl(264, 58%, 70%);
+    --header-footer-bg-color: hsl(0, 0%, 98%);
+  }
+}
 
 /* BUTTONS - Ensures buttons appear clickable */
 button {
@@ -52,10 +76,10 @@ picture {
 html {
   height: 100%; /* Needed for percentage-based child heights */
   font-size: 16px; /* Base size 1rem = 16px */
+  box-sizing: border-box; /* Includes padding & border in width and height */
   scroll-behavior: smooth; /* Enables smooth scroll when using anchor links */
   -webkit-text-size-adjust: 100%; /* Prevents font size changes on iOS */
   text-rendering: optimizeLegibility; /* Improves legibility of text */
-  font-family: "Montserrat", Arial, sans-serif; /* Modern system font stack */
 }
 
 /* BODY - Base font family, and layout behavior */
@@ -64,14 +88,24 @@ body {
   min-height: 100vh; /* Ensures body fills at least full screen */
   overflow-x: hidden; /* Prevents horizontal scroll */
   flex-direction: column; /* Stacks header, main, and footer vertically */
+  color: var(--text-primary); /* Sets a default text color */
+  background-color: var(--bg-color); /* Sets a default background color */
   -moz-osx-font-smoothing: grayscale; /* Better font rendering on macOS Firefox */
   -webkit-font-smoothing: antialiased; /* Better font rendering on WebKit browsers */
-  background-color: hsl(0, 0%, 10%); /* Sets a default background */
+  font-family: "Montserrat", Arial, sans-serif; /* Modern system font stack */
 }
 
-/* CONTAINER - Centers content with max width for readability */
-.container {
-  width: 100%; /* Allows container to be fluid up to max-width */
-  margin: 0 auto; /* Horizontally centers container within viewport */
-  max-width: 1200px; /* Limits container width to prevent overly wide content on large screens */
+/* HEADER & FOOTER - Shared structural styling */
+header,
+footer {
+  width: 100%; /* Ensures full-width layout across viewport */
+  padding: 1rem 2rem; /* Provides consistent spacing inside header/footer */
+  background-color: var(--header-footer-bg-color); /* Applies theme background color from CSS variables */
+}
+
+/* MAIN - Base layout for page content */
+main {
+  width: 100%; /* Ensures content stretches to full container width */
+  padding: 2rem; /* Adds breathing room around main content */
+  background-color: var(--header-footer-bg-color); /* Matches the background of header/footer for visual cohesion */
 }
