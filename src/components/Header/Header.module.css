@@ -1,7 +1,3 @@
-* {
-  /* border: 1px solid red; */
-}
-
 .headerContainer {
   width: 100%;
   display: flex;
@@ -46,8 +42,9 @@
   color: var(--primary-light);
 }
 
-/* Only apply hover effect to devices with a pointer and prevent hover effect on active link */
+/* Only apply hover effect to devices with a pointer */
 @media (hover: hover) {
+  /* Prevent hover effect on active link */
   .navItems a:hover:not(.activeLink) {
     transform: translateY(-1px);
     color: var(--primary-light);
@@ -58,8 +55,14 @@
   color: var(--primary-light);
 }
 
+.seperator {
+  opacity: 0.5;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
 .functionalButtons {
-  gap: 1.5rem;
+  gap: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;

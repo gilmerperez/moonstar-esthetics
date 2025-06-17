@@ -34,7 +34,7 @@ function Header() {
                 Reviews
               </NavLink>
             </nav>
-            <span>|</span>
+            <span className={styles.seperator}>|</span>
             <section className={styles.functionalButtons}>
               {/* Change Language Button */}
               <button className={styles.languageButton}>
