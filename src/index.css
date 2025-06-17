@@ -95,11 +95,10 @@ body {
   font-family: "Montserrat", Arial, sans-serif; /* Modern system font stack */
 }
 
-/* HEADER & FOOTER - Shared structural styling */
-header,
-footer {
+/* HEADER - Shared structural styling */
+header {
   width: 100%; /* Ensures full-width layout across viewport */
-  padding: 1rem 2rem; /* Provides consistent spacing inside header/footer */
+  padding: 1.5rem 2rem; /* Provides consistent spacing inside header */
   background-color: var(--header-footer-bg-color); /* Applies theme background color from CSS variables */
 }
 
@@ -108,4 +107,11 @@ main {
   width: 100%; /* Ensures content stretches to full container width */
   padding: 2rem; /* Adds breathing room around main content */
   background-color: var(---bg-color); /* Matches the background of header/footer for visual cohesion */
+}
+
+/* FOOTER - Shared structural styling */
+footer {
+  width: 100%; /* Ensures full-width layout across viewport */
+  padding: 2rem; /* Provides consistent spacing inside footer */
+  background-color: var(--header-footer-bg-color); /* Applies theme background color from CSS variables */
 }
