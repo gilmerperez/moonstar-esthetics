@@ -49,8 +49,8 @@
 @media (hover: hover) {
   /* Prevent hover effect on active link */
   .navItems a:hover:not(.activeLink) {
-    transform: translateY(-2px);
     color: var(--primary-light);
+    transform: translateY(-2px);
   }
 }
 
@@ -202,25 +202,31 @@
 }
 
 .sidebar {
-  width: 300px;
+  width: 100%;
   height: 100%;
   display: flex;
   padding: 1.5rem;
+  max-width: 250px;
   position: relative;
   flex-direction: column;
   background-color: var(--header-footer-bg-color);
 }
 
 .sidebarClose {
-  top: 1rem;
   border: none;
+  top: 1.25rem;
+  right: 1.5rem;
   cursor: pointer;
   background: none;
   position: absolute;
   color: var(--text-primary);
 }
 
-.sidebarNav {
+.sidebarClose:hover {
+  color: var(--text-secondary);
+}
+
+.sidebarNavItems {
   gap: 0.75rem;
   display: flex;
   margin-top: 2rem;
@@ -228,11 +234,16 @@
   flex-direction: column;
 }
 
-.sidebarNav a:hover:not(.activeLink) {
-  color: var(--primary-light);
+.sidebarNavItems a {
+  transition: transform 0.2s ease-in, color 0.3s ease-in-out;
 }
 
-.sidebarButtons {
+.sidebarNavItems a:hover:not(.activeLink) {
+  color: var(--primary-light);
+  transform: translateX(5px);
+}
+
+.sidebarFunctionalButtons {
   gap: 1rem;
   display: flex;
   margin-top: 3rem;
@@ -241,13 +252,15 @@
 }
 
 .sidebarCTAButton {
+  width: 100%;
   font-size: 1rem;
   padding: 0.5rem 0.75rem;
 }
 
 .sidebarFooter {
+  margin: 0;
+  padding: 0;
   gap: 0.5rem;
-  opacity: 0.8;
   display: flex;
   font-size: 1rem;
   margin-top: auto;
@@ -255,11 +268,11 @@
 }
 
 .sidebarFooter a {
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
 
 .sidebarFooter a:hover {
-  color: var(--text-secondary);
+  color: var(--text-primary);
 }
 
 /* Responsive: hide desktop nav/buttons, show hamburger on small screens */

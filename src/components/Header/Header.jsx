@@ -82,7 +82,7 @@ function Header() {
               </button>
 
               {/* Sidebar Site Navigation */}
-              <nav className={styles.sidebarNav}>
+              <nav className={styles.sidebarNavItems}>
                 <NavLink to="/" className={navLinkClass} onClick={() => setMenuOpen(false)}>
                   Home
                 </NavLink>
@@ -101,7 +101,7 @@ function Header() {
               </nav>
 
               {/* Sidebar Functional Buttons */}
-              <div className={styles.sidebarButtons}>
+              <div className={styles.sidebarFunctionalButtons}>
                 {/* Change Light Mode Button */}
                 <button className={styles.lightModeButton}>
                   <i className="fa-solid fa-moon fa-sm"></i>
