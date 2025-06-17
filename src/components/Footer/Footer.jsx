@@ -7,19 +7,20 @@ function Footer() {
       <footer>
         <section className={styles.footerContainer}>
           {/* Navigation Links */}
-          <nav className={styles.footerLinks}>
+          <nav className={styles.footerLinks} aria-label="Footer Navigation">
             <NavLink to="/contact">Contact</NavLink>
             <NavLink to="/privacy-policy">Privacy Policy</NavLink>
             <NavLink to="/terms-of-service">Terms of Service</NavLink>
           </nav>
-          {/* Legal Disclaimer */}
+
+          {/* Business Disclaimer */}
           <p className={styles.legalDisclaimer}>
-            Reelix is a Movie and TV Show database. It does not host, stream, or distribute any copyrighted content. All
-            metadata and media previews are provided via public APIs. No user accounts, payments, or downloads are
-            required.
+            Moonstar Esthetics provides professional skincare and wellness services. This website is for informational
+            purposes only and does not offer medical advice, diagnosis, or treatment. All services are by appointment
+            only. Please consult a licensed professional for personalized care.
           </p>
           {/* Copyright */}
-          <p className={styles.copyright}>&copy; {new Date().getFullYear()} Moonstar Esthetics</p>
+          <p className={styles.copyright}>&copy; {new Date().getFullYear()} Moonstar Esthetics. All rights reserved.</p>
         </section>
       </footer>
     </>
