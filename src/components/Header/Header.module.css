@@ -1,3 +1,7 @@
+* {
+  /* border: 1px solid red; */
+}
+
 .headerContainer {
   width: 100%;
   display: flex;
@@ -16,6 +20,7 @@
   white-space: nowrap;
   align-items: center;
   justify-content: center;
+  transition: 0.3s ease-in;
   color: var(--primary-light);
 }
 
@@ -24,6 +29,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.3s ease-in;
 }
 
 .navItems {
@@ -32,6 +38,7 @@
   font-size: 1.25rem;
   align-items: center;
   justify-content: center;
+  transition: 0.3s ease-in;
 }
 
 .navItems a {
@@ -59,13 +66,16 @@
   opacity: 0.5;
   margin-left: -10px;
   margin-right: -10px;
+  transition: 0.3s ease-in;
 }
 
 .functionalButtons {
   gap: 1rem;
   display: flex;
+  font-size: 1rem;
   align-items: center;
   justify-content: center;
+  transition: 0.3s ease-in;
 }
 
 .languageButton,
@@ -84,9 +94,11 @@
 }
 
 .ctaButton {
+  font-size: 1rem;
   font-weight: 500;
-  border-radius: 100px;
+  border-radius: 10px;
   padding: 0.5rem 0.75rem;
+  transition: 0.3s ease-in;
   color: var(--text-primary);
   background-color: var(--primary);
 }
@@ -94,4 +106,211 @@
 .ctaButton:hover {
   color: var(--text-secondary);
   background-color: var(--primary-dark);
+}
+
+@media (max-width: 1260px) {
+  .logo {
+    font-size: 1.75rem;
+  }
+
+  .headerRight {
+    gap: 1.75rem;
+  }
+
+  .navItems {
+    gap: 1.15rem;
+    font-size: 1.15rem;
+  }
+
+  .seperator {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .functionalButtons {
+    gap: 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .ctaButton {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.65rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .headerRight {
+    gap: 1.5rem;
+  }
+
+  .navItems {
+    gap: 1rem;
+    font-size: 1rem;
+  }
+
+  .seperator {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .functionalButtons {
+    gap: 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .ctaButton {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.55rem;
+  }
+}
+
+@media (max-width: 980px) {
+  .logo {
+    font-size: 1.35rem;
+  }
+
+  .headerRight {
+    gap: 1.35rem;
+  }
+
+  .navItems {
+    gap: 0.85rem;
+    font-size: 1rem;
+  }
+
+  .seperator {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .functionalButtons {
+    gap: 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .ctaButton {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .logo {
+    font-size: 1.25rem;
+  }
+
+  .headerRight {
+    gap: 1.25rem;
+  }
+
+  .navItems {
+    gap: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .seperator {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .functionalButtons {
+    gap: 0.5rem;
+    font-size: 0.65rem;
+  }
+
+  .ctaButton {
+    font-size: 0.65rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+.hamburger {
+  border: none;
+  display: none;
+  cursor: pointer;
+  background: none;
+  color: var(--text-primary);
+}
+
+.sidebarOverlay {
+  inset: 0;
+  z-index: 999;
+  display: flex;
+  position: fixed;
+  justify-content: flex-start;
+  background: hsla(0, 0%, 0%, 0.75);
+}
+
+.sidebar {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  padding: 1.5rem;
+  position: relative;
+  flex-direction: column;
+  background-color: var(--header-footer-bg-color);
+}
+
+.sidebarClose {
+  /* top: 1rem; */
+  /* right: 1rem; */
+  border: none;
+  cursor: pointer;
+  background: none;
+  position: absolute;
+  color: var(--text-primary);
+}
+
+.sidebarNav {
+  gap: 0.75rem;
+  display: flex;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  flex-direction: column;
+}
+
+.sidebarNav a {
+  color: var(--text-primary);
+}
+
+.sidebarButtons {
+  gap: 1rem;
+  display: flex;
+  margin-top: 3rem;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sidebarFooter {
+  gap: 0.5rem;
+  opacity: 0.8;
+  display: flex;
+  font-size: 1rem;
+  margin-top: auto;
+  flex-direction: column;
+}
+
+.sidebarFooter a {
+  color: var(--text-primary);
+}
+
+.sidebarFooter a:hover {
+  color: var(--text-secondary);
+}
+
+/* Responsive: hide desktop nav/buttons, show hamburger on small screens */
+@media (max-width: 840px) {
+  .navItems,
+  .seperator,
+  .functionalButtons {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
 }
