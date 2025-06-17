@@ -59,7 +59,7 @@ function Header() {
               {/* Get Started Button */}
               <button className={styles.ctaButton}>
                 <a href="https://moonstaresthetics.setmore.com/" target="_blank" rel="noopener noreferrer">
-                  Get Started
+                  Book Now
                 </a>
               </button>
             </section>
@@ -115,7 +115,7 @@ function Header() {
                 {/* Get Started Button */}
                 <button className={`${styles.ctaButton} ${styles.sidebarCTAButton}`}>
                   <a href="https://moonstaresthetics.setmore.com/" target="_blank" rel="noopener noreferrer">
-                    Get Started
+                    Book Now
                   </a>
                 </button>
               </div>

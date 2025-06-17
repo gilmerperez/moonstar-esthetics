@@ -302,8 +302,8 @@ Quick and easy contact form directing emails to moonstaresthetics@gmail.com
 
 ### ❓ Missing / To Be Determined
 
+- From Ana: Logo, favicon, brand assets, text content
+- Page not found
 - Dark/Light Mode
-- Page not found page
 - Google Maps API key
-- Logo and other brand assets
 - English, Spanish, and Portugese Translation

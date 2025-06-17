@@ -49,7 +49,7 @@
 @media (hover: hover) {
   /* Prevent hover effect on active link */
   .navItems a:hover:not(.activeLink) {
-    transform: translateY(-1px);
+    transform: translateY(-2px);
     color: var(--primary-light);
   }
 }
