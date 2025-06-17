@@ -14,15 +14,15 @@ function Header() {
     <>
       <header>
         <section className={styles.headerContainer}>
-          <section className={styles.headerLeft}>
-            {/* Logo */}
+          {/* Logo */}
+          <section className={styles.logoContainer}>
             <NavLink to="/" className={styles.logo}>
               Moonstar Esthetics
             </NavLink>
           </section>
 
-          <section className={styles.headerRight}>
-            {/* Site Navigation */}
+          {/* Site Navigation */}
+          <section className={styles.navContainer}>
             <nav className={styles.navItems}>
               <NavLink to="/" className={navLinkClass}>
                 Home
@@ -58,10 +58,10 @@ function Header() {
               </button>
               {/* Get Started Button */}
               <button className={styles.ctaButton}>
-                  <a href="https://moonstaresthetics.setmore.com/" target="_blank" rel="noopener noreferrer">
-                    Get Started
-                  </a>
-                </button>
+                <a href="https://moonstaresthetics.setmore.com/" target="_blank" rel="noopener noreferrer">
+                  Get Started
+                </a>
+              </button>
             </section>
 
             {/* Hamburger menu for mobile */}
@@ -113,7 +113,7 @@ function Header() {
                   <p>English</p>
                 </button>
                 {/* Get Started Button */}
-                <button className={`${styles.ctaButton} ${styles.sidebarCtaButton}`}>
+                <button className={`${styles.ctaButton} ${styles.sidebarCTAButton}`}>
                   <a href="https://moonstaresthetics.setmore.com/" target="_blank" rel="noopener noreferrer">
                     Get Started
                   </a>
