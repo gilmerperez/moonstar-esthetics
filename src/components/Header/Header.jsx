@@ -58,10 +58,10 @@ function Header() {
               </button>
               {/* Get Started Button */}
               <button className={styles.ctaButton}>
-                <a href="https://moonstaresthetics.setmore.com/" target="_blank">
-                  Get Started
-                </a>
-              </button>
+                  <a href="https://moonstaresthetics.setmore.com/" target="_blank" rel="noopener noreferrer">
+                    Get Started
+                  </a>
+                </button>
             </section>
 
             {/* Hamburger menu for mobile */}
@@ -113,7 +113,7 @@ function Header() {
                   <p>English</p>
                 </button>
                 {/* Get Started Button */}
-                <button className={styles.ctaButton}>
+                <button className={`${styles.ctaButton} ${styles.sidebarCtaButton}`}>
                   <a href="https://moonstaresthetics.setmore.com/" target="_blank" rel="noopener noreferrer">
                     Get Started
                   </a>
@@ -122,9 +122,15 @@ function Header() {
 
               {/* Site Map */}
               <footer className={styles.sidebarFooter}>
-                <a href="/contact">Contact</a>
-                <a href="/privacy-policy">Privacy Policy</a>
-                <a href="/terms-of-service">Terms of Service</a>
+                <NavLink to="/contact" className={navLinkClass} onClick={() => setMenuOpen(false)}>
+                  Contact
+                </NavLink>
+                <NavLink to="/privacy-policy" className={navLinkClass} onClick={() => setMenuOpen(false)}>
+                  Privacy Policy
+                </NavLink>
+                <NavLink to="/terms-of-service" className={navLinkClass} onClick={() => setMenuOpen(false)}>
+                  Terms of Service
+                </NavLink>
               </footer>
             </div>
           </div>,
