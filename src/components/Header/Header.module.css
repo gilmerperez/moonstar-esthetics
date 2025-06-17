@@ -6,16 +6,18 @@
   width: 100%;
   display: flex;
   margin: 0 auto;
+  padding: 0.5rem 0;
   max-width: 1200px;
   text-align: center;
   align-items: center;
-  flex-direction: row;
   justify-content: space-between;
 }
 
-.logoLink {
+.logo {
   display: flex;
   font-size: 2rem;
+  font-weight: 500;
+  white-space: nowrap;
   align-items: center;
   justify-content: center;
   color: var(--primary-light);
@@ -36,20 +38,28 @@
   justify-content: center;
 }
 
-.activeLink {
-  color: var(--primary-light);
-}
-
 .navItems a {
-  transition: 0.3s ease-in-out;
+  transition: transform 0.2s ease-in, color 0.3s ease-in-out;
 }
 
 .navItems a:hover {
   color: var(--primary-light);
 }
 
+/* Only apply hover effect to devices with a pointer and prevent hover effect on active link */
+@media (hover: hover) {
+  .navItems a:hover:not(.activeLink) {
+    transform: translateY(-1px);
+    color: var(--primary-light);
+  }
+}
+
+.activeLink {
+  color: var(--primary-light);
+}
+
 .functionalButtons {
-  gap: 1.25rem;
+  gap: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,4 +78,17 @@
 .languageButton:hover,
 .lightModeButton:hover {
   color: var(--text-secondary);
+}
+
+.ctaButton {
+  font-weight: 500;
+  border-radius: 100px;
+  padding: 0.5rem 0.75rem;
+  color: var(--text-primary);
+  background-color: var(--primary);
+}
+
+.ctaButton:hover {
+  color: var(--text-secondary);
+  background-color: var(--primary-dark);
 }

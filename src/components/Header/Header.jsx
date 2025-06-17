@@ -11,7 +11,7 @@ function Header() {
         <section className={styles.headerContainer}>
           <section className={styles.headerLeft}>
             {/* Logo */}
-            <NavLink to="/" className={styles.logoLink}>
+            <NavLink to="/" className={styles.logo}>
               Moonstar Esthetics
             </NavLink>
           </section>
@@ -36,13 +36,21 @@ function Header() {
             </nav>
             <span>|</span>
             <section className={styles.functionalButtons}>
+              {/* Change Language Button */}
               <button className={styles.languageButton}>
                 <i class="fa-solid fa-earth-americas fa-sm"></i>
                 <p>English</p>
               </button>
+              {/* Change Light Mode Button */}
               <button className={styles.lightModeButton}>
                 <i class="fa-solid fa-moon fa-sm"></i>
                 <p>Dark</p>
+              </button>
+              {/* Get Started Button */}
+              <button className={styles.ctaButton}>
+                <a href="https://moonstaresthetics.setmore.com/" target="_blank">
+                  Get Started
+                </a>
               </button>
             </section>
           </section>

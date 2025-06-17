@@ -107,5 +107,5 @@ footer {
 main {
   width: 100%; /* Ensures content stretches to full container width */
   padding: 2rem; /* Adds breathing room around main content */
-  background-color: var(--header-footer-bg-color); /* Matches the background of header/footer for visual cohesion */
+  background-color: var(---bg-color); /* Matches the background of header/footer for visual cohesion */
 }
