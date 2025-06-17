@@ -1,3 +1,7 @@
+* {
+  /* border: 1px solid red; */
+}
+
 .headerContainer {
   width: 100%;
   display: flex;
@@ -7,4 +11,61 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.logoLink {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-light);
+}
+
+.headerRight {
+  gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navItems {
+  gap: 1.25rem;
+  display: flex;
+  font-size: 1.25rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.activeLink {
+  color: var(--primary-light);
+}
+
+.navItems a {
+  transition: 0.3s ease-in-out;
+}
+
+.navItems a:hover {
+  color: var(--primary-light);
+}
+
+.functionalButtons {
+  gap: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.languageButton,
+.lightModeButton {
+  gap: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  background-color: var(--header-footer-bg-color);
+}
+
+.languageButton:hover,
+.lightModeButton:hover {
+  color: var(--text-secondary);
 }
