@@ -1,6 +1,5 @@
 import Header from "./components/Header/Header";
 import Home from "./pages/Home";
-import Team from "./pages/Team";
 import Reviews from "./pages/Reviews";
 import Services from "./pages/Services";
 import Information from "./pages/Information";
@@ -16,7 +15,6 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/team" element={<Team />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/services" element={<Services />} />
         <Route path="/information" element={<Information />} />

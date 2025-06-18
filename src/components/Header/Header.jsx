@@ -34,9 +34,6 @@ function Header() {
               <NavLink to="/" className={navLinkClass}>
                 Home
               </NavLink>
-              <NavLink to="/team" className={navLinkClass}>
-                Team
-              </NavLink>
               <NavLink to="/reviews" className={navLinkClass}>
                 Reviews
               </NavLink>
@@ -95,9 +92,6 @@ function Header() {
               <nav className={styles.sidebarNavItems}>
                 <NavLink to="/" className={navLinkClass} onClick={() => setMenuOpen(false)}>
                   Home
-                </NavLink>
-                <NavLink to="/team" className={navLinkClass} onClick={() => setMenuOpen(false)}>
-                  Team
                 </NavLink>
                 <NavLink to="/reviews" className={navLinkClass} onClick={() => setMenuOpen(false)}>
                   Reviews
