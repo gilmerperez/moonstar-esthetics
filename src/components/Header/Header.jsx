@@ -4,22 +4,20 @@ import { createPortal } from "react-dom";
 import { NavLink } from "react-router-dom";
 
 function Header() {
-  // Toggle for mobile sidebar menu
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  // Make active page have custom styles
+  // Custom styles for active page
   const navLinkClass = ({ isActive }) => (isActive ? styles.activeLink : undefined);
+
+  // Mobile sidebar toggle
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
       <header>
         <section className={styles.headerContainer}>
           {/* Logo */}
-          <section className={styles.logoContainer}>
-            <NavLink to="/" className={styles.logo}>
-              Moonstar Esthetics
-            </NavLink>
-          </section>
+          <NavLink to="/" className={styles.moonstarLogo}>
+            Moonstar Esthetics
+          </NavLink>
 
           {/* Site Navigation */}
           <section className={styles.navContainer}>
@@ -48,23 +46,23 @@ function Header() {
             <section className={styles.functionalButtons}>
               {/* Change Light Mode Button */}
               <button className={styles.lightModeButton}>
-                <i class="fa-solid fa-moon fa-sm"></i>
+                <i className="fa-solid fa-moon fa-sm"></i>
                 <p>Dark</p>
               </button>
               {/* Change Language Button */}
               <button className={styles.languageButton}>
-                <i class="fa-solid fa-earth-americas fa-sm"></i>
+                <i className="fa-solid fa-earth-americas fa-sm"></i>
                 <p>English</p>
               </button>
               {/* Get Started Button */}
-              <button className={styles.ctaButton}>
+              <button className={styles.bookNowButton}>
                 <a href="https://moonstaresthetics.setmore.com/" target="_blank" rel="noopener noreferrer">
                   Book Now
                 </a>
               </button>
             </section>
 
-            {/* Hamburger menu for mobile */}
+            {/* Mobile Hamburger Menu */}
             <button className={styles.hamburger} onClick={() => setMenuOpen(true)}>
               <i className="fa-solid fa-bars"></i>
             </button>
@@ -75,8 +73,10 @@ function Header() {
       {/* Sidebar Overlay */}
       {menuOpen &&
         createPortal(
-          <div className={styles.sidebarOverlay} onClick={() => setMenuOpen(false)}>
-            <div className={styles.sidebar} onClick={(e) => e.stopPropagation()}>
+          <section className={styles.sidebarOverlay} onClick={() => setMenuOpen(false)}>
+            {/* Sidebar */}
+            <section className={styles.sidebar} onClick={(e) => e.stopPropagation()}>
+              {/* Sidebar Close Button */}
               <button className={styles.sidebarClose} onClick={() => setMenuOpen(false)}>
                 <i className="fa-solid fa-xmark"></i>
               </button>
@@ -113,7 +113,7 @@ function Header() {
                   <p>English</p>
                 </button>
                 {/* Get Started Button */}
-                <button className={`${styles.ctaButton} ${styles.sidebarCTAButton}`}>
+                <button className={`${styles.bookNowButton} ${styles.sidebarBookNowButton}`}>
                   <a href="https://moonstaresthetics.setmore.com/" target="_blank" rel="noopener noreferrer">
                     Book Now
                   </a>
@@ -132,8 +132,8 @@ function Header() {
                   Terms of Service
                 </NavLink>
               </footer>
-            </div>
-          </div>,
+            </section>
+          </section>,
           document.body
         )}
     </>
