@@ -4,11 +4,20 @@ import { createPortal } from "react-dom";
 import { NavLink } from "react-router-dom";
 
 function Header() {
+  // Mobile sidebar toggle
+  const [menuOpen, setMenuOpen] = useState(false);
+
   // Custom styles for active page
   const navLinkClass = ({ isActive }) => (isActive ? styles.activeLink : undefined);
 
-  // Mobile sidebar toggle
-  const [menuOpen, setMenuOpen] = useState(false);
+  // Theme Toggle
+  const [theme, setTheme] = useState(document.documentElement.getAttribute("data-theme") || "dark");
+
+  const toggleTheme = () => {
+    const newTheme = theme === "dark" ? "light" : "dark";
+    document.documentElement.setAttribute("data-theme", newTheme);
+    setTheme(newTheme);
+  };
 
   return (
     <>
@@ -45,10 +54,11 @@ function Header() {
             {/* Functional Buttons */}
             <section className={styles.functionalButtons}>
               {/* Change Light Mode Button */}
-              <button className={styles.lightModeButton}>
-                <i className="fa-solid fa-moon fa-sm"></i>
-                <p>Dark</p>
+              <button className={styles.lightModeButton} onClick={toggleTheme}>
+                <i className={`fa-solid ${theme === "dark" ? "fa-moon" : "fa-sun"} fa-sm`}></i>
+                <p>{theme === "dark" ? "Dark" : "Light"}</p>
               </button>
+
               {/* Change Language Button */}
               <button className={styles.languageButton}>
                 <i className="fa-solid fa-earth-americas fa-sm"></i>
@@ -103,10 +113,11 @@ function Header() {
               {/* Sidebar Functional Buttons */}
               <div className={styles.sidebarFunctionalButtons}>
                 {/* Change Light Mode Button */}
-                <button className={styles.lightModeButton}>
-                  <i className="fa-solid fa-moon fa-sm"></i>
-                  <p>Dark</p>
+                <button className={styles.lightModeButton} onClick={toggleTheme}>
+                  <i className={`fa-solid ${theme === "dark" ? "fa-moon" : "fa-sun"} fa-sm`}></i>
+                  <p>{theme === "dark" ? "Dark" : "Light"}</p>
                 </button>
+
                 {/* Change Language Button */}
                 <button className={styles.languageButton}>
                   <i className="fa-solid fa-earth-americas fa-sm"></i>

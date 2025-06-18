@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Dark Mode */
-:root {
+html[data-theme="dark"] {
   --bg-color: hsl(0, 0%, 15%);
   --primary: hsl(261, 61%, 70%);
   --text-primary: hsl(0, 0%, 100%);
@@ -13,16 +13,14 @@
 }
 
 /* Light Mode */
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg-color: hsl(0, 0%, 100%);
-    --primary: hsl(261, 61%, 50%);
-    --text-primary: hsl(0, 0%, 10%);
-    --text-secondary: hsl(0, 0%, 40%);
-    --primary-dark: hsl(262, 33%, 30%);
-    --primary-light: hsl(264, 58%, 70%);
-    --header-footer-bg-color: hsl(0, 0%, 98%);
-  }
+html[data-theme="light"] {
+  --bg-color: hsl(0, 0%, 80%);
+  --primary: hsl(261, 61%, 70%);
+  --text-primary: hsl(0, 0%, 10%);
+  --text-secondary: hsl(0, 0%, 50%);
+  --primary-dark: hsl(262, 33%, 46%);
+  --primary-light: hsl(264, 58%, 85%);
+  --header-footer-bg-color: hsl(0, 0%, 90%);
 }
 
 /* BUTTONS - Ensures buttons appear clickable */
@@ -106,7 +104,7 @@ header {
 main {
   width: 100%; /* Ensures content stretches to full container width */
   padding: 2rem; /* Adds breathing room around main content */
-  background-color: var(---bg-color); /* Matches the background of header/footer for visual cohesion */
+  background-color: var(--bg-color); /* Applies theme background color from CSS variables */
 }
 
 /* FOOTER - Shared structural styling */
