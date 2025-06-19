@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import styles from "./Information.module.css";
 
 function Information() {
-  // Change page title
+  // Set Page Title
   useEffect(() => {
     document.title = "Moonstar Esthetics | Information";
   }, []);

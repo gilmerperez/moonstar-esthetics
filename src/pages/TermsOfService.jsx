@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import styles from "./TermsOfService.module.css";
 
 function TermsOfService() {
-  // Change page title
+  // Set Page Title
   useEffect(() => {
     document.title = "Moonstar Esthetics | Terms of Service";
   }, []);
