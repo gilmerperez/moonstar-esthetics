@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
-import { useState } from "react";
 import { createPortal } from "react-dom";
 import { NavLink } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 function Header() {
   // Mobile sidebar toggle
@@ -10,13 +10,26 @@ function Header() {
   // Custom styles for active page
   const navLinkClass = ({ isActive }) => (isActive ? styles.activeLink : undefined);
 
-  // Theme Toggle
-  const [theme, setTheme] = useState(document.documentElement.getAttribute("data-theme") || "dark");
+  // Get system theme preference
+  const getPreferredTheme = () => {
+    const storedTheme = localStorage.getItem("theme");
+    if (storedTheme) return storedTheme;
+
+    const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    return systemPrefersDark ? "dark" : "light";
+  };
+
+  // Theme toggle
+  const [theme, setTheme] = useState(getPreferredTheme);
+
+  // Set the html data-theme on load and when theme changes
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+  }, [theme]);
 
   const toggleTheme = () => {
-    const newTheme = theme === "dark" ? "light" : "dark";
-    document.documentElement.setAttribute("data-theme", newTheme);
-    setTheme(newTheme);
+    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
   };
 
   return (
@@ -56,7 +69,6 @@ function Header() {
                 <i className={`fa-solid ${theme === "dark" ? "fa-moon" : "fa-sun"} fa-sm`}></i>
                 <p>{theme === "dark" ? "Dark" : "Light"}</p>
               </button>
-
               {/* Change Language Button */}
               <button className={styles.languageButton}>
                 <i className="fa-solid fa-earth-americas fa-sm"></i>
