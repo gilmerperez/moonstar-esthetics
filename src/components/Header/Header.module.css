@@ -187,13 +187,13 @@
     font-size: 0.85rem;
   }
 
-  .lightModeButton,
-  .languageButton {
+  .lightModeButton:not(.sidebarLightModeButton),
+  .languageButton:not(.sidebarLanguageButton) {
     padding: 0.25rem;
   }
 
-  .lightModeButton p,
-  .languageButton p {
+  .lightModeButton:not(.sidebarLightModeButton) p,
+  .languageButton:not(.sidebarLanguageButton) p {
     display: none;
   }
 }

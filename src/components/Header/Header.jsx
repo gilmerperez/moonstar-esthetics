@@ -107,13 +107,12 @@ function Header() {
               {/* Sidebar Functional Buttons */}
               <div className={styles.sidebarFunctionalButtons}>
                 {/* Change Light Mode Button */}
-                <button className={styles.lightModeButton} onClick={toggleTheme}>
+                <button className={`${styles.lightModeButton} ${styles.sidebarLightModeButton}`} onClick={toggleTheme}>
                   <i className={`fa-solid ${theme === "dark" ? "fa-moon" : "fa-sun"} fa-sm`}></i>
                   <p>{theme === "dark" ? "Dark" : "Light"}</p>
                 </button>
-
                 {/* Change Language Button */}
-                <button className={styles.languageButton}>
+                <button className={`${styles.languageButton} ${styles.sidebarLanguageButton}`}>
                   <i className="fa-solid fa-earth-americas fa-sm"></i>
                   <p>English</p>
                 </button>
