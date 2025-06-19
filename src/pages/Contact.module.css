@@ -13,7 +13,6 @@
   font-size: 3rem;
   font-weight: 700;
   color: var(--pink);
-  text-align: center;
   margin-bottom: 1.25rem;
   transition: 0.3s ease-in;
 }
@@ -23,20 +22,22 @@
   font-size: 1.25rem;
   text-align: center;
   margin-bottom: 1.5rem;
+  color: var(--text-secondary);
 }
 
 .formContainer {
   width: 100%;
   padding: 1.5rem;
   border-radius: 10px;
-  background-color: hsl(0, 0%, 10%);
+  box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.15);
+  background-color: var(--header-footer-bg-color);
 }
 
 form {
   gap: 1rem;
   display: flex;
-  color: white;
   flex-direction: column;
+  color: var(--text-primary);
 }
 
 .formGroup {
@@ -48,13 +49,13 @@ form {
 
 .formControl {
   width: 100%;
-  color: white;
-  transition: 0.3s;
   font-size: 1.15rem;
   border-radius: 5px;
+  transition: 0.3s ease-in;
+  color: var(--text-primary);
   padding: 1.75rem 1rem 0.75rem;
-  background-color: hsl(0, 0%, 10%);
-  border: 1px solid hsl(355, 95%, 45%);
+  border: 1px solid var(--lavender);
+  background-color: var(--bg-color);
 }
 
 textarea.formControl {
@@ -66,25 +67,25 @@ label {
   top: 0;
   left: 0;
   padding: 1rem;
-  color: white;
   font-weight: 500;
   position: absolute;
   font-size: 1.25rem;
   pointer-events: none;
-  transition: 0.2s ease-in-out;
+  color: var(--text-secondary);
+  transition: 0.3s ease-in-out;
 }
 
 .formControl:focus ~ label,
 .formControl:not(:placeholder-shown) ~ label {
   opacity: 0.95;
-  color: hsl(355, 95%, 45%);
-  transform: scale(0.95) translateY(-0.75rem);
+  color: var(--pink);
+  transform: scale(0.95) translateY(-0.7rem);
 }
 
 .formControl:focus {
   outline: none;
-  border-color: hsl(355, 95%, 45%);
-  box-shadow: 0 0 10px hsl(355, 95%, 45%);
+  border-color: var(--pink);
+  box-shadow: 0 0 5px var(--pink);
 }
 
 .formControl::placeholder {
@@ -93,37 +94,38 @@ label {
 
 input:-webkit-autofill,
 textarea:-webkit-autofill {
-  caret-color: white;
-  -webkit-text-fill-color: white !important;
+  caret-color: var(--text-primary);
   transition: background-color 9999s ease-out 0s;
-  box-shadow: 0 0 0 30px hsl(0, 0%, 10%) inset !important;
+  box-shadow: 0 0 0 30px var(--bg-color) inset !important;
+  -webkit-text-fill-color: var(--text-primary) !important;
 }
 
 .submitBtn {
   border: none;
   cursor: pointer;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   border-radius: 5px;
   padding: 0.75rem 1rem;
-  color: hsl(0, 0%, 10%);
+  color: var(--bg-color);
   transition: 0.3s ease-in;
-  background-color: hsl(355, 95%, 45%);
+  background-color: var(--lavender);
 }
 
 .submitBtn i {
   margin-left: 0.5rem;
-  color: hsl(0, 0%, 10%);
+  color: var(--bg-color);
   transition: 0.3s ease-in;
 }
 
 .submitBtn:hover {
-  color: white;
-  box-shadow: 0 0 30px hsl(355, 95%, 45%, 0.5);
+  background-color: var(--pink);
+  box-shadow: 0 0 10px var(--pink);
+  color: var(--header-footer-bg-color);
 }
 
 .submitBtn:hover i {
-  color: white;
+  color: var(--header-footer-bg-color);
 }
 
 @media (max-width: 768px) {
