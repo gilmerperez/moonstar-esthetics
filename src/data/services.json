@@ -1,0 +1,316 @@
+[
+  {
+    "category": "Facial Treatments",
+    "services": [
+      {
+        "id": 1,
+        "name": "Basic Facial",
+        "duration": "1h 30m",
+        "price": 55,
+        "description": "Facial cleansing, skin analysis, steam, exfoliation, extractions (as needed), mask, moisturizer, and sunscreen."
+      },
+      {
+        "id": 2,
+        "name": "Full Facial",
+        "duration": "1h 30m",
+        "price": 68,
+        "description": "Includes high frequency, LED light therapy, serum, and massage."
+      },
+      {
+        "id": 3,
+        "name": "Deluxe Facial",
+        "duration": "1h 30m",
+        "price": 80,
+        "description": "Includes microdermabrasion and a hydrojelly mask."
+      },
+      {
+        "id": 4,
+        "name": "Dermaplaning",
+        "duration": "1h",
+        "price": 55,
+        "description": "Minimally invasive procedure that removes top layers of skin for smoother texture and improved appearance."
+      },
+      {
+        "id": 5,
+        "name": "Dermaplaning + Facial",
+        "duration": "1h 30m",
+        "price": 90,
+        "description": "Combines dermaplaning with all features of a full facial."
+      },
+      {
+        "id": 6,
+        "name": "Rejuvenating Facial (IPL)",
+        "duration": "1h 30m",
+        "price": 100,
+        "description": "Includes IPL laser to target various skin concerns."
+      },
+      {
+        "id": 7,
+        "name": "HydroDermabrasion Facial",
+        "duration": "1h 10m",
+        "price": 108,
+        "description": "Fluid dermabrasion combined with LED therapy and a nourishing mask."
+      },
+      {
+        "id": 8,
+        "name": "Acne Treatment Facial",
+        "duration": "1h 30m",
+        "price": 100,
+        "description": "Targets acne-prone skin with extractions and IPL laser treatment."
+      },
+      {
+        "id": 9,
+        "name": "Gua Sha Facial",
+        "duration": "1h",
+        "price": 90,
+        "description": "Includes gua sha massage, LED therapy, hand massage, and more."
+      },
+      {
+        "id": 10,
+        "name": "Couple's Facial",
+        "duration": "2h 30m",
+        "price": 115,
+        "description": "A full facial treatment for two guests."
+      },
+      {
+        "id": 11,
+        "name": "HydroJelly Mask Add-On",
+        "duration": "15m",
+        "price": 15,
+        "description": "Optional enhancement to any facial."
+      },
+      {
+        "id": 12,
+        "name": "Microdermabrasion Add-On",
+        "duration": "15m",
+        "price": 30,
+        "description": "Optional microdermabrasion treatment enhancement."
+      }
+    ]
+  },
+  {
+    "category": "Laser/IPL Services",
+    "services": [
+      {
+        "id": 13,
+        "name": "Upper Lip",
+        "duration": "20m",
+        "price": 22,
+        "description": "Laser/IPL treatment for upper lip area."
+      },
+      {
+        "id": 14,
+        "name": "Full Face",
+        "duration": "30m",
+        "price": 45,
+        "description": "Laser/IPL treatment for the entire face."
+      },
+      {
+        "id": 15,
+        "name": "Underarms",
+        "duration": "30m",
+        "price": 38,
+        "description": "Laser/IPL treatment for underarms."
+      },
+      {
+        "id": 16,
+        "name": "Arms",
+        "duration": "30m",
+        "price": 70,
+        "description": "Full arm hair reduction using laser/IPL."
+      },
+      {
+        "id": 17,
+        "name": "Half Arms",
+        "duration": "30m",
+        "price": 48,
+        "description": "Laser/IPL treatment for half the arms."
+      },
+      {
+        "id": 18,
+        "name": "Belly / Abdomen",
+        "duration": "30m",
+        "price": 58,
+        "description": "Targeted laser/IPL treatment for belly/abdomen."
+      },
+      {
+        "id": 19,
+        "name": "Back",
+        "duration": "45m",
+        "price": 80,
+        "description": "Laser/IPL treatment for the entire back."
+      },
+      {
+        "id": 20,
+        "name": "Bikini",
+        "duration": "30m",
+        "price": 50,
+        "description": "Laser/IPL treatment for bikini area."
+      },
+      {
+        "id": 21,
+        "name": "Brazilian",
+        "duration": "30m",
+        "price": 80,
+        "description": "Full Brazilian laser/IPL treatment."
+      },
+      {
+        "id": 22,
+        "name": "Buttocks",
+        "duration": "30m",
+        "price": 55,
+        "description": "Laser/IPL treatment for the buttocks."
+      },
+      {
+        "id": 23,
+        "name": "Legs",
+        "duration": "1h",
+        "price": 85,
+        "description": "Full leg laser/IPL treatment."
+      },
+      {
+        "id": 24,
+        "name": "Half Legs",
+        "duration": "50m",
+        "price": 55,
+        "description": "Laser/IPL treatment for half the legs."
+      },
+      {
+        "id": 25,
+        "name": "Full Body",
+        "duration": "1h 30m",
+        "price": 280,
+        "description": "Full body hair reduction with laser/IPL."
+      },
+      {
+        "id": 26,
+        "name": "Brazilian + Underarms",
+        "duration": "1h",
+        "price": 100,
+        "description": "Combined treatment for Brazilian and underarms."
+      },
+      {
+        "id": 27,
+        "name": "Chest",
+        "duration": "30m",
+        "price": 70,
+        "description": "Laser/IPL treatment for chest area."
+      },
+      {
+        "id": 28,
+        "name": "Chin",
+        "duration": "30m",
+        "price": 22,
+        "description": "Laser/IPL treatment for the chin."
+      }
+    ]
+  },
+  {
+    "category": "Body Treatments",
+    "services": [
+      {
+        "id": 29,
+        "name": "Back Facial",
+        "duration": "1h 30m",
+        "price": 75,
+        "description": "Cleansing, steam, exfoliation, extractions, LED therapy, mask, massage, and moisturizer for the back."
+      }
+    ]
+  },
+  {
+    "category": "Waxing Services",
+    "services": [
+      {
+        "id": 30,
+        "name": "Full Face",
+        "duration": "25m",
+        "price": 25,
+        "description": "Complete facial waxing service."
+      },
+      {
+        "id": 31,
+        "name": "Eyebrows",
+        "duration": "15m",
+        "price": 15,
+        "description": "Eyebrow shaping and waxing."
+      },
+      {
+        "id": 32,
+        "name": "Upper Lip",
+        "duration": "10m",
+        "price": 10,
+        "description": "Upper lip waxing service."
+      },
+      {
+        "id": 33,
+        "name": "Cheeks",
+        "duration": "10m",
+        "price": 15,
+        "description": "Waxing for both cheeks."
+      },
+      {
+        "id": 34,
+        "name": "Underarms",
+        "duration": "15m",
+        "price": 18,
+        "description": "Waxing for underarm area."
+      },
+      {
+        "id": 35,
+        "name": "Half Arms",
+        "duration": "25m",
+        "price": 20,
+        "description": "Waxing service for half of the arms."
+      },
+      {
+        "id": 36,
+        "name": "Full Arms",
+        "duration": "30m",
+        "price": 35,
+        "description": "Waxing service for the full arms."
+      },
+      {
+        "id": 37,
+        "name": "Bikini",
+        "duration": "40m",
+        "price": 50,
+        "description": "Waxing for the bikini line area."
+      },
+      {
+        "id": 38,
+        "name": "Brazilian",
+        "duration": "40m",
+        "price": 50,
+        "description": "Full Brazilian waxing service."
+      },
+      {
+        "id": 39,
+        "name": "Half Legs",
+        "duration": "30m",
+        "price": 35,
+        "description": "Waxing for half of the legs."
+      },
+      {
+        "id": 40,
+        "name": "Full Legs",
+        "duration": "45m",
+        "price": 60,
+        "description": "Waxing for the full legs."
+      },
+      {
+        "id": 41,
+        "name": "Back",
+        "duration": "30m",
+        "price": 60,
+        "description": "Back waxing service."
+      },
+      {
+        "id": 42,
+        "name": "Chest",
+        "duration": "30m",
+        "price": 55,
+        "description": "Chest waxing service."
+      }
+    ]
+  }
+]
