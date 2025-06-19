@@ -251,6 +251,7 @@
     "services": [
       {
         "id": 30,
+        "image": "waxing-services/full-face-wax.webp",
         "name": "Full Face",
         "duration": "25m",
         "price": 25,
@@ -258,6 +259,7 @@
       },
       {
         "id": 31,
+        "image": "waxing-services/eyebrows-wax.png",
         "name": "Eyebrows",
         "duration": "15m",
         "price": 15,
@@ -265,6 +267,7 @@
       },
       {
         "id": 32,
+        "image": "waxing-services/upper-lip-wax.jpg",
         "name": "Upper Lip",
         "duration": "10m",
         "price": 10,
@@ -272,6 +275,7 @@
       },
       {
         "id": 33,
+        "image": "waxing-services/cheeks-wax.webp",
         "name": "Cheeks",
         "duration": "10m",
         "price": 15,
@@ -279,6 +283,7 @@
       },
       {
         "id": 34,
+        "image": "waxing-services/underarms-wax.webp",
         "name": "Underarms",
         "duration": "15m",
         "price": 18,
@@ -286,6 +291,7 @@
       },
       {
         "id": 35,
+        "image": "waxing-services/half-arms-wax.jpeg",
         "name": "Half Arms",
         "duration": "25m",
         "price": 20,
@@ -293,6 +299,7 @@
       },
       {
         "id": 36,
+        "image": "waxing-services/full-arms-wax.jpg",
         "name": "Full Arms",
         "duration": "30m",
         "price": 35,
@@ -300,6 +307,7 @@
       },
       {
         "id": 37,
+        "image": "waxing-services/bikini-wax.webp",
         "name": "Bikini",
         "duration": "40m",
         "price": 50,
@@ -307,6 +315,7 @@
       },
       {
         "id": 38,
+        "image": "waxing-services/brazilian-wax.jpeg",
         "name": "Brazilian",
         "duration": "40m",
         "price": 50,
@@ -314,6 +323,7 @@
       },
       {
         "id": 39,
+        "image": "waxing-services/half-legs-wax.webp",
         "name": "Half Legs",
         "duration": "30m",
         "price": 35,
@@ -321,6 +331,7 @@
       },
       {
         "id": 40,
+        "image": "waxing-services/full-legs-wax.webp",
         "name": "Full Legs",
         "duration": "45m",
         "price": 60,
@@ -328,6 +339,7 @@
       },
       {
         "id": 41,
+        "image": "waxing-services/back-wax.jpeg",
         "name": "Back",
         "duration": "30m",
         "price": 60,
@@ -335,6 +347,7 @@
       },
       {
         "id": 42,
+        "image": "waxing-services/chest-wax.png",
         "name": "Chest",
         "duration": "30m",
         "price": 55,
