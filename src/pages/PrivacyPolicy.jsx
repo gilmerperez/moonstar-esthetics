@@ -37,14 +37,14 @@ function PrivacyPolicy() {
             {/* Introduction */}
             <p className={styles.description}>
               Your privacy is important to us. This Privacy Policy explains how we handle your information when you
-              visit moonstaresthetics.com.
+              visit our website.
             </p>
 
             {/* Purpose of the Site */}
             <p className={styles.policyHeading}>Purpose of the Site</p>
             <p className={styles.policyText}>
               This website serves as an informational platform for Moonstar Esthetics. It provides details about our
-              services, team, and booking options. It does not engage in advertising or e-commerce.
+              company, services, and booking options. It does not engage in advertising or e-commerce.
             </p>
 
             {/* Personal Information */}
