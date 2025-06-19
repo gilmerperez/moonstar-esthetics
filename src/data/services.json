@@ -4,6 +4,7 @@
     "services": [
       {
         "id": 1,
+        "image": "facial-treatments/basic-facial.jpg",
         "name": "Basic Facial",
         "duration": "1h 30m",
         "price": 55,
@@ -11,6 +12,7 @@
       },
       {
         "id": 2,
+        "image": "facial-treatments/full-facial.jpg",
         "name": "Full Facial",
         "duration": "1h 30m",
         "price": 68,
@@ -18,6 +20,7 @@
       },
       {
         "id": 3,
+        "image": "facial-treatments/deluxe-facial.jpg",
         "name": "Deluxe Facial",
         "duration": "1h 30m",
         "price": 80,
@@ -25,6 +28,7 @@
       },
       {
         "id": 4,
+        "image": "facial-treatments/dermaplaining.jpg",
         "name": "Dermaplaning",
         "duration": "1h",
         "price": 55,
@@ -32,6 +36,7 @@
       },
       {
         "id": 5,
+        "image": "facial-treatments/dermaplaining-facial.jpg",
         "name": "Dermaplaning + Facial",
         "duration": "1h 30m",
         "price": 90,
@@ -39,6 +44,7 @@
       },
       {
         "id": 6,
+        "image": "facial-treatments/rejuvenating-facial-ipl.avif",
         "name": "Rejuvenating Facial (IPL)",
         "duration": "1h 30m",
         "price": 100,
@@ -46,6 +52,7 @@
       },
       {
         "id": 7,
+        "image": "facial-treatments/hydrodermabrasion-facial.jpg",
         "name": "HydroDermabrasion Facial",
         "duration": "1h 10m",
         "price": 108,
@@ -53,6 +60,7 @@
       },
       {
         "id": 8,
+        "image": "facial-treatments/acne-treatment-facial.png",
         "name": "Acne Treatment Facial",
         "duration": "1h 30m",
         "price": 100,
@@ -60,6 +68,7 @@
       },
       {
         "id": 9,
+        "image": "facial-treatments/gua-sha-facial.png",
         "name": "Gua Sha Facial",
         "duration": "1h",
         "price": 90,
@@ -67,6 +76,7 @@
       },
       {
         "id": 10,
+        "image": "facial-treatments/couples-facial.avif",
         "name": "Couple's Facial",
         "duration": "2h 30m",
         "price": 115,
@@ -74,6 +84,7 @@
       },
       {
         "id": 11,
+        "image": "facial-treatments/hydrojelly-mak-add-on.webp",
         "name": "HydroJelly Mask Add-On",
         "duration": "15m",
         "price": 15,
@@ -81,6 +92,7 @@
       },
       {
         "id": 12,
+        "image": "facial-treatments/microdermabrasion-add-on.jpg",
         "name": "Microdermabrasion Add-On",
         "duration": "15m",
         "price": 30,
@@ -93,6 +105,7 @@
     "services": [
       {
         "id": 13,
+        "image": "laser-ipl/upper-lip-ipl.webp",
         "name": "Upper Lip",
         "duration": "20m",
         "price": 22,
@@ -100,6 +113,7 @@
       },
       {
         "id": 14,
+        "image": "laser-ipl/full-face-ipl.webp",
         "name": "Full Face",
         "duration": "30m",
         "price": 45,
@@ -107,6 +121,7 @@
       },
       {
         "id": 15,
+        "image": "laser-ipl/underarms-ipl.jpg",
         "name": "Underarms",
         "duration": "30m",
         "price": 38,
@@ -114,6 +129,7 @@
       },
       {
         "id": 16,
+        "image": "laser-ipl/arm-ipl.png",
         "name": "Arms",
         "duration": "30m",
         "price": 70,
@@ -121,6 +137,7 @@
       },
       {
         "id": 17,
+        "image": "laser-ipl/half-arms-ipl.jpeg",
         "name": "Half Arms",
         "duration": "30m",
         "price": 48,
@@ -128,6 +145,7 @@
       },
       {
         "id": 18,
+        "image": "laser-ipl/belly-abdomen-ipl.jpg",
         "name": "Belly / Abdomen",
         "duration": "30m",
         "price": 58,
@@ -135,6 +153,7 @@
       },
       {
         "id": 19,
+        "image": "laser-ipl/back-ipl.jpg",
         "name": "Back",
         "duration": "45m",
         "price": 80,
@@ -142,6 +161,7 @@
       },
       {
         "id": 20,
+        "image": "laser-ipl/bikini-ipl.jpg",
         "name": "Bikini",
         "duration": "30m",
         "price": 50,
@@ -149,6 +169,7 @@
       },
       {
         "id": 21,
+        "image": "laser-ipl/brazilian-ipl.jpg",
         "name": "Brazilian",
         "duration": "30m",
         "price": 80,
@@ -156,6 +177,7 @@
       },
       {
         "id": 22,
+        "image": "laser-ipl/buttocks-ipl.jpg",
         "name": "Buttocks",
         "duration": "30m",
         "price": 55,
@@ -163,6 +185,7 @@
       },
       {
         "id": 23,
+        "image": "laser-ipl/legs-ipl.jpg",
         "name": "Legs",
         "duration": "1h",
         "price": 85,
@@ -170,6 +193,7 @@
       },
       {
         "id": 24,
+        "image": "laser-ipl/half-legs-ipl.jpg",
         "name": "Half Legs",
         "duration": "50m",
         "price": 55,
@@ -177,6 +201,7 @@
       },
       {
         "id": 25,
+        "image": "laser-ipl/full-body-ipl.webp",
         "name": "Full Body",
         "duration": "1h 30m",
         "price": 280,
@@ -184,6 +209,7 @@
       },
       {
         "id": 26,
+        "image": "laser-ipl/brazilian-underarms-ipl.jpeg",
         "name": "Brazilian + Underarms",
         "duration": "1h",
         "price": 100,
@@ -191,6 +217,7 @@
       },
       {
         "id": 27,
+        "image": "laser-ipl/chest-ipl.jpg",
         "name": "Chest",
         "duration": "30m",
         "price": 70,
@@ -198,6 +225,7 @@
       },
       {
         "id": 28,
+        "image": "laser-ipl/chin-ipl.jpg",
         "name": "Chin",
         "duration": "30m",
         "price": 22,
@@ -210,6 +238,7 @@
     "services": [
       {
         "id": 29,
+        "image": "body-treatments/back-facial.jpg",
         "name": "Back Facial",
         "duration": "1h 30m",
         "price": 75,
