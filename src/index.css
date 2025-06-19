@@ -3,24 +3,30 @@
 
 /* Dark Mode */
 html[data-theme="dark"] {
-  --bg-color: hsl(0, 0%, 15%);
-  --primary: hsl(269, 20%, 75%);
+  --cream: hsl(0, 50%, 96%);
+  --pink: hsl(300, 40%, 87%);
+  --blue: hsl(225, 45%, 75%);
+  --green: hsl(83, 62%, 80%);
+  --purple: hsl(290, 27%, 35%);
+  --lavender: hsl(268, 19%, 75%);
+  --bg-color: hsl(0, 0%, 12.25%);
   --text-primary: hsl(0, 0%, 90%);
   --text-secondary: hsl(0, 0%, 70%);
-  --primary-dark: hsl(289, 28%, 35%);
-  --primary-light: hsl(300, 40%, 87%);
   --header-footer-bg-color: hsl(0, 0%, 10%);
 }
 
 /* Light Mode */
 html[data-theme="light"] {
-  --bg-color: hsl(0, 50%, 95%);
-  --primary: hsl(270, 35%, 70%);
+  --cream: hsl(35, 100%, 91%);
+  --pink: hsl(320, 60%, 76%);
+  --blue: hsl(225, 65%, 60%);
+  --green: hsl(140, 45%, 60%);
+  --purple: hsl(270, 40%, 45%);
+  --lavender: hsl(265, 55%, 85%);
+  --bg-color: hsl(0, 50%, 97%);
   --text-primary: hsl(0, 0%, 15%);
   --text-secondary: hsl(0, 0%, 30%);
-  --primary-dark: hsl(290, 40%, 50%);
-  --primary-light: hsl(300, 55%, 65%);
-  --header-footer-bg-color: hsl(0, 50%, 93%);
+  --header-footer-bg-color: hsl(0, 50%, 95%);
 }
 
 /* BUTTONS - Ensures buttons appear clickable */

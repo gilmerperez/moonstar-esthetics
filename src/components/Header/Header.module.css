@@ -20,12 +20,12 @@
 
 .moonstar {
   font-size: 2rem;
-  color: var(--primary-light);
+  color: var(--pink);
 }
 
 .esthetics {
   font-size: 1.25rem;
-  color: var(--primary-dark);
+  color: var(--purple);
 }
 
 .navContainer {
@@ -50,14 +50,14 @@
 }
 
 .activeLink {
-  color: var(--primary-light);
+  color: var(--pink);
 }
 
 /* Only apply hover effect to devices with a pointer */
 @media (hover: hover) {
   /* Prevent hover effect on active link */
   .navItems a:hover:not(.activeLink) {
-    color: var(--primary-light);
+    color: var(--pink);
     transform: translateY(-2px);
   }
 }
@@ -79,7 +79,7 @@
   transition: 0.3s ease-in;
 }
 
-.lightModeButton,
+.themeButton,
 .languageButton {
   gap: 0.25rem;
   display: flex;
@@ -89,7 +89,7 @@
   background-color: var(--header-footer-bg-color);
 }
 
-.lightModeButton:hover,
+.themeButton:hover,
 .languageButton:hover {
   color: var(--text-secondary);
 }
@@ -100,13 +100,13 @@
   border-radius: 10px;
   padding: 0.5rem 0.75rem;
   transition: 0.3s ease-in;
-  color: var(--text-se);
-  background-color: var(--primary-dark);
+  color: var(--text-primary);
+  background-color: var(--purple);
 }
 
 .bookNowButton:hover {
-  color: var(--bg-color);
-  background-color: var(--primary-light);
+  background-color: var(--pink);
+  color: var(--header-footer-bg-color);
 }
 
 @media (max-width: 1260px) {
@@ -195,12 +195,12 @@
     font-size: 0.85rem;
   }
 
-  .lightModeButton:not(.sidebarLightModeButton),
+  .themeButton:not(.sidebarThemeButton),
   .languageButton:not(.sidebarLanguageButton) {
     padding: 0.25rem;
   }
 
-  .lightModeButton:not(.sidebarLightModeButton) p,
+  .themeButton:not(.sidebarThemeButton) p,
   .languageButton:not(.sidebarLanguageButton) p {
     display: none;
   }
@@ -261,7 +261,7 @@
 }
 
 .sidebarNavItems a:hover:not(.activeLink) {
-  color: var(--primary-light);
+  color: var(--lavender);
   transform: translateX(5px);
 }
 

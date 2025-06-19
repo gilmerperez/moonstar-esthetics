@@ -64,17 +64,17 @@ function Header() {
 
             {/* Functional Buttons */}
             <section className={styles.functionalButtons}>
-              {/* Change Light Mode Button */}
-              <button className={styles.lightModeButton} onClick={toggleTheme}>
+              {/* Theme Button */}
+              <button className={styles.themeButton} onClick={toggleTheme}>
                 <i className={`fa-solid ${theme === "dark" ? "fa-moon" : "fa-sun"} fa-sm`}></i>
                 <p>{theme === "dark" ? "Dark" : "Light"}</p>
               </button>
-              {/* Change Language Button */}
+              {/* Language Button */}
               <button className={styles.languageButton}>
                 <i className="fa-solid fa-earth-americas fa-sm"></i>
                 <p>English</p>
               </button>
-              {/* Get Started Button */}
+              {/* Book Now Button */}
               <button className={styles.bookNowButton}>
                 <a href="https://moonstaresthetics.setmore.com/" target="_blank" rel="noopener noreferrer">
                   Book Now
@@ -119,17 +119,17 @@ function Header() {
 
               {/* Sidebar Functional Buttons */}
               <div className={styles.sidebarFunctionalButtons}>
-                {/* Change Light Mode Button */}
-                <button className={`${styles.lightModeButton} ${styles.sidebarLightModeButton}`} onClick={toggleTheme}>
+                {/* Theme Button */}
+                <button className={`${styles.themeButton} ${styles.sidebarThemeButton}`} onClick={toggleTheme}>
                   <i className={`fa-solid ${theme === "dark" ? "fa-moon" : "fa-sun"} fa-sm`}></i>
                   <p>{theme === "dark" ? "Dark" : "Light"}</p>
                 </button>
-                {/* Change Language Button */}
+                {/* Language Button */}
                 <button className={`${styles.languageButton} ${styles.sidebarLanguageButton}`}>
                   <i className="fa-solid fa-earth-americas fa-sm"></i>
                   <p>English</p>
                 </button>
-                {/* Get Started Button */}
+                {/* Book Now Button */}
                 <button className={`${styles.bookNowButton} ${styles.sidebarBookNowButton}`}>
                   <a href="https://moonstaresthetics.setmore.com/" target="_blank" rel="noopener noreferrer">
                     Book Now
