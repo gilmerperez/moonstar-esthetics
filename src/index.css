@@ -4,23 +4,23 @@
 /* Dark Mode */
 html[data-theme="dark"] {
   --bg-color: hsl(0, 0%, 15%);
-  --primary: hsl(261, 61%, 70%);
-  --text-primary: hsl(0, 0%, 100%);
-  --text-secondary: hsl(0, 0%, 80%);
-  --primary-dark: hsl(262, 33%, 46%);
-  --primary-light: hsl(264, 58%, 85%);
+  --primary: hsl(269, 20%, 75%);
+  --text-primary: hsl(0, 0%, 90%);
+  --text-secondary: hsl(0, 0%, 70%);
+  --primary-dark: hsl(289, 28%, 35%);
+  --primary-light: hsl(300, 40%, 87%);
   --header-footer-bg-color: hsl(0, 0%, 10%);
 }
 
 /* Light Mode */
 html[data-theme="light"] {
-  --bg-color: hsl(0, 0%, 80%);
-  --primary: hsl(261, 61%, 70%);
-  --text-primary: hsl(0, 0%, 10%);
-  --text-secondary: hsl(0, 0%, 50%);
-  --primary-dark: hsl(262, 33%, 46%);
-  --primary-light: hsl(264, 58%, 85%);
-  --header-footer-bg-color: hsl(0, 0%, 90%);
+  --bg-color: hsl(0, 50%, 95%);
+  --primary: hsl(270, 35%, 70%);
+  --text-primary: hsl(0, 0%, 15%);
+  --text-secondary: hsl(0, 0%, 30%);
+  --primary-dark: hsl(290, 40%, 50%);
+  --primary-light: hsl(300, 55%, 65%);
+  --header-footer-bg-color: hsl(0, 50%, 93%);
 }
 
 /* BUTTONS - Ensures buttons appear clickable */

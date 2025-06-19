@@ -2,7 +2,6 @@
   width: 100%;
   display: flex;
   margin: 0 auto;
-  padding: 0.5rem 0;
   max-width: 1200px;
   text-align: center;
   align-items: center;
@@ -11,13 +10,22 @@
 
 .moonstarLogo {
   display: flex;
-  font-size: 2rem;
-  font-weight: 500;
+  font-weight: 400;
   white-space: nowrap;
   align-items: center;
+  flex-direction: column;
+  letter-spacing: 0.75rem;
   justify-content: center;
-  transition: 0.3s ease-in;
+}
+
+.moonstar {
+  font-size: 2rem;
   color: var(--primary-light);
+}
+
+.esthetics {
+  font-size: 1.25rem;
+  color: var(--primary-dark);
 }
 
 .navContainer {
@@ -92,13 +100,13 @@
   border-radius: 10px;
   padding: 0.5rem 0.75rem;
   transition: 0.3s ease-in;
-  color: var(--text-primary);
-  background-color: var(--primary);
+  color: var(--text-se);
+  background-color: var(--primary-dark);
 }
 
 .bookNowButton:hover {
-  color: var(--text-secondary);
-  background-color: var(--primary-dark);
+  color: var(--bg-color);
+  background-color: var(--primary-light);
 }
 
 @media (max-width: 1260px) {

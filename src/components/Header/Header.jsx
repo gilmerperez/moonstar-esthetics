@@ -25,7 +25,8 @@ function Header() {
         <section className={styles.headerContainer}>
           {/* Logo */}
           <NavLink to="/" className={styles.moonstarLogo}>
-            Moonstar Esthetics
+            <span className={styles.moonstar}>MOONSTAR</span>
+            <span className={styles.esthetics}>ESTHETICS</span>
           </NavLink>
 
           {/* Site Navigation */}
