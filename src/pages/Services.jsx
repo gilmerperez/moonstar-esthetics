@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import styles from "./Services.module.css";
+// import services from "../data/services.json";
 
 function Services() {
   // Set Page Title
