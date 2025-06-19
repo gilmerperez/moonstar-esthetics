@@ -35,7 +35,7 @@ function PrivacyPolicy() {
 
           <section className={styles.policy}>
             {/* Introduction */}
-            <p className={styles.description}>
+            <p className={styles.introduction}>
               Your privacy is important to us. This Privacy Policy explains how we handle your information when you
               visit our website.
             </p>
