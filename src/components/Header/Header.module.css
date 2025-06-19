@@ -300,7 +300,6 @@
 /* Responsive: hide desktop nav/buttons, show hamburger on small screens */
 @media (max-width: 840px) {
   .headerContainer {
-    padding: 0.5rem 1rem;
     justify-content: space-between;
   }
 
