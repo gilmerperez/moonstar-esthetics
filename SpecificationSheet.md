@@ -47,30 +47,36 @@ Moonstar Esthetics is a personal, client-centered skincare studio offering a wid
 
 ### Typography
 
-- **Font Family**: To be determined
+- **Font Family**: Montserrat
 - **Font Weights**: 300 (Light), 400 (Regular), 700 (Bold)
 
 ### Color Palette
 
-#### Normal Mode:
+#### Dark Mode:
 
-- Body Background: `hsl(0, 0%, 10%)`
-- Footer/Header Background: `hsl(0, 0%, 5%)`
-- Primary Text: `hsl(0, 0%, 100%)`
-- Secondary Text: `hsl(0, 0%, 80%)`
-- Purple (Primary): `hsl(261, 61%, 70%)`
-- Dark Purple (Accent): `hsl(262, 33%, 46%)`
-- Light Purple (Accent): `hsl(264, 58%, 85%)`
+--cream: hsl(0, 50%, 96%);
+--pink: hsl(300, 40%, 87%);
+--blue: hsl(225, 45%, 75%);
+--green: hsl(83, 62%, 80%);
+--purple: hsl(290, 27%, 35%);
+--lavender: hsl(268, 19%, 75%);
+--bg-color: hsl(0, 0%, 12.25%);
+--text-primary: hsl(0, 0%, 90%);
+--text-secondary: hsl(0, 0%, 70%);
+--header-footer-bg-color: hsl(0, 0%, 10%);
 
 #### Light Mode:
 
-- Body Background: `hslhsl(0, 0%, 98%)`
-- Footer/Header Background: `hslhsl(0, 0%, 95%)`
-- Primary Text: `hsl(0, 0%, 10%)`
-- Secondary Text: `hsl(0, 0%, 40%)`
-- Purple (Primary): `hsl(261, 61%, 40%)`
-- Dark Purple (Accent): `hsl(262, 33%, 30%)`
-- Light Purple (Accent): `hsl(264, 58%, 75%)`
+--cream: hsl(35, 100%, 91%);
+--pink: hsl(320, 60%, 76%);
+--blue: hsl(225, 65%, 60%);
+--green: hsl(140, 45%, 60%);
+--purple: hsl(270, 40%, 45%);
+--lavender: hsl(265, 55%, 85%);
+--bg-color: hsl(0, 50%, 97%);
+--text-primary: hsl(0, 0%, 15%);
+--text-secondary: hsl(0, 0%, 30%);
+--header-footer-bg-color: hsl(0, 50%, 95%);
 
 Aim for a calm, modern aesthetic with a soft, trustworthy purple branding
 
@@ -86,6 +92,23 @@ Aim for a calm, modern aesthetic with a soft, trustworthy purple branding
 
 ### 🏠 Home Page
 
+- Friendly/Professional photos
+- Personal story of AnaKarina including background, education, certifications and passion for the field
+
+#### Quotes
+
+- RADIANT SKIN IS HERE
+- THE BEST INVESTMENT YOU CAN MAKE IS IN YOURSELF
+
+#### Featured Section
+
+Featured services with quick descriptions:
+
+- Dermaplaning
+- IPL Laser Hair Removal
+- Red Light Therapy
+- Skincare Routine Steps
+
 #### List
 
 - Esthetician Skin Care Tips:
@@ -95,23 +118,13 @@ Aim for a calm, modern aesthetic with a soft, trustworthy purple branding
 - - Invest in quality products
 - - Moisturize every morning and night
 
-#### Quotes
-
-- "RADIANT SKIN IS HERE"
-
-- "THE BEST INVESTMENT YOU CAN MAKE IS IN YOURSELF"
-
-#### CTA Button
-
-- Button linking to appointment booking on Setmore
-
 #### Image Gallery
 
 - Before and after image gallery
 
-#### Featured Section
+#### CTA Button
 
-- Featured services with quick descriptions
+- Button linking to appointment booking on Setmore
 
 ### 📍 Information Page
 
@@ -131,97 +144,6 @@ Aim for a calm, modern aesthetic with a soft, trustworthy purple branding
 - - Thursday: 8AM - 8:30PM
 - - Friday: 8AM - 8PM
 - - Saturday: Closed
-
-### 💆 Services Page
-
-List of all services categorized. Each service should display:
-
-- Price
-- Duration
-- Description
-- Service Name
-
-### Facial Treatments
-
-- **Basic Facial** | 1h 30m | $55 | Includes facial cleansing, skin analysis, steam, exfoliation, extractions (as needed), mask, moisturizer, sunscreen.
-
-- **Full Facial** | 1h 30m | $68 | Adds high frequency, LED light therapy, serum + massage.
-
-- **Deluxe Facial** | 1h 30m | $80 | Includes microdermabrasion, hydrojelly mask.
-
-- **Dermaplaning** | 1h | $55 | Minimally invasive procedure that removes top layers of skin for smoother texture and improved appearance.
-
-- **Dermaplaning + Facial** | 1h 30m | $90 | Combines dermaplane with full facial features.
-
-- **Rejuvenating Facial (IPL)** | 1h 30m | $100 | Includes IPL laser for skin concerns.
-
-- **HydroDermabrasion Facial** | 1h 10m | $108 | Fluid dermabrasion, LED therapy, nourishing mask.
-
-- **Acne Treatment Facial** | 1h 30m | $100 | Focused on acne-prone skin with extractions and IPL laser.
-
-- **Gua Sha Facial** | 1h | $90 | Gua sha massage, LED therapy, hand massage, and more.
-
-- **Couple's Facial** | 2h 30m | $115 | Full facial treatment for two.
-
-- **HydroJelly Mask Add-On** | 15m | $15 | Optional enhancement.
-
-- **Microdermabrasion Add-On** | 15m | $30 | Optional enhancement.
-
-### Laser/IPL Services
-
-All sessions recommended every 3 weeks. 6–8 sessions suggested. Punctuality is important for optimal results.
-
-- **Upper Lip** | 20m | $22
-
-- **Full Face** | 30m | $45
-
-- **Underarms** | 30m | $38
-
-- **Arms** | 30m | $70
-
-- **Half Arms** | 30m | $48
-
-- **Belly / Abdomen** | 30m | $58
-
-- **Back** | 45m | $80
-
-- **Bikini** | 30m | $50
-
-- **Brazilian** | 30m | $80
-
-- **Buttocks** | 30m | $55
-
-- **Legs** | 1h | $85
-
-- **Half Legs** | 50m | $55
-
-- **Full Body** | 1h 30m | $280
-
-- **Brazilian + Underarms** | 1h | $100
-
-- **Chest** | 30m | $70
-
-- **Chin** | 30m | $22
-
-### Body Treatments
-
-- **Back Facial** | 1h 30m | $75 | Back cleansing, steam, exfoliation, extractions, LED therapy, mask, massage, moisturizer.
-
-### Waxing Services
-
-- **Full Face** | 25m | $25
-- **Eyebrows** | 15m | $15
-- **Upper Lip** | 10m | $10
-- **Cheeks** | 10m | $15
-- **Underarms** | 15m | $18
-- **Half Arms** | 25m | $20
-- **Full Arms** | 30m | $35
-- **Bikini** | 40m | $50
-- **Brazilian** | 40m | $50
-- **Half Legs** | 30m | $35
-- **Full Legs** | 45m | $60
-- **Back** | 30m | $60
-- **Chest** | 30m | $55
 
 ### ⭐ Reviews Page
 
@@ -249,21 +171,6 @@ La mejor inversión que he hecho. Resultado rápido, efectivo, atención increí
 ### Margaret | ⭐⭐⭐⭐⭐ | 2 Years Ago
 
 AnaKarina explains her process clearly, listens to concerns, and recommends products. Her touch is subtle and soothing. Her sessions are incredibly relaxing. Highly recommended!
-
-### 👩 Team Page
-
-- Friendly/Professional photos
-- Personal story of AnaKarina including background, education, certifications and passion for the field
-
-### Contact Page
-
-Quick and easy contact form directing emails to moonstaresthetics@gmail.com
-
-### Privacy Policy Page
-
-### Terms of Service Page
-
-### Contact Page (Maybe put this in Information Page)
 
 ---
 
@@ -302,8 +209,6 @@ Quick and easy contact form directing emails to moonstaresthetics@gmail.com
 
 ### ❓ Missing / To Be Determined
 
-- From Ana: brand assets and text content
 - Page not found
 - Make footer nice and complex on big screens, switch to simple footer on small screens
-- Google Maps API key
 - English, Spanish, and Portugese Translation
