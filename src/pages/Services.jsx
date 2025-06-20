@@ -14,9 +14,12 @@ function Services() {
       <main>
         <section className={styles.servicesContainer}>
           {services.map((category) => (
+            // All Service Categories
             <div key={category.category} className={styles.categorySection}>
+              {/* Individual Service Category Title */}
               <h1 className={styles.categoryTitle}>{category.category}</h1>
-              <div className={styles.servicesGrid}>
+              {/* Service Card */}
+              <div className={styles.serviceCards}>
                 {category.services.map((service) => (
                   <ServiceCard key={service.id} service={service} />
                 ))}
