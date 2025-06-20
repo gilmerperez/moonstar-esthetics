@@ -22,7 +22,13 @@
 }
 
 .serviceCards {
-  gap: 1rem;
+  gap: 1.5rem;
   display: grid;
   grid-template-columns: 1fr;
+}
+
+@media (max-width: 840px) {
+  .servicesContainer {
+    padding: 0rem 0rem;
+  }
 }

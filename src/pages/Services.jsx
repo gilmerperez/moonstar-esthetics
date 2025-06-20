@@ -19,11 +19,11 @@ function Services() {
               {/* Individual Service Category Title */}
               <h1 className={styles.categoryTitle}>{category.category}</h1>
               {/* Service Card */}
-              <div className={styles.serviceCards}>
+              <section className={styles.serviceCards}>
                 {category.services.map((service) => (
                   <ServiceCard key={service.id} service={service} />
                 ))}
-              </div>
+              </section>
             </div>
           ))}
         </section>
