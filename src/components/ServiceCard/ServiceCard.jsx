@@ -5,7 +5,7 @@ function ServiceCard({ service }) {
     <section className={styles.serviceCard}>
       {/* Service Image */}
       <div className={styles.serviceImageContainer}>
-        <img src={service.image} alt={`${service.name} service image`} className={styles.serviceImage} />
+        <img src={service.image} alt={`${service.name} Service Image`} className={styles.serviceImage} />
       </div>
       {/* Service Content */}
       <div className={styles.serviceContent}>

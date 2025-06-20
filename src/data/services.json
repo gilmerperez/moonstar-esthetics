@@ -4,7 +4,7 @@
     "services": [
       {
         "id": 1,
-        "image": "public/service-images/facial-treatments/basic-facial.jpg",
+        "image": "/service-images/facial-treatments/basic-facial.jpg",
         "name": "Basic Facial",
         "duration": "1h 30m",
         "price": 55,
@@ -12,7 +12,7 @@
       },
       {
         "id": 2,
-        "image": "public/service-images/facial-treatments/full-facial.jpg",
+        "image": "/service-images/facial-treatments/full-facial.jpg",
         "name": "Full Facial",
         "duration": "1h 30m",
         "price": 68,
@@ -20,7 +20,7 @@
       },
       {
         "id": 3,
-        "image": "public/service-images/facial-treatments/deluxe-facial.jpg",
+        "image": "/service-images/facial-treatments/deluxe-facial.jpg",
         "name": "Deluxe Facial",
         "duration": "1h 30m",
         "price": 80,
@@ -28,7 +28,7 @@
       },
       {
         "id": 4,
-        "image": "public/service-images/facial-treatments/dermaplaning.jpg",
+        "image": "/service-images/facial-treatments/dermaplaning.jpg",
         "name": "Dermaplaning",
         "duration": "1h",
         "price": 55,
@@ -36,7 +36,7 @@
       },
       {
         "id": 5,
-        "image": "public/service-images/facial-treatments/dermaplaning-facial.jpg",
+        "image": "/service-images/facial-treatments/dermaplaning-facial.jpg",
         "name": "Dermaplaning + Facial",
         "duration": "1h 30m",
         "price": 90,
@@ -44,7 +44,7 @@
       },
       {
         "id": 6,
-        "image": "public/service-images/facial-treatments/rejuvenating-facial-ipl.avif",
+        "image": "/service-images/facial-treatments/rejuvenating-facial-ipl.avif",
         "name": "Rejuvenating Facial (IPL)",
         "duration": "1h 30m",
         "price": 100,
@@ -52,7 +52,7 @@
       },
       {
         "id": 7,
-        "image": "public/service-images/facial-treatments/hydrodermabrasion-facial.jpg",
+        "image": "/service-images/facial-treatments/hydrodermabrasion-facial.jpg",
         "name": "HydroDermabrasion Facial",
         "duration": "1h 10m",
         "price": 108,
@@ -60,7 +60,7 @@
       },
       {
         "id": 8,
-        "image": "public/service-images/facial-treatments/acne-treatment-facial.png",
+        "image": "/service-images/facial-treatments/acne-treatment-facial.png",
         "name": "Acne Treatment Facial",
         "duration": "1h 30m",
         "price": 100,
@@ -68,7 +68,7 @@
       },
       {
         "id": 9,
-        "image": "public/service-images/facial-treatments/gua-sha-facial.png",
+        "image": "/service-images/facial-treatments/gua-sha-facial.png",
         "name": "Gua Sha Facial",
         "duration": "1h",
         "price": 90,
@@ -76,7 +76,7 @@
       },
       {
         "id": 10,
-        "image": "public/service-images/facial-treatments/couples-facial.avif",
+        "image": "/service-images/facial-treatments/couples-facial.avif",
         "name": "Couple's Facial",
         "duration": "2h 30m",
         "price": 115,
@@ -84,7 +84,7 @@
       },
       {
         "id": 11,
-        "image": "public/service-images/facial-treatments/hydrojelly-mask-add-on.webp",
+        "image": "/service-images/facial-treatments/hydrojelly-mask-add-on.webp",
         "name": "HydroJelly Mask Add-On",
         "duration": "15m",
         "price": 15,
@@ -92,7 +92,7 @@
       },
       {
         "id": 12,
-        "image": "public/service-images/facial-treatments/microdermabrasion-add-on.jpg",
+        "image": "/service-images/facial-treatments/microdermabrasion-add-on.jpg",
         "name": "Microdermabrasion Add-On",
         "duration": "15m",
         "price": 20,
@@ -105,7 +105,7 @@
     "services": [
       {
         "id": 13,
-        "image": "public/service-images/laser-ipl/upper-lip-ipl.webp",
+        "image": "/service-images/laser-ipl/upper-lip-ipl.webp",
         "name": "Upper Lip",
         "duration": "20m",
         "price": 22,
@@ -113,7 +113,7 @@
       },
       {
         "id": 14,
-        "image": "public/service-images/laser-ipl/full-face-ipl.webp",
+        "image": "/service-images/laser-ipl/full-face-ipl.webp",
         "name": "Full Face",
         "duration": "30m",
         "price": 45,
@@ -121,7 +121,7 @@
       },
       {
         "id": 15,
-        "image": "public/service-images/laser-ipl/underarms-ipl.jpg",
+        "image": "/service-images/laser-ipl/underarms-ipl.jpg",
         "name": "Underarms",
         "duration": "30m",
         "price": 38,
@@ -129,7 +129,7 @@
       },
       {
         "id": 16,
-        "image": "public/service-images/laser-ipl/arms-ipl.png",
+        "image": "/service-images/laser-ipl/arms-ipl.png",
         "name": "Arms",
         "duration": "30m",
         "price": 70,
@@ -137,7 +137,7 @@
       },
       {
         "id": 17,
-        "image": "public/service-images/laser-ipl/half-arms-ipl.jpeg",
+        "image": "/service-images/laser-ipl/half-arms-ipl.jpeg",
         "name": "Half Arms",
         "duration": "30m",
         "price": 48,
@@ -145,7 +145,7 @@
       },
       {
         "id": 18,
-        "image": "public/service-images/laser-ipl/stomach-abdomen-ipl.jpg",
+        "image": "/service-images/laser-ipl/stomach-abdomen-ipl.jpg",
         "name": "Stomach / Abdomen",
         "duration": "30m",
         "price": 58,
@@ -153,7 +153,7 @@
       },
       {
         "id": 19,
-        "image": "public/service-images/laser-ipl/back-ipl.jpg",
+        "image": "/service-images/laser-ipl/back-ipl.jpg",
         "name": "Back",
         "duration": "45m",
         "price": 80,
@@ -161,7 +161,7 @@
       },
       {
         "id": 20,
-        "image": "public/service-images/laser-ipl/bikini-ipl.jpg",
+        "image": "/service-images/laser-ipl/bikini-ipl.jpg",
         "name": "Bikini",
         "duration": "30m",
         "price": 50,
@@ -169,7 +169,7 @@
       },
       {
         "id": 21,
-        "image": "public/service-images/laser-ipl/brazilian-ipl.jpg",
+        "image": "/service-images/laser-ipl/brazilian-ipl.jpg",
         "name": "Brazilian",
         "duration": "30m",
         "price": 80,
@@ -177,7 +177,7 @@
       },
       {
         "id": 22,
-        "image": "public/service-images/laser-ipl/buttocks-ipl.jpg",
+        "image": "/service-images/laser-ipl/buttocks-ipl.jpg",
         "name": "Buttocks",
         "duration": "30m",
         "price": 55,
@@ -185,7 +185,7 @@
       },
       {
         "id": 23,
-        "image": "public/service-images/laser-ipl/legs-ipl.jpg",
+        "image": "/service-images/laser-ipl/legs-ipl.jpg",
         "name": "Legs",
         "duration": "1h",
         "price": 85,
@@ -193,7 +193,7 @@
       },
       {
         "id": 24,
-        "image": "public/service-images/laser-ipl/half-legs-ipl.jpg",
+        "image": "/service-images/laser-ipl/half-legs-ipl.jpg",
         "name": "Half Legs",
         "duration": "50m",
         "price": 55,
@@ -201,7 +201,7 @@
       },
       {
         "id": 25,
-        "image": "public/service-images/laser-ipl/full-body-ipl.webp",
+        "image": "/service-images/laser-ipl/full-body-ipl.webp",
         "name": "Full Body",
         "duration": "1h 30m",
         "price": 280,
@@ -209,7 +209,7 @@
       },
       {
         "id": 26,
-        "image": "public/service-images/laser-ipl/brazilian-underarms-ipl.jpeg",
+        "image": "/service-images/laser-ipl/brazilian-underarms-ipl.jpeg",
         "name": "Brazilian + Underarms",
         "duration": "1h",
         "price": 100,
@@ -217,7 +217,7 @@
       },
       {
         "id": 27,
-        "image": "public/service-images/laser-ipl/chest-ipl.jpg",
+        "image": "/service-images/laser-ipl/chest-ipl.jpg",
         "name": "Chest",
         "duration": "30m",
         "price": 70,
@@ -225,7 +225,7 @@
       },
       {
         "id": 28,
-        "image": "public/service-images/laser-ipl/chin-ipl.jpg",
+        "image": "/service-images/laser-ipl/chin-ipl.jpg",
         "name": "Chin",
         "duration": "30m",
         "price": 22,
@@ -238,7 +238,7 @@
     "services": [
       {
         "id": 29,
-        "image": "public/service-images/body-treatments/back-facial.jpg",
+        "image": "/service-images/body-treatments/back-facial.jpg",
         "name": "Back Facial",
         "duration": "1h 30m",
         "price": 75,
@@ -251,7 +251,7 @@
     "services": [
       {
         "id": 30,
-        "image": "public/service-images/waxing-services/full-face-wax.webp",
+        "image": "/service-images/waxing-services/full-face-wax.webp",
         "name": "Full Face",
         "duration": "25m",
         "price": 25,
@@ -259,7 +259,7 @@
       },
       {
         "id": 31,
-        "image": "public/service-images/waxing-services/eyebrows-wax.png",
+        "image": "/service-images/waxing-services/eyebrows-wax.png",
         "name": "Eyebrows",
         "duration": "15m",
         "price": 15,
@@ -267,7 +267,7 @@
       },
       {
         "id": 32,
-        "image": "public/service-images/waxing-services/upper-lip-wax.jpg",
+        "image": "/service-images/waxing-services/upper-lip-wax.jpg",
         "name": "Upper Lip",
         "duration": "10m",
         "price": 10,
@@ -275,7 +275,7 @@
       },
       {
         "id": 33,
-        "image": "public/service-images/waxing-services/cheeks-wax.webp",
+        "image": "/service-images/waxing-services/cheeks-wax.webp",
         "name": "Cheeks",
         "duration": "10m",
         "price": 15,
@@ -283,7 +283,7 @@
       },
       {
         "id": 34,
-        "image": "public/service-images/waxing-services/underarms-wax.webp",
+        "image": "/service-images/waxing-services/underarms-wax.webp",
         "name": "Underarms",
         "duration": "15m",
         "price": 18,
@@ -291,7 +291,7 @@
       },
       {
         "id": 35,
-        "image": "public/service-images/waxing-services/half-arms-wax.jpeg",
+        "image": "/service-images/waxing-services/half-arms-wax.jpeg",
         "name": "Half Arms",
         "duration": "25m",
         "price": 20,
@@ -299,7 +299,7 @@
       },
       {
         "id": 36,
-        "image": "public/service-images/waxing-services/full-arms-wax.jpg",
+        "image": "/service-images/waxing-services/full-arms-wax.jpg",
         "name": "Full Arms",
         "duration": "30m",
         "price": 35,
@@ -307,7 +307,7 @@
       },
       {
         "id": 37,
-        "image": "public/service-images/waxing-services/bikini-wax.webp",
+        "image": "/service-images/waxing-services/bikini-wax.webp",
         "name": "Bikini",
         "duration": "30m",
         "price": 38,
@@ -315,7 +315,7 @@
       },
       {
         "id": 38,
-        "image": "public/service-images/waxing-services/brazilian-wax.jpeg",
+        "image": "/service-images/waxing-services/brazilian-wax.jpeg",
         "name": "Brazilian",
         "duration": "40m",
         "price": 50,
@@ -323,7 +323,7 @@
       },
       {
         "id": 39,
-        "image": "public/service-images/waxing-services/half-legs-wax.webp",
+        "image": "/service-images/waxing-services/half-legs-wax.webp",
         "name": "Half Legs",
         "duration": "30m",
         "price": 35,
@@ -331,7 +331,7 @@
       },
       {
         "id": 40,
-        "image": "public/service-images/waxing-services/full-legs-wax.webp",
+        "image": "/service-images/waxing-services/full-legs-wax.webp",
         "name": "Full Legs",
         "duration": "45m",
         "price": 60,
@@ -339,7 +339,7 @@
       },
       {
         "id": 41,
-        "image": "public/service-images/waxing-services/back-wax.jpeg",
+        "image": "/service-images/waxing-services/back-wax.jpeg",
         "name": "Back",
         "duration": "30m",
         "price": 60,
@@ -347,7 +347,7 @@
       },
       {
         "id": 42,
-        "image": "public/service-images/waxing-services/chest-wax.png",
+        "image": "/service-images/waxing-services/chest-wax.png",
         "name": "Chest",
         "duration": "30m",
         "price": 55,
