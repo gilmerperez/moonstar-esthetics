@@ -4,7 +4,7 @@
     "services": [
       {
         "id": 1,
-        "image": "facial-treatments/basic-facial.jpg",
+        "image": "public/images/facial-treatments/basic-facial.jpg",
         "name": "Basic Facial",
         "duration": "1h 30m",
         "price": 55,
@@ -12,23 +12,23 @@
       },
       {
         "id": 2,
-        "image": "facial-treatments/full-facial.jpg",
+        "image": "public/images/facial-treatments/full-facial.jpg",
         "name": "Full Facial",
         "duration": "1h 30m",
         "price": 68,
-        "description": "Includes high frequency, LED light therapy, serum, and massage."
+        "description": "Includes high frequency, LED light therapy, serum, and a massage."
       },
       {
         "id": 3,
-        "image": "facial-treatments/deluxe-facial.jpg",
+        "image": "public/images/facial-treatments/deluxe-facial.jpg",
         "name": "Deluxe Facial",
         "duration": "1h 30m",
         "price": 80,
-        "description": "Includes microdermabrasion and a hydrojelly mask."
+        "description": "Includes Microdermabrasion and a Hydrojelly mask."
       },
       {
         "id": 4,
-        "image": "facial-treatments/dermaplaining.jpg",
+        "image": "public/images/facial-treatments/dermaplaining.jpg",
         "name": "Dermaplaning",
         "duration": "1h",
         "price": 55,
@@ -36,7 +36,7 @@
       },
       {
         "id": 5,
-        "image": "facial-treatments/dermaplaining-facial.jpg",
+        "image": "public/images/facial-treatments/dermaplaining-facial.jpg",
         "name": "Dermaplaning + Facial",
         "duration": "1h 30m",
         "price": 90,
@@ -44,39 +44,39 @@
       },
       {
         "id": 6,
-        "image": "facial-treatments/rejuvenating-facial-ipl.avif",
+        "image": "public/images/facial-treatments/rejuvenating-facial-ipl.avif",
         "name": "Rejuvenating Facial (IPL)",
         "duration": "1h 30m",
         "price": 100,
-        "description": "Includes IPL laser to target various skin concerns."
+        "description": "Includes IPL Laser to target various skin concerns."
       },
       {
         "id": 7,
-        "image": "facial-treatments/hydrodermabrasion-facial.jpg",
+        "image": "public/images/facial-treatments/hydrodermabrasion-facial.jpg",
         "name": "HydroDermabrasion Facial",
         "duration": "1h 10m",
         "price": 108,
-        "description": "Fluid dermabrasion combined with LED therapy and a nourishing mask."
+        "description": "Fluid dermabrasion combined with LED light therapy and a nourishing mask."
       },
       {
         "id": 8,
-        "image": "facial-treatments/acne-treatment-facial.png",
+        "image": "public/images/facial-treatments/acne-treatment-facial.png",
         "name": "Acne Treatment Facial",
         "duration": "1h 30m",
         "price": 100,
-        "description": "Targets acne-prone skin with extractions and IPL laser treatment."
+        "description": "Targets acne-prone skin with extractions and IPL Laser treatment."
       },
       {
         "id": 9,
-        "image": "facial-treatments/gua-sha-facial.png",
+        "image": "public/images/facial-treatments/gua-sha-facial.png",
         "name": "Gua Sha Facial",
         "duration": "1h",
         "price": 90,
-        "description": "Includes gua sha massage, LED therapy, hand massage, and more."
+        "description": "Gua Sha massage with LED light therapy, hand massage, and more."
       },
       {
         "id": 10,
-        "image": "facial-treatments/couples-facial.avif",
+        "image": "public/images/facial-treatments/couples-facial.avif",
         "name": "Couple's Facial",
         "duration": "2h 30m",
         "price": 115,
@@ -84,152 +84,152 @@
       },
       {
         "id": 11,
-        "image": "facial-treatments/hydrojelly-mak-add-on.webp",
+        "image": "public/images/facial-treatments/hydrojelly-mask-add-on.webp",
         "name": "HydroJelly Mask Add-On",
         "duration": "15m",
         "price": 15,
-        "description": "Optional enhancement to any facial."
+        "description": "Optional HydroJelly Mask treatment enhancement to any facial."
       },
       {
         "id": 12,
-        "image": "facial-treatments/microdermabrasion-add-on.jpg",
+        "image": "public/images/facial-treatments/microdermabrasion-add-on.jpg",
         "name": "Microdermabrasion Add-On",
         "duration": "15m",
         "price": 30,
-        "description": "Optional microdermabrasion treatment enhancement."
+        "description": "Optional Microdermabrasion treatment enhancement to any facial."
       }
     ]
   },
   {
-    "category": "Laser/IPL Services",
+    "category": "IPL Laser Services",
     "services": [
       {
         "id": 13,
-        "image": "laser-ipl/upper-lip-ipl.webp",
+        "image": "public/images/laser-ipl/upper-lip-ipl.webp",
         "name": "Upper Lip",
         "duration": "20m",
         "price": 22,
-        "description": "Laser/IPL treatment for upper lip area."
+        "description": "IPL Laser treatment for upper lip area."
       },
       {
         "id": 14,
-        "image": "laser-ipl/full-face-ipl.webp",
+        "image": "public/images/laser-ipl/full-face-ipl.webp",
         "name": "Full Face",
         "duration": "30m",
         "price": 45,
-        "description": "Laser/IPL treatment for the entire face."
+        "description": "IPL Laser treatment for the entire face."
       },
       {
         "id": 15,
-        "image": "laser-ipl/underarms-ipl.jpg",
+        "image": "public/images/laser-ipl/underarms-ipl.jpg",
         "name": "Underarms",
         "duration": "30m",
         "price": 38,
-        "description": "Laser/IPL treatment for underarms."
+        "description": "IPL Laser treatment for the underarms."
       },
       {
         "id": 16,
-        "image": "laser-ipl/arm-ipl.png",
+        "image": "public/images/laser-ipl/arms-ipl.png",
         "name": "Arms",
         "duration": "30m",
         "price": 70,
-        "description": "Full arm hair reduction using laser/IPL."
+        "description": "Full arm hair reduction using IPL Laser."
       },
       {
         "id": 17,
-        "image": "laser-ipl/half-arms-ipl.jpeg",
+        "image": "public/images/laser-ipl/half-arms-ipl.jpeg",
         "name": "Half Arms",
         "duration": "30m",
         "price": 48,
-        "description": "Laser/IPL treatment for half the arms."
+        "description": "IPL Laser treatment for half the arms."
       },
       {
         "id": 18,
-        "image": "laser-ipl/belly-abdomen-ipl.jpg",
-        "name": "Belly / Abdomen",
+        "image": "public/images/laser-ipl/belly-abdomen-ipl.jpg",
+        "name": "Stomach / Abdomen",
         "duration": "30m",
         "price": 58,
-        "description": "Targeted laser/IPL treatment for belly/abdomen."
+        "description": "Targeted IPL Laser treatment for the stomach/abdomen."
       },
       {
         "id": 19,
-        "image": "laser-ipl/back-ipl.jpg",
+        "image": "public/images/laser-ipl/back-ipl.jpg",
         "name": "Back",
         "duration": "45m",
         "price": 80,
-        "description": "Laser/IPL treatment for the entire back."
+        "description": "IPL Laser treatment for the entire back."
       },
       {
         "id": 20,
-        "image": "laser-ipl/bikini-ipl.jpg",
+        "image": "public/images/laser-ipl/bikini-ipl.jpg",
         "name": "Bikini",
         "duration": "30m",
         "price": 50,
-        "description": "Laser/IPL treatment for bikini area."
+        "description": "IPL Laser treatment for the bikini area."
       },
       {
         "id": 21,
-        "image": "laser-ipl/brazilian-ipl.jpg",
+        "image": "public/images/laser-ipl/brazilian-ipl.jpg",
         "name": "Brazilian",
         "duration": "30m",
         "price": 80,
-        "description": "Full Brazilian laser/IPL treatment."
+        "description": "Full Brazilian IPL Laser treatment."
       },
       {
         "id": 22,
-        "image": "laser-ipl/buttocks-ipl.jpg",
+        "image": "public/images/laser-ipl/buttocks-ipl.jpg",
         "name": "Buttocks",
         "duration": "30m",
         "price": 55,
-        "description": "Laser/IPL treatment for the buttocks."
+        "description": "IPL Laser treatment for the buttocks."
       },
       {
         "id": 23,
-        "image": "laser-ipl/legs-ipl.jpg",
+        "image": "public/images/laser-ipl/legs-ipl.jpg",
         "name": "Legs",
         "duration": "1h",
         "price": 85,
-        "description": "Full leg laser/IPL treatment."
+        "description": "Full leg IPL Laser treatment."
       },
       {
         "id": 24,
-        "image": "laser-ipl/half-legs-ipl.jpg",
+        "image": "public/images/laser-ipl/half-legs-ipl.jpg",
         "name": "Half Legs",
         "duration": "50m",
         "price": 55,
-        "description": "Laser/IPL treatment for half the legs."
+        "description": "IPL Laser treatment for half the legs."
       },
       {
         "id": 25,
-        "image": "laser-ipl/full-body-ipl.webp",
+        "image": "public/images/laser-ipl/full-body-ipl.webp",
         "name": "Full Body",
         "duration": "1h 30m",
         "price": 280,
-        "description": "Full body hair reduction with laser/IPL."
+        "description": "Full body hair reduction with IPL Laser."
       },
       {
         "id": 26,
-        "image": "laser-ipl/brazilian-underarms-ipl.jpeg",
+        "image": "public/images/laser-ipl/brazilian-underarms-ipl.jpeg",
         "name": "Brazilian + Underarms",
         "duration": "1h",
         "price": 100,
-        "description": "Combined treatment for Brazilian and underarms."
+        "description": "Combined treatment for both Brazilian and Underarms."
       },
       {
         "id": 27,
-        "image": "laser-ipl/chest-ipl.jpg",
+        "image": "public/images/laser-ipl/chest-ipl.jpg",
         "name": "Chest",
         "duration": "30m",
         "price": 70,
-        "description": "Laser/IPL treatment for chest area."
+        "description": "IPL Laser treatment for chest area."
       },
       {
         "id": 28,
-        "image": "laser-ipl/chin-ipl.jpg",
+        "image": "public/images/laser-ipl/chin-ipl.jpg",
         "name": "Chin",
         "duration": "30m",
         "price": 22,
-        "description": "Laser/IPL treatment for the chin."
+        "description": "IPL Laser treatment for the chin."
       }
     ]
   },
@@ -238,11 +238,11 @@
     "services": [
       {
         "id": 29,
-        "image": "body-treatments/back-facial.jpg",
+        "image": "public/images/body-treatments/back-facial.jpg",
         "name": "Back Facial",
         "duration": "1h 30m",
         "price": 75,
-        "description": "Cleansing, steam, exfoliation, extractions, LED therapy, mask, massage, and moisturizer for the back."
+        "description": "LED light therapy, cleansing, steam, exfoliation, extractions, mask, massage, and back moisturizer."
       }
     ]
   },
@@ -251,23 +251,23 @@
     "services": [
       {
         "id": 30,
-        "image": "waxing-services/full-face-wax.webp",
+        "image": "public/images/waxing-services/full-face-wax.webp",
         "name": "Full Face",
         "duration": "25m",
         "price": 25,
-        "description": "Complete facial waxing service."
+        "description": "Complete facial waxing service for the entire face."
       },
       {
         "id": 31,
-        "image": "waxing-services/eyebrows-wax.png",
+        "image": "public/images/waxing-services/eyebrows-wax.png",
         "name": "Eyebrows",
         "duration": "15m",
         "price": 15,
-        "description": "Eyebrow shaping and waxing."
+        "description": "Eyebrow shaping and waxing service."
       },
       {
         "id": 32,
-        "image": "waxing-services/upper-lip-wax.jpg",
+        "image": "public/images/waxing-services/upper-lip-wax.jpg",
         "name": "Upper Lip",
         "duration": "10m",
         "price": 10,
@@ -275,23 +275,23 @@
       },
       {
         "id": 33,
-        "image": "waxing-services/cheeks-wax.webp",
+        "image": "public/images/waxing-services/cheeks-wax.webp",
         "name": "Cheeks",
         "duration": "10m",
         "price": 15,
-        "description": "Waxing for both cheeks."
+        "description": "Waxing service for facial cheeks."
       },
       {
         "id": 34,
-        "image": "waxing-services/underarms-wax.webp",
+        "image": "public/images/waxing-services/underarms-wax.webp",
         "name": "Underarms",
         "duration": "15m",
         "price": 18,
-        "description": "Waxing for underarm area."
+        "description": "Waxing service for underarm area."
       },
       {
         "id": 35,
-        "image": "waxing-services/half-arms-wax.jpeg",
+        "image": "public/images/waxing-services/half-arms-wax.jpeg",
         "name": "Half Arms",
         "duration": "25m",
         "price": 20,
@@ -299,23 +299,23 @@
       },
       {
         "id": 36,
-        "image": "waxing-services/full-arms-wax.jpg",
+        "image": "public/images/waxing-services/full-arms-wax.jpg",
         "name": "Full Arms",
         "duration": "30m",
         "price": 35,
-        "description": "Waxing service for the full arms."
+        "description": "Waxing service for full arms."
       },
       {
         "id": 37,
-        "image": "waxing-services/bikini-wax.webp",
+        "image": "public/images/waxing-services/bikini-wax.webp",
         "name": "Bikini",
         "duration": "40m",
         "price": 50,
-        "description": "Waxing for the bikini line area."
+        "description": "Waxing service for the bikini line area."
       },
       {
         "id": 38,
-        "image": "waxing-services/brazilian-wax.jpeg",
+        "image": "public/images/waxing-services/brazilian-wax.jpeg",
         "name": "Brazilian",
         "duration": "40m",
         "price": 50,
@@ -323,23 +323,23 @@
       },
       {
         "id": 39,
-        "image": "waxing-services/half-legs-wax.webp",
+        "image": "public/images/waxing-services/half-legs-wax.webp",
         "name": "Half Legs",
         "duration": "30m",
         "price": 35,
-        "description": "Waxing for half of the legs."
+        "description": "Waxing service for half of the legs."
       },
       {
         "id": 40,
-        "image": "waxing-services/full-legs-wax.webp",
+        "image": "public/images/waxing-services/full-legs-wax.webp",
         "name": "Full Legs",
         "duration": "45m",
         "price": 60,
-        "description": "Waxing for the full legs."
+        "description": "Waxing service for full legs."
       },
       {
         "id": 41,
-        "image": "waxing-services/back-wax.jpeg",
+        "image": "public/images/waxing-services/back-wax.jpeg",
         "name": "Back",
         "duration": "30m",
         "price": 60,
@@ -347,7 +347,7 @@
       },
       {
         "id": 42,
-        "image": "waxing-services/chest-wax.png",
+        "image": "public/images/waxing-services/chest-wax.png",
         "name": "Chest",
         "duration": "30m",
         "price": 55,
