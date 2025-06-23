@@ -1,7 +1,7 @@
 import Header from "./components/Header/Header";
 import Home from "./pages/Home";
-import Reviews from "./pages/Reviews";
 import Services from "./pages/Services";
+import Reviews from "./pages/Reviews";
 import Information from "./pages/Information";
 import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
@@ -15,8 +15,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/reviews" element={<Reviews />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/reviews" element={<Reviews />} />
         <Route path="/information" element={<Information />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />

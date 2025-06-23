@@ -48,11 +48,11 @@ function Header() {
               <NavLink to="/" className={navLinkClass}>
                 Home
               </NavLink>
-              <NavLink to="/reviews" className={navLinkClass}>
-                Reviews
-              </NavLink>
               <NavLink to="/services" className={navLinkClass}>
                 Services
+              </NavLink>
+              <NavLink to="/reviews" className={navLinkClass}>
+                Reviews
               </NavLink>
               <NavLink to="/information" className={navLinkClass}>
                 Information
@@ -106,11 +106,11 @@ function Header() {
                 <NavLink to="/" className={navLinkClass} onClick={() => setMenuOpen(false)}>
                   Home
                 </NavLink>
-                <NavLink to="/reviews" className={navLinkClass} onClick={() => setMenuOpen(false)}>
-                  Reviews
-                </NavLink>
                 <NavLink to="/services" className={navLinkClass} onClick={() => setMenuOpen(false)}>
                   Services
+                </NavLink>
+                <NavLink to="/reviews" className={navLinkClass} onClick={() => setMenuOpen(false)}>
+                  Reviews
                 </NavLink>
                 <NavLink to="/information" className={navLinkClass} onClick={() => setMenuOpen(false)}>
                   Information

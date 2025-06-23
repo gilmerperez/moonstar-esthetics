@@ -209,6 +209,10 @@ AnaKarina explains her process clearly, listens to concerns, and recommends prod
 
 ### ❓ Missing / To Be Determined
 
+- Make sure color theme switch works on iPhone
 - Page not found
+- Services Page sort by price and duration
+- Services Page short description for each type of treatment: Facial Treatments, IPL Laser Services, Body Treatments, Waxing Services
+- Reviews Page
 - Make footer nice and complex on big screens, switch to simple footer on small screens
 - English, Spanish, and Portugese Translation
