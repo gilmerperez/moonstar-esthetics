@@ -44,7 +44,7 @@ function Reviews() {
                     .fill(0)
                     .map((_, i) => (
                       <span key={i} className={i < Math.round(averageRating) ? styles.filledStar : styles.emptyStar}>
-                        <i className="fa-solid fa-star fa-xs"></i>
+                        <i className="fa-regular fa-star fa-xs"></i>
                         {/* ★ */}
                       </span>
                     ))}

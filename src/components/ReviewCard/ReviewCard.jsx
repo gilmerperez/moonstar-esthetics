@@ -13,7 +13,7 @@ function ReviewCard({ review }) {
     .fill(0)
     .map((_, i) => (
       <span key={i} className={i < review.stars ? styles.filledStar : styles.emptyStar}>
-        <i className="fa-solid fa-star fa-xs"></i>
+        <i className="fa-regular fa-star fa-xs"></i>
       </span>
     ));
 
