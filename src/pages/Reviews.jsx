@@ -12,6 +12,7 @@ function Reviews() {
   // Calculate average rating
   const averageRating = reviews.reduce((acc, review) => acc + review.stars, 0) / reviews.length;
   const roundedAverage = Math.round(averageRating * 10) / 10;
+  const ratingPercentage = (averageRating / 5) * 100;
 
   // Calculate rating distribution
   const ratingDistribution = Array(5)
@@ -39,15 +40,21 @@ function Reviews() {
                 {/* Average Rating */}
                 <h2 className={styles.averageRating}>{roundedAverage}</h2>
                 {/* Stars */}
-                <div className={styles.averageStars}>
-                  {Array(5)
-                    .fill(0)
-                    .map((_, i) => (
-                      <span key={i} className={i < Math.round(averageRating) ? styles.filledStar : styles.emptyStar}>
-                        <i className="fa-regular fa-star fa-xs"></i>
-                        {/* ★ */}
-                      </span>
-                    ))}
+                <div className={styles.starsContainer}>
+                  <div className={styles.starsBackground}>
+                    {Array(5)
+                      .fill(0)
+                      .map((_, i) => (
+                        <i key={i} className="fa-regular fa-star"></i>
+                      ))}
+                  </div>
+                  <div className={styles.starsForeground} style={{ width: `${ratingPercentage}%` }}>
+                    {Array(5)
+                      .fill(0)
+                      .map((_, i) => (
+                        <i key={i} className="fa-solid fa-star"></i>
+                      ))}
+                  </div>
                 </div>
                 {/* Number of Reviews */}
                 <p className={styles.reviewCount}>{reviews.length} reviews</p>

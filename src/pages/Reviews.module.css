@@ -56,11 +56,33 @@
   color: var(--text-primary);
 }
 
-.averageStars {
+.starsContainer {
   font-size: 2rem;
+  margin: 0.5rem 0;
   color: var(--pink);
-  letter-spacing: 5px;
-  margin-bottom: 0.25rem;
+  position: relative;
+  display: inline-block;
+}
+
+.starsBackground,
+.starsForeground {
+  gap: 0.25rem;
+  display: flex;
+}
+
+.starsForeground {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  color: var(--pink);
+  white-space: nowrap;
+}
+
+.fa-solid {
+  color: var(--pink);
 }
 
 .reviewCount {
@@ -114,5 +136,9 @@
     gap: 1.5rem;
     text-align: center;
     flex-direction: column;
+  }
+
+  .starsContainer {
+    font-size: 1.75rem;
   }
 }
