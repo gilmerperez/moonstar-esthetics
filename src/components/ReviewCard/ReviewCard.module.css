@@ -87,23 +87,58 @@
 
 @media (max-width: 840px) {
   .reviewCard {
+    padding: 1.25rem;
     text-align: center;
     flex-direction: column;
   }
 
   .reviewerInitials {
-    margin: 0 auto;
+    width: 45px;
+    height: 45px;
+    font-size: 1.25rem;
   }
 
-  .reviewContent {
-    text-align: center;
-  }
-
-  .reviewMetaContent {
-    justify-content: center;
+  .reviewerName {
+    font-size: 1.25rem;
   }
 
   .starsContainer {
+    font-size: 1.15rem;
+  }
+
+  .timestamp {
+    font-size: 0.95rem;
+  }
+
+  .text {
     font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .reviewCard {
+    gap: 0.75rem;
+  }
+
+  .reviewerInitials {
+    width: 40px;
+    height: 40px;
+    font-size: 1.15rem;
+  }
+
+  .reviewerName {
+    font-size: 1.15rem;
+  }
+
+  .starsContainer {
+    font-size: 1rem;
+  }
+
+  .timestamp {
+    font-size: 0.85rem;
+  }
+
+  .text {
+    font-size: 1rem;
   }
 }

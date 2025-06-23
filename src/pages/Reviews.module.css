@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -135,11 +135,73 @@
 @media (max-width: 840px) {
   .reviewSummary {
     gap: 1.5rem;
-    text-align: center;
+    padding: 1.5rem;
     flex-direction: column;
   }
 
+  .averageRating {
+    font-size: 2.5rem;
+  }
+
   .starsContainer {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
+  }
+
+  .reviewCount {
+    font-size: 1.1rem;
+  }
+
+  .ratingSpan {
+    font-size: 0.9rem;
+  }
+
+  .barContainer {
+    min-width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .introduction {
+    font-size: 1.15rem;
+  }
+
+  .reviewSummary {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .averageRating {
+    font-size: 2rem;
+  }
+
+  .starsContainer {
+    font-size: 1rem;
+    margin: 0.25rem 0;
+  }
+
+  .reviewCount {
+    font-size: 1rem;
+  }
+
+  .ratingDistribution {
+    gap: 0.25rem;
+  }
+
+  .ratingBar {
+    gap: 0.25rem;
+  }
+
+  .ratingSpan {
+    font-size: 0.8rem;
+    min-width: 45px;
+  }
+
+  .barContainer {
+    min-width: 100px;
+    height: 8px;
   }
 }
