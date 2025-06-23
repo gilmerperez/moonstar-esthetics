@@ -11,6 +11,7 @@
 }
 
 .categorySection {
+  width: 100%;
   margin-bottom: 2rem;
 }
 
@@ -29,6 +30,34 @@
 
 @media (max-width: 840px) {
   .servicesContainer {
-    padding: 0rem 0rem;
+    padding: 0 1rem;
+  }
+
+  .categoryTitle {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .serviceCards {
+    gap: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .servicesContainer {
+    padding: 0 0.75rem;
+  }
+
+  .categorySection {
+    margin-bottom: 1.5rem;
+  }
+
+  .categoryTitle {
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .serviceCards {
+    gap: 1rem;
   }
 }
