@@ -50,17 +50,28 @@
   margin-bottom: 0.5rem;
 }
 
-.filledStar,
-.emptyStar {
+.starsContainer {
+  position: relative;
   font-size: 1.25rem;
-}
-
-.filledStar {
-  color: var(--pink);
-}
-
-.emptyStar {
+  display: inline-block;
   color: var(--text-secondary);
+}
+
+.starsBackground,
+.starsForeground {
+  gap: 0.15rem;
+  display: flex;
+}
+
+.starsForeground {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  color: var(--pink);
+  position: absolute;
+  white-space: nowrap;
 }
 
 .timestamp {
@@ -90,5 +101,9 @@
 
   .reviewMetaContent {
     justify-content: center;
+  }
+
+  .starsContainer {
+    font-size: 1.1rem;
   }
 }
