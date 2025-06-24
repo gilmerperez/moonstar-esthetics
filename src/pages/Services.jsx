@@ -38,7 +38,7 @@ function Services() {
           {/* Filters */}
           <section className={styles.filterControls}>
             <select id="sort" value={sortOption} onChange={(e) => setSortOption(e.target.value)}>
-              <option value="default">Default</option>
+              <option value="default">Sort by</option>
               <option value="price-asc">Price: Low to High</option>
               <option value="price-desc">Price: High to Low</option>
               <option value="duration-asc">Duration: Short to Long</option>
