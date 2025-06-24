@@ -17,9 +17,10 @@ function Header() {
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
     const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)");
-    const systemTheme = systemPrefersDark.matches ? "dark" : "light";
 
-    const initialTheme = storedTheme || systemTheme;
+    // Use stored theme if available, otherwise use system preference
+    const initialTheme = storedTheme ? storedTheme : systemPrefersDark.matches ? "dark" : "light";
+
     setTheme(initialTheme);
     document.documentElement.setAttribute("data-theme", initialTheme);
 
