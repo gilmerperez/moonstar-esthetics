@@ -182,9 +182,8 @@ Featured services with quick descriptions:
 
 ### ❓ Missing / To Be Determined
 
-- Services Page: Make a book now button that takes users to the site when each card is clicked
-- Make sure color theme switch works on iPhone
 - Page not found
+- Make sure color theme switch works on iPhone
 - Reviews Page: Should I add an option to leave a review and receive a discount on next visit?
 - Make footer nice and complex on big screens, switch to simple footer on small screens
 - English, Spanish, and Portugese Translation

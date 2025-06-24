@@ -15,9 +15,12 @@ function ReviewCard({ review }) {
     <section className={styles.reviewCard}>
       {/* Reviewer Initials */}
       <div className={styles.reviewerInitials}>{initials}</div>
+
+      {/* Review Content */}
       <div className={styles.reviewContent}>
         {/* Reviewer Name */}
         <h3 className={styles.reviewerName}>{review.name}</h3>
+
         {/* Review Star Amount and Timestamp */}
         <div className={styles.reviewMetaContent}>
           <div className={styles.starsContainer}>
@@ -38,6 +41,7 @@ function ReviewCard({ review }) {
           </div>
           <span className={styles.timestamp}>{review.timestamp}</span>
         </div>
+
         {/* Review Text */}
         <p className={styles.text}>{review.text}</p>
       </div>

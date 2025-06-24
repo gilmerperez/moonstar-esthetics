@@ -63,6 +63,7 @@
   color: var(--text-secondary);
   border: 2px solid var(--pink);
   background-color: var(--header-footer-bg-color);
+  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
 }
 
 /* Dark fade effect at the bottom when collapsed */

@@ -9,13 +9,13 @@ function Services() {
     document.title = "Moonstar Esthetics | Services";
   }, []);
 
-  // Sort option state (applies globally to all categories)
+  // Sort option state that gets applied to all services
   const [sortOption, setSortOption] = useState("default");
 
   // Track which categories are expanded
   const [expandedCategories, setExpandedCategories] = useState({});
 
-  // Toggle category description expand/collapse
+  // Toggle expand/collapse category description
   const toggleExpand = (category) => {
     setExpandedCategories((prev) => ({
       ...prev,
@@ -23,7 +23,7 @@ function Services() {
     }));
   };
 
-  // Convert duration string (e.g., "1h 30m") to total minutes
+  // Convert duration ("1h 30m") to total minutes
   const parseDuration = (durationStr) => {
     const match = durationStr.match(/(?:(\d+)h)?\s*(?:(\d+)m)?/);
     const hours = match[1] ? parseInt(match[1], 10) : 0;
@@ -82,15 +82,7 @@ function Services() {
                 {/* Service Cards */}
                 <section className={styles.serviceCards}>
                   {sortedServices.map((service) => (
-                    <a
-                      key={service.id}
-                      href="https://moonstaresthetics.setmore.com/#services"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className={styles.cardLinkWrapper}
-                    >
-                      <ServiceCard service={service} />
-                    </a>
+                    <ServiceCard key={service.id} service={service} />
                   ))}
                 </section>
               </div>

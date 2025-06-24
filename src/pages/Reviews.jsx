@@ -34,45 +34,43 @@ function Reviews() {
           <p className={styles.introduction}>See what our previous customers have said about our services!</p>
 
           {/* Reviews Summary */}
-          <section className={styles.reviewStats}>
-            <div className={styles.reviewSummary}>
-              <div className={styles.reviewBreakdown}>
-                {/* Average Rating */}
-                <h2 className={styles.averageRating}>{roundedAverage}</h2>
-                {/* Stars */}
-                <div className={styles.starsContainer}>
-                  <div className={styles.starsBackground}>
-                    {Array(5)
-                      .fill(0)
-                      .map((_, i) => (
-                        <i key={i} className="fa-regular fa-star"></i>
-                      ))}
-                  </div>
-                  <div className={styles.starsForeground} style={{ width: `${ratingPercentage}%` }}>
-                    {Array(5)
-                      .fill(0)
-                      .map((_, i) => (
-                        <i key={i} className="fa-solid fa-star"></i>
-                      ))}
-                  </div>
+          <section className={styles.reviewSummary}>
+            <section className={styles.reviewBreakdown}>
+              {/* Average Rating */}
+              <h2 className={styles.averageRating}>{roundedAverage}</h2>
+              {/* Stars */}
+              <div className={styles.starsContainer}>
+                <div className={styles.starsBackground}>
+                  {Array(5)
+                    .fill(0)
+                    .map((_, i) => (
+                      <i key={i} className="fa-regular fa-star"></i>
+                    ))}
                 </div>
-                {/* Number of Reviews */}
-                <p className={styles.reviewCount}>{reviews.length} reviews</p>
+                <div className={styles.starsForeground} style={{ width: `${ratingPercentage}%` }}>
+                  {Array(5)
+                    .fill(0)
+                    .map((_, i) => (
+                      <i key={i} className="fa-solid fa-star"></i>
+                    ))}
+                </div>
               </div>
+              {/* Number of Reviews */}
+              <p className={styles.reviewCount}>{reviews.length} reviews</p>
+            </section>
 
-              {/* Rating Distribution */}
-              <div className={styles.ratingDistribution}>
-                {ratingDistribution.map((rating) => (
-                  <div key={rating.stars} className={styles.ratingBar}>
-                    <span className={styles.ratingSpan}>{rating.stars} stars</span>
-                    <div className={styles.barContainer}>
-                      <div className={styles.barFill} style={{ width: `${rating.percentage}%` }}></div>
-                    </div>
-                    <span>{rating.percentage}%</span>
+            {/* Rating Distribution */}
+            <section className={styles.ratingDistribution}>
+              {ratingDistribution.map((rating) => (
+                <div key={rating.stars} className={styles.ratingBar}>
+                  <span className={styles.ratingSpan}>{rating.stars} stars</span>
+                  <div className={styles.barContainer}>
+                    <div className={styles.barFill} style={{ width: `${rating.percentage}%` }}></div>
                   </div>
-                ))}
-              </div>
-            </div>
+                  <span>{rating.percentage}%</span>
+                </div>
+              ))}
+            </section>
           </section>
 
           {/* Review Cards */}
