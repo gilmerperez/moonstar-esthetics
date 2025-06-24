@@ -1,11 +1,23 @@
-import { useEffect } from "react";
 import styles from "./Contact.module.css";
+import { useEffect, useState } from "react";
 
 function Contact() {
   // Set Page Title
   useEffect(() => {
     document.title = "Moonstar Esthetics | Contact";
   }, []);
+
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const email = "moonstaresthetics@gmail.com";
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(message)}`;
+
+    window.location.href = mailtoLink;
+  };
 
   return (
     <main>
@@ -21,28 +33,31 @@ function Contact() {
 
         {/* Form */}
         <section className={styles.formContainer}>
-          <form action="mailto:moonstaresthetics@gmail.com" method="post" encType="text/plain">
-            {/* Name */}
-            <div className={`${styles.formGroup} ${styles.formFloating}`}>
-              <input type="text" id="name" placeholder="Name" required className={styles.formControl} />
-              <label htmlFor="name">Name</label>
-            </div>
-
+          <form onSubmit={handleSubmit}>
             {/* Subject */}
             <div className={`${styles.formGroup} ${styles.formFloating}`}>
-              <input type="text" id="subject" placeholder="Subject" required className={styles.formControl} />
+              <input
+                type="text"
+                id="subject"
+                placeholder="Subject"
+                required
+                value={subject}
+                onChange={(e) => setSubject(e.target.value)}
+                className={styles.formControl}
+              />
               <label htmlFor="subject">Subject</label>
-            </div>
-
-            {/* Email */}
-            <div className={`${styles.formGroup} ${styles.formFloating}`}>
-              <input type="email" id="email" placeholder="Email Address" required className={styles.formControl} />
-              <label htmlFor="email">Email Address</label>
             </div>
 
             {/* Message */}
             <div className={`${styles.formGroup} ${styles.formFloating}`}>
-              <textarea id="message" placeholder="Message" required className={styles.formControl}></textarea>
+              <textarea
+                id="message"
+                placeholder="Message"
+                required
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                className={styles.formControl}
+              ></textarea>
               <label htmlFor="message">Message</label>
             </div>
 
