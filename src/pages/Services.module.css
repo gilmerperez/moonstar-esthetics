@@ -2,7 +2,6 @@
   width: 100%;
   display: flex;
   margin: 0 auto;
-  padding: 0 2rem;
   max-width: 1200px;
   text-align: center;
   align-items: center;
@@ -12,6 +11,9 @@
 
 .categorySection {
   width: 100%;
+}
+
+.categorySection:not(:last-child) {
   margin-bottom: 2rem;
 }
 
@@ -20,6 +22,21 @@
   font-size: 3rem;
   color: var(--pink);
   margin-bottom: 2rem;
+  transition: 0.3s ease-in;
+}
+
+.categoryDescription {
+  width: 100%;
+  padding: 2rem;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  transition: 0.3s ease-in;
+  color: var(--text-secondary);
+  border: 2px solid var(--pink);
+  background-color: var(--header-footer-bg-color);
 }
 
 .serviceCards {
@@ -29,13 +46,16 @@
 }
 
 @media (max-width: 840px) {
-  .servicesContainer {
-    padding: 0 1rem;
-  }
-
   .categoryTitle {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
+  }
+
+  .categoryDescription {
+    padding: 1.5rem;
+    line-height: 1.35;
+    font-size: 1.15rem;
+    margin-bottom: 1.75rem;
   }
 
   .serviceCards {
@@ -44,17 +64,16 @@
 }
 
 @media (max-width: 480px) {
-  .servicesContainer {
-    padding: 0 0.75rem;
-  }
-
-  .categorySection {
-    margin-bottom: 1.5rem;
-  }
-
   .categoryTitle {
     font-size: 2rem;
     margin-bottom: 1.25rem;
+  }
+
+  .categorySection {
+    font-size: 1rem;
+    padding: 1.25rem;
+    line-height: 1.25;
+    margin-bottom: 1.5rem;
   }
 
   .serviceCards {
