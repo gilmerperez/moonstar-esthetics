@@ -1,6 +1,7 @@
 [
   {
     "category": "Facial Treatments",
+    "description": "Our Facial Treatments are designed to deeply cleanse, rejuvenate, and restore your skin's natural glow. Ideal for all skin types, these services target common concerns such as dullness, dryness, acne, aging, and uneven texture. Each facial is customized to your skin's unique needs—whether you're seeking hydration, exfoliation, calming relief, or anti-aging benefits. We work primarily on the face, neck, and décolleté, using advanced techniques and tools including steam therapy, LED light therapy, microdermabrasion, dermaplaning, IPL, and high-frequency technology. Whether you're preparing for a special event, managing a chronic skin condition, or simply treating yourself, our facials provide visible results and a deeply relaxing experience.",
     "services": [
       {
         "id": 1,
@@ -102,6 +103,7 @@
   },
   {
     "category": "IPL Laser Services",
+    "description": "Our IPL Laser Services provide a safe, effective, and long-lasting solution for unwanted hair across the face and body. Using advanced Intense Pulsed Light (IPL) technology, we target hair at the follicle to gradually reduce growth with minimal discomfort and no downtime. Ideal for those seeking smoother skin with fewer ingrown hairs, our treatments are tailored to suit your skin type and treatment area. We offer services for all major zones, including the upper lip, chin, underarms, arms, legs, bikini area, chest, back, and full body. In addition to hair removal, IPL can also help improve skin texture and tone. Whether you're looking for a single area or a full-body treatment, our professional and discreet approach ensures lasting results and a confident you.",
     "services": [
       {
         "id": 13,
@@ -235,6 +237,7 @@
   },
   {
     "category": "Body Treatments",
+    "description": "Our Body Treatments are designed to extend the benefits of professional skincare beyond the face, targeting commonly neglected areas such as the back. These treatments address concerns like clogged pores, acne, rough texture, and dullness using a combination of deep cleansing, exfoliation, extractions, therapeutic masks, and advanced technologies like LED light therapy. Perfect for clients dealing with 'bacne' or looking to prep for a special event, our body services promote healthier, smoother, and more even-toned skin in hard-to-reach areas. Each session is both corrective and deeply relaxing, leaving you feeling refreshed and confident from head to toe.",
     "services": [
       {
         "id": 29,
@@ -248,6 +251,7 @@
   },
   {
     "category": "Waxing Services",
+    "description": "Our Waxing Services provide a smooth, long-lasting alternative to shaving, using professional techniques and high-quality wax to effectively remove unwanted hair from head to toe. Whether you're looking for a quick brow clean-up, a full Brazilian, or complete body hair removal, each service is performed with care to ensure minimal discomfort and maximum results. Waxing not only leaves the skin soft and hair-free for weeks, but also helps reduce hair growth and ingrown hairs over time. Ideal for maintaining a polished, confident look across all areas of the body, our waxing treatments are tailored to your preferences and skin sensitivity.",
     "services": [
       {
         "id": 30,
