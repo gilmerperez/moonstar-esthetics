@@ -10,42 +10,15 @@ function Header() {
   // Custom styles for active page
   const navLinkClass = ({ isActive }) => (isActive ? styles.activeLink : undefined);
 
-  // Theme state, default null while deciding
-  const [theme, setTheme] = useState(null);
+  const [theme, setTheme] = useState(() => {
+    return localStorage.getItem("theme") || "dark";
+  });
 
-  // On mount: determine and set initial theme
   useEffect(() => {
-    const storedTheme = localStorage.getItem("theme");
-    const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)");
-
-    // Use stored theme if available, otherwise use system preference
-    const initialTheme = storedTheme ? storedTheme : systemPrefersDark.matches ? "dark" : "light";
-
-    setTheme(initialTheme);
-    document.documentElement.setAttribute("data-theme", initialTheme);
-
-    // Watch for system theme changes (only if user hasn’t selected a theme)
-    const handleSystemChange = (e) => {
-      if (!localStorage.getItem("theme")) {
-        const newTheme = e.matches ? "dark" : "light";
-        setTheme(newTheme);
-        document.documentElement.setAttribute("data-theme", newTheme);
-      }
-    };
-
-    systemPrefersDark.addEventListener("change", handleSystemChange);
-    return () => systemPrefersDark.removeEventListener("change", handleSystemChange);
-  }, []);
-
-  // Store manual theme changes
-  useEffect(() => {
-    if (theme) {
-      document.documentElement.setAttribute("data-theme", theme);
-      localStorage.setItem("theme", theme);
-    }
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
   }, [theme]);
 
-  // Toggle manually
   const toggleTheme = () => {
     setTheme((prev) => (prev === "dark" ? "light" : "dark"));
   };
