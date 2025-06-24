@@ -98,16 +98,14 @@
   font-size: 1rem;
   font-weight: 500;
   border-radius: 10px;
+  color: var(--bg-color);
   padding: 0.5rem 0.75rem;
   transition: 0.3s ease-in;
   background-color: var(--pink);
-  color: var(--header-footer-bg-color);
 }
 
 .bookNowButton:hover {
-  background-color: var(--pink);
   box-shadow: 0 0 10px var(--pink);
-  color: var(--header-footer-bg-color);
 }
 
 @media (max-width: 1260px) {

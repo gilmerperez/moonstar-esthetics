@@ -182,7 +182,6 @@ Featured services with quick descriptions:
 
 ### ❓ Missing / To Be Determined
 
-- Services Page sort by price and duration
 - Services Page: Make a book now button that takes users to the site when each card is clicked
 - Make sure color theme switch works on iPhone
 - Page not found

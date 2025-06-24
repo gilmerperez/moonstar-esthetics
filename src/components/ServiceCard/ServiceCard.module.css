@@ -62,6 +62,25 @@
   color: var(--text-secondary);
 }
 
+.buttonContainer {
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.bookNowButton {
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  color: var(--bg-color);
+  padding: 0.5rem 0.75rem;
+  transition: 0.3s ease-in;
+  background-color: var(--pink);
+}
+
+.bookNowButton:hover {
+  box-shadow: 0 0 10px var(--pink);
+}
+
 @media (max-width: 840px) {
   .serviceCard {
     height: auto;
@@ -107,5 +126,11 @@
   .serviceDescription {
     font-size: 0.95rem;
     line-height: 1.25;
+  }
+
+  .bookNowButton {
+    font-size: 0.9rem;
+    border-radius: 8px;
+    padding: 0.45rem 0.7rem;
   }
 }
