@@ -145,33 +145,6 @@ Featured services with quick descriptions:
 - - Friday: 8AM - 8PM
 - - Saturday: Closed
 
-### ⭐ Reviews Page
-
-User-submitted testimonials with:
-
-- Timestamp
-- Star Rating
-- Reviewer Name
-- Review Content
-
-Option to leave a review and receive a discount on next visit.
-
-### Gilmer | ⭐⭐⭐⭐⭐ | Last Year
-
-Ana did such an amazing job on my visit. She recommended a facial and IPL laser for acne scars. She explained everything thoroughly. My face felt better and I felt confident in product use afterward. Highly recommended!
-
-### Gabriela | ⭐⭐⭐⭐⭐ | Last Year
-
-AnaKarina gave me a relaxing spa experience with her facial. Loved the extractions, high frequency, and massages. She also recommended personalized skincare products. Beautiful and clean studio.
-
-### Barbara Dominguez | ⭐⭐⭐⭐⭐ | 2 Years Ago
-
-La mejor inversión que he hecho. Resultado rápido, efectivo, atención increíble, excelente precio y ambiente relajante. ¡Me encanta! 😍
-
-### Margaret | ⭐⭐⭐⭐⭐ | 2 Years Ago
-
-AnaKarina explains her process clearly, listens to concerns, and recommends products. Her touch is subtle and soothing. Her sessions are incredibly relaxing. Highly recommended!
-
 ---
 
 ## 🔒 Basic Security Checklist
@@ -209,10 +182,10 @@ AnaKarina explains her process clearly, listens to concerns, and recommends prod
 
 ### ❓ Missing / To Be Determined
 
+- Services Page sort by price and duration
+- Services Page: Make a book now button that takes users to the site when each card is clicked
 - Make sure color theme switch works on iPhone
 - Page not found
-- Services Page sort by price and duration
-- Services Page short description for each type of treatment: Facial Treatments, IPL Laser Services, Body Treatments, Waxing Services
-- Reviews Page
+- Reviews Page: Should I add an option to leave a review and receive a discount on next visit?
 - Make footer nice and complex on big screens, switch to simple footer on small screens
 - English, Spanish, and Portugese Translation

@@ -51,7 +51,7 @@
 
 .serviceMetaSeperator {
   margin: 0 0.5rem;
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
 
 .serviceDescription {
