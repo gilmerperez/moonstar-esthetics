@@ -10,24 +10,41 @@ function Header() {
   // Custom styles for active page
   const navLinkClass = ({ isActive }) => (isActive ? styles.activeLink : undefined);
 
-  // Get system theme preference
-  const getPreferredTheme = () => {
+  // Theme state
+  const [theme, setTheme] = useState("light");
+
+  // Initialize theme on mount and listen for system preference changes
+  useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
-    if (storedTheme) return storedTheme;
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    const systemTheme = mediaQuery.matches ? "dark" : "light";
 
-    const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    return systemPrefersDark ? "dark" : "light";
-  };
+    const initialTheme = storedTheme || systemTheme;
+    setTheme(initialTheme);
+    document.documentElement.setAttribute("data-theme", initialTheme);
 
-  // Theme toggle
-  const [theme, setTheme] = useState(getPreferredTheme);
+    const handleSystemThemeChange = (e) => {
+      if (!localStorage.getItem("theme")) {
+        const newTheme = e.matches ? "dark" : "light";
+        setTheme(newTheme);
+        document.documentElement.setAttribute("data-theme", newTheme);
+      }
+    };
 
-  // Set the html data-theme on load and when theme changes
+    mediaQuery.addEventListener("change", handleSystemThemeChange);
+
+    return () => {
+      mediaQuery.removeEventListener("change", handleSystemThemeChange);
+    };
+  }, []);
+
+  // Update theme attribute and localStorage whenever it changes
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
     localStorage.setItem("theme", theme);
   }, [theme]);
 
+  // Toggle theme manually
   const toggleTheme = () => {
     setTheme((prev) => (prev === "dark" ? "light" : "dark"));
   };
