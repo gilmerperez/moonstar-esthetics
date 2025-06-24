@@ -10,20 +10,21 @@ function Header() {
   // Custom styles for active page
   const navLinkClass = ({ isActive }) => (isActive ? styles.activeLink : undefined);
 
-  // Theme state
-  const [theme, setTheme] = useState("light");
+  // Theme state, default null while deciding
+  const [theme, setTheme] = useState(null);
 
-  // Initialize theme on mount and listen for system preference changes
+  // On mount: determine and set initial theme
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
-    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
-    const systemTheme = mediaQuery.matches ? "dark" : "light";
+    const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)");
+    const systemTheme = systemPrefersDark.matches ? "dark" : "light";
 
     const initialTheme = storedTheme || systemTheme;
     setTheme(initialTheme);
     document.documentElement.setAttribute("data-theme", initialTheme);
 
-    const handleSystemThemeChange = (e) => {
+    // Watch for system theme changes (only if user hasn’t selected a theme)
+    const handleSystemChange = (e) => {
       if (!localStorage.getItem("theme")) {
         const newTheme = e.matches ? "dark" : "light";
         setTheme(newTheme);
@@ -31,20 +32,19 @@ function Header() {
       }
     };
 
-    mediaQuery.addEventListener("change", handleSystemThemeChange);
-
-    return () => {
-      mediaQuery.removeEventListener("change", handleSystemThemeChange);
-    };
+    systemPrefersDark.addEventListener("change", handleSystemChange);
+    return () => systemPrefersDark.removeEventListener("change", handleSystemChange);
   }, []);
 
-  // Update theme attribute and localStorage whenever it changes
+  // Store manual theme changes
   useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem("theme", theme);
+    if (theme) {
+      document.documentElement.setAttribute("data-theme", theme);
+      localStorage.setItem("theme", theme);
+    }
   }, [theme]);
 
-  // Toggle theme manually
+  // Toggle manually
   const toggleTheme = () => {
     setTheme((prev) => (prev === "dark" ? "light" : "dark"));
   };
