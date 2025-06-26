@@ -12,7 +12,7 @@ function Header() {
   // Custom styles for active page
   const navLinkClass = ({ isActive }) => (isActive ? styles.activeLink : undefined);
 
-  // Sync state to DOM
+  // Make theme be set in DOM
   useEffect(() => {
     const storedTheme = localStorage.getItem("theme");
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -22,6 +22,7 @@ function Header() {
     document.documentElement.setAttribute("data-theme", initialTheme);
   }, []);
 
+  // Save theme to localStorage
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
     localStorage.setItem("theme", theme);
@@ -32,6 +33,7 @@ function Header() {
     setTheme((prev) => (prev === "dark" ? "light" : "dark"));
   };
 
+  // Make media theme switch on phone's user settings
   useEffect(() => {
     const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
     const handleChange = (e) => {
