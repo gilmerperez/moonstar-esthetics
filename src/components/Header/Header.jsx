@@ -1,7 +1,8 @@
 import styles from "./Header.module.css";
+import useTheme from "../../hooks/useTheme";
+import { useState } from "react";
 import { createPortal } from "react-dom";
 import { NavLink } from "react-router-dom";
-import { useState } from "react";
 
 function Header() {
   // Mobile sidebar toggle
@@ -10,13 +11,7 @@ function Header() {
   // Custom styles for active page
   const navLinkClass = ({ isActive }) => (isActive ? styles.activeLink : undefined);
 
-  const [theme, setTheme] = useState(document.documentElement.getAttribute("data-theme") || "dark");
-
-  const toggleTheme = () => {
-    const newTheme = theme === "dark" ? "light" : "dark";
-    document.documentElement.setAttribute("data-theme", newTheme);
-    setTheme(newTheme);
-  };
+  const { theme, toggleTheme } = useTheme();
 
   return (
     <>
