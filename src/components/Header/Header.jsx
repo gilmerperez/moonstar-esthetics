@@ -10,19 +10,15 @@ function Header() {
   // Custom styles for active page
   const navLinkClass = ({ isActive }) => (isActive ? styles.activeLink : undefined);
 
-  // Theme state (dark or light)
-  const [theme, setTheme] = useState(() => {
-    // Get theme from localStorage or fallback to dark
-    return localStorage.getItem("theme") || "dark";
-  });
+  // Theme state (default to "dark")
+  const [theme, setTheme] = useState("dark");
 
-  // Apply theme to HTML root
+  // Apply theme to <html> tag whenever it changes
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem("theme", theme);
   }, [theme]);
 
-  // Toggle between light and dark
+  // Toggle between light and dark themes
   const toggleTheme = () => {
     setTheme((prev) => (prev === "dark" ? "light" : "dark"));
   };
