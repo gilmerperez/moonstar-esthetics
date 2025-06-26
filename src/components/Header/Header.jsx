@@ -1,17 +1,46 @@
 import styles from "./Header.module.css";
-import useTheme from "../../hooks/useTheme";
-import { useState } from "react";
 import { createPortal } from "react-dom";
 import { NavLink } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 function Header() {
+  // Theme Switch
+  const [theme, setTheme] = useState("dark");
   // Mobile sidebar toggle
   const [menuOpen, setMenuOpen] = useState(false);
 
   // Custom styles for active page
   const navLinkClass = ({ isActive }) => (isActive ? styles.activeLink : undefined);
 
-  const { theme, toggleTheme } = useTheme();
+  // Sync state to DOM
+  useEffect(() => {
+    const storedTheme = localStorage.getItem("theme");
+    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+    const initialTheme = storedTheme || (prefersDark ? "dark" : "light");
+    setTheme(initialTheme);
+    document.documentElement.setAttribute("data-theme", initialTheme);
+  }, []);
+
+  useEffect(() => {
+    document.documentElement.setAttribute("data-theme", theme);
+    localStorage.setItem("theme", theme);
+  }, [theme]);
+
+  // Toggle handler
+  const toggleTheme = () => {
+    setTheme((prev) => (prev === "dark" ? "light" : "dark"));
+  };
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    const handleChange = (e) => {
+      setTheme(e.matches ? "dark" : "light");
+    };
+
+    mediaQuery.addEventListener("change", handleChange);
+    return () => mediaQuery.removeEventListener("change", handleChange);
+  }, []);
 
   return (
     <>
