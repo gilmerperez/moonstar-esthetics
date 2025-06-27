@@ -27,14 +27,14 @@
 
 .reviewSummary {
   gap: 3rem;
-  /* width: 100%; */
+  width: 100%;
   display: flex;
-  padding: 2rem;
+  max-width: 75%;
+  padding: 1.75rem;
   align-items: center;
   border-radius: 10px;
   margin-bottom: 2rem;
   justify-content: center;
-  border: 2px solid var(--pink);
   background-color: var(--header-footer-bg-color);
   box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
 }
@@ -84,7 +84,7 @@
 .reviewCount {
   font-weight: 500;
   font-size: 1.25rem;
-  color: var(--text-secondary);
+  color: var(--text-primary);
 }
 
 .ratingDistribution {

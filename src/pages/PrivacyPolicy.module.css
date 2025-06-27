@@ -36,8 +36,8 @@
 }
 
 .policyText {
-  font-size: 1rem;
-  font-weight: 300;
+  font-weight: 400;
+  font-size: 1.1rem;
   color: var(--text-secondary);
 }
 
@@ -73,6 +73,6 @@
   }
 
   .policyText {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
   }
 }

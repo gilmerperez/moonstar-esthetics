@@ -54,7 +54,7 @@ form {
   transition: 0.3s ease-in;
   color: var(--text-primary);
   padding: 1.75rem 1rem 0.75rem;
-  border: 1px solid var(--lavender);
+  border: 2px solid var(--pink);
   background-color: var(--bg-color);
 }
 
@@ -71,21 +71,20 @@ label {
   position: absolute;
   font-size: 1.25rem;
   pointer-events: none;
-  color: var(--text-secondary);
+  color: var(--text-primary);
   transition: 0.3s ease-in-out;
 }
 
 .formControl:focus ~ label,
 .formControl:not(:placeholder-shown) ~ label {
   opacity: 0.95;
-  color: var(--pink);
-  transform: scale(0.95) translateY(-0.7rem);
+  color: var(--text-secondary);
+  transform: scale(0.85) translateX(-0.5rem) translateY(-0.6rem);
 }
 
 .formControl:focus {
   outline: none;
-  border-color: var(--pink);
-  box-shadow: 0 0 5px var(--pink);
+  border-color: var(--lavender);
 }
 
 .formControl::placeholder {
@@ -106,21 +105,22 @@ textarea:-webkit-autofill {
   font-weight: 500;
   font-size: 1.75rem;
   border-radius: 5px;
-  padding: 0.75rem 1rem;
-  color: var(--bg-color);
+  padding: 0.75rem 0.75rem;
   transition: 0.3s ease-in;
-  background-color: var(--pink);
+  color: var(--text-primary);
+  border: 2px solid var(--pink);
+  background-color: var(--header-footer-bg-color);
 }
 
 .submitBtn i {
   margin-left: 0.5rem;
-  color: var(--bg-color);
   transition: 0.3s ease-in;
+  color: var(--text-primary);
 }
 
 .submitBtn:hover {
   background-color: var(--pink);
-  box-shadow: 0 0 10px var(--pink);
+  box-shadow: 0 0 15px var(--pink);
   color: var(--header-footer-bg-color);
 }
 

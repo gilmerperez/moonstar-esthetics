@@ -23,7 +23,7 @@ function Contact() {
     <main>
       <section className={styles.contactContainer}>
         {/* Heading */}
-        <h1 className={styles.heading}>Get in Touch</h1>
+        <h1 className={styles.heading}>Let's Connect!</h1>
 
         {/* Introduction */}
         <p className={styles.introduction}>
