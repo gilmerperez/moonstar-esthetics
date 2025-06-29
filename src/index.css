@@ -23,10 +23,10 @@ html[data-theme="light"] {
   --green: hsl(140, 45%, 60%);
   --purple: hsl(270, 40%, 45%);
   --lavender: hsl(265, 55%, 85%);
-  --bg-color: hsl(0, 50%, 98%);
+  --bg-color: hsl(0, 0%, 98%);
   --text-primary: hsl(0, 0%, 15%);
   --text-secondary: hsl(0, 0%, 25%);
-  --header-footer-bg-color: hsl(0, 50%, 96%);
+  --header-footer-bg-color: hsl(0, 0%, 100%);
 }
 
 /* BUTTONS - Ensures buttons appear clickable */
