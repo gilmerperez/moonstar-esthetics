@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import styles from "./Reviews.module.css";
 import reviews from "../data/reviews.json";
 import ReviewCard from "../components/ReviewCard/ReviewCard";
@@ -8,6 +8,17 @@ function Reviews() {
   useEffect(() => {
     document.title = "Moonstar Esthetics | Reviews";
   }, []);
+
+  // Sort state
+  const [sortOption, setSortOption] = useState("highest");
+
+  // Sorted reviews
+  const sortedReviews = [...reviews];
+  if (sortOption === "highest") {
+    sortedReviews.sort((a, b) => b.stars - a.stars);
+  } else if (sortOption === "lowest") {
+    sortedReviews.sort((a, b) => a.stars - b.stars);
+  }
 
   // Calculate average rating
   const averageRating = reviews.reduce((acc, review) => acc + review.stars, 0) / reviews.length;
@@ -73,9 +84,17 @@ function Reviews() {
             </section>
           </section>
 
+          {/* Filter Controls */}
+          <section className={styles.filterControls}>
+            <select id="sortReviews" value={sortOption} onChange={(e) => setSortOption(e.target.value)}>
+              <option value="highest">Highest Rated</option>
+              <option value="lowest">Lowest Rated</option>
+            </select>
+          </section>
+
           {/* Review Cards */}
           <section className={styles.reviewCards}>
-            {reviews.map((review) => (
+            {sortedReviews.map((review) => (
               <ReviewCard key={review.id} review={review} />
             ))}
           </section>

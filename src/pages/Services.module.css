@@ -21,9 +21,14 @@
   appearance: none;
   font-size: 1.15rem;
   border-radius: 8px;
+  transition: 0.3s ease;
   color: var(--text-primary);
   border: 2px solid var(--pink);
   background-color: var(--header-footer-bg-color);
+}
+
+.filterControls select:hover {
+  box-shadow: 0 0 10px var(--pink);
 }
 
 .filterControls option {

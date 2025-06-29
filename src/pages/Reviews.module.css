@@ -120,6 +120,33 @@
   background-color: var(--pink);
 }
 
+.filterControls {
+  width: 100%;
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: flex-start;
+}
+
+.filterControls select {
+  cursor: pointer;
+  padding: 0.75rem;
+  appearance: none;
+  font-size: 1.15rem;
+  border-radius: 8px;
+  transition: 0.3s ease;
+  color: var(--text-primary);
+  border: 2px solid var(--pink);
+  background-color: var(--header-footer-bg-color);
+}
+
+.filterControls select:hover {
+  box-shadow: 0 0 10px var(--pink);
+}
+
+.noReviewsFound {
+  font-size: 1.5rem;
+}
+
 .reviewCards {
   gap: 1.5rem;
   width: 100%;
@@ -256,6 +283,10 @@
   .barContainer {
     height: 8px;
     min-width: 125px;
+  }
+
+  .filterControls {
+    justify-content: center;
   }
 
   .leaveReviewHeading {

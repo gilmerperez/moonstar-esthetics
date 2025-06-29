@@ -126,25 +126,6 @@ Featured services with quick descriptions:
 
 - Button linking to appointment booking on Setmore
 
-### 📍 Information Page
-
-- Phone: (321) 352-0639
-
-- Email: moonstaresthetics@gmail.com
-
-- Location: 6881 Kingspointe Pkwy Suite 4, Orlando, FL 32819 (Google Maps Embed API)
-
-Pay Online: Visa, MasterCard, AMEX, Discover, Apple Pay, Google Pay
-
-- Hours of Operation:
-- - Sunday: Closed
-- - Monday: 8AM - 8:30PM
-- - Tuesday: 8AM - 8:30PM
-- - Wednesday: 8AM - 8:30PM
-- - Thursday: 8AM - 8:30PM
-- - Friday: 8AM - 8PM
-- - Saturday: Closed
-
 ---
 
 ## 🔒 Basic Security Checklist
@@ -182,6 +163,6 @@ Pay Online: Visa, MasterCard, AMEX, Discover, Apple Pay, Google Pay
 
 ### ❓ Missing / To Be Determined
 
-- Review page filter by Highest rated, lowest rated, and most recent
+- Home page
 - Make footer nice and complex on big screens, switch to simple footer on small screens
 - English, Spanish, and Portugese Translation
