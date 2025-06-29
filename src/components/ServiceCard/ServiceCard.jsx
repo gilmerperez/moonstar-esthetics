@@ -37,7 +37,7 @@ function ServiceCard({ service }) {
               onClick={() => setShowModal(true)}
               aria-label="View Cancellation Policy"
             >
-              <i className="fa-solid fa-exclamation"></i>
+              <i className="fa-regular fa-calendar"></i>
             </button>
           </div>
         </div>
