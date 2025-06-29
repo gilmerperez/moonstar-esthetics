@@ -134,7 +134,7 @@ Featured services with quick descriptions:
 
 - Location: 6881 Kingspointe Pkwy Suite 4, Orlando, FL 32819 (Google Maps Embed API)
 
-- Cancellation Policy: You can cancel or reschedule up to 24 hours before the appointment time
+Pay Online: Visa, MasterCard, AMEX, Discover, Apple Pay, Google Pay
 
 - Hours of Operation:
 - - Sunday: Closed
@@ -182,5 +182,6 @@ Featured services with quick descriptions:
 
 ### ❓ Missing / To Be Determined
 
+- Review page filter by Highest rated, lowest rated, and most recent
 - Make footer nice and complex on big screens, switch to simple footer on small screens
 - English, Spanish, and Portugese Translation

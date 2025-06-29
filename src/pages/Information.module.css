@@ -8,3 +8,139 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.cardsRow {
+  gap: 2rem;
+  display: flex;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+/* Phone and Email Card */
+.infoCard {
+  padding: 1.5rem;
+  text-align: left;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+  border: 2px solid var(--pink);
+  background-color: var(--header-footer-bg-color);
+  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
+}
+
+.infoCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+}
+
+.infoCard .iconRow {
+  gap: 0.75rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+  justify-content: flex-start;
+}
+
+.infoCard .iconRow i {
+  color: var(--pink);
+  font-size: 1.25rem;
+}
+
+.infoCard .iconRow h3 {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+}
+
+.infoCard .contactDetail {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+}
+
+.infoCard .cardSubheading {
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+}
+
+/* Payment Card */
+.paymentCard {
+  padding: 1.5rem;
+  text-align: left;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  transition: 0.3s ease-in;
+  border: 2px solid var(--pink);
+  background-color: var(--header-footer-bg-color);
+  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
+}
+
+.paymentCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+}
+
+.paymentCard .iconRow {
+  gap: 0.75rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  justify-content: flex-start;
+}
+
+.paymentCard .iconRow i {
+  color: var(--pink);
+  font-size: 1.25rem;
+}
+
+.paymentCard .iconRow h3 {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+}
+
+.paymentCard .paymentIcons {
+  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+  justify-content: flex-start;
+}
+
+.paymentCard .paymentIcons i {
+  font-size: 2rem;
+  transition: 0.3s ease-in;
+  color: var(--text-primary);
+}
+
+.paymentCard .cardSubheading {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 840px) {
+  .cardsRow {
+    flex-wrap: wrap;
+  }
+
+  .infoCard {
+    text-align: center;
+  }
+
+  .infoCard .iconRow {
+    justify-content: center;
+  }
+
+  .paymentCard {
+    text-align: center;
+  }
+
+  .paymentCard .iconRow {
+    justify-content: center;
+  }
+
+  .paymentCard .paymentIcons {
+    justify-content: center;
+  }
+}
