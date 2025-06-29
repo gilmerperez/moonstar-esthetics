@@ -9,18 +9,22 @@
   justify-content: center;
 }
 
+/* Phone and Email Card */
 .cardsRow {
-  gap: 2rem;
+  gap: 1rem;
+  width: 100%;
   display: flex;
-  margin-bottom: 2rem;
+  min-width: 100%;
+  margin-bottom: 1rem;
   justify-content: center;
 }
 
-/* Phone and Email Card */
 .infoCard {
+  width: 50%;
   padding: 1.5rem;
   text-align: left;
   border-radius: 8px;
+  word-break: break-word;
   transition: 0.3s ease-in;
   border: 2px solid var(--pink);
   background-color: var(--header-footer-bg-color);
@@ -36,7 +40,7 @@
   gap: 0.75rem;
   display: flex;
   align-items: center;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
   justify-content: flex-start;
 }
 
@@ -46,6 +50,7 @@
 }
 
 .infoCard .iconRow h3 {
+  font-weight: 600;
   font-size: 1.5rem;
   color: var(--text-primary);
 }
@@ -58,16 +63,17 @@
 }
 
 .infoCard .cardSubheading {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   color: var(--text-secondary);
 }
 
 /* Payment Card */
 .paymentCard {
+  width: 100%;
   padding: 1.5rem;
   text-align: left;
   border-radius: 8px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   transition: 0.3s ease-in;
   border: 2px solid var(--pink);
   background-color: var(--header-footer-bg-color);
@@ -83,7 +89,7 @@
   gap: 0.75rem;
   display: flex;
   align-items: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   justify-content: flex-start;
 }
 
@@ -93,6 +99,7 @@
 }
 
 .paymentCard .iconRow h3 {
+  font-weight: 600;
   font-size: 1.5rem;
   color: var(--text-primary);
 }
@@ -101,16 +108,13 @@
   gap: 1rem;
   display: flex;
   flex-wrap: wrap;
-  font-size: 1.5rem;
   align-items: center;
   margin-bottom: 0.5rem;
-  color: var(--text-primary);
   justify-content: flex-start;
 }
 
 .paymentCard .paymentIcons i {
   font-size: 2rem;
-  transition: 0.3s ease-in;
   color: var(--text-primary);
 }
 
@@ -121,10 +125,11 @@
 
 /* Hours of Operation Card */
 .hoursCard {
+  width: 100%;
   padding: 1.5rem;
   text-align: left;
   border-radius: 8px;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   transition: 0.3s ease-in;
   border: 2px solid var(--pink);
   background-color: var(--header-footer-bg-color);
@@ -140,7 +145,7 @@
   gap: 0.75rem;
   display: flex;
   align-items: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   justify-content: flex-start;
 }
 
@@ -150,25 +155,44 @@
 }
 
 .hoursCard .iconRow h3 {
+  font-weight: 600;
   font-size: 1.5rem;
   color: var(--text-primary);
+}
+
+.hoursContainer {
+  gap: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
 .hoursList {
   gap: 0.5rem;
   display: flex;
-  font-size: 1.25rem;
-  flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.hoursList li {
-  margin-bottom: 0.25rem;
+.hoursList .hoursDay {
+  font-weight: 600;
+  font-size: 1.25rem;
   color: var(--text-primary);
 }
 
-.hoursList li strong {
-  font-weight: 600;
+.hoursList .hoursTime {
+  font-weight: 500;
+  font-size: 1.15rem;
+  color: var(--text-secondary);
+}
+
+.hoursCard .cardSubheading {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
 }
 
 /* Address Card */
@@ -192,7 +216,7 @@
   gap: 0.75rem;
   display: flex;
   align-items: center;
-  margin-bottom: 0.25rem;
+  margin-bottom: 1rem;
   justify-content: flex-start;
 }
 
@@ -202,6 +226,7 @@
 }
 
 .addressCard .iconRow h3 {
+  font-weight: 600;
   font-size: 1.5rem;
   color: var(--text-primary);
 }
@@ -217,6 +242,7 @@
   height: 300px;
   overflow: hidden;
   border-radius: 8px;
+  margin-bottom: 1rem;
 }
 
 .mapContainer iframe {
@@ -225,20 +251,33 @@
   height: 100%;
 }
 
+.addressCard .cardSubheading {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+}
+
 @media (max-width: 840px) {
+  /* Phone and Email Card */
   .cardsRow {
-    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
   }
 
   .infoCard {
+    width: 90%;
+    padding: 1rem;
     text-align: center;
   }
 
   .infoCard .iconRow {
+    margin-bottom: 0.25rem;
     justify-content: center;
   }
 
+  /* Payment Card */
   .paymentCard {
+    width: 90%;
+    padding: 1rem;
     text-align: center;
   }
 
@@ -250,7 +289,10 @@
     justify-content: center;
   }
 
+  /* Hours of Operation Card */
   .hoursCard {
+    width: 90%;
+    padding: 1rem;
     text-align: center;
   }
 
@@ -258,11 +300,120 @@
     justify-content: center;
   }
 
+  .hoursContainer {
+    gap: 1rem;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hoursList {
+    gap: 1rem;
+    flex-direction: row;
+  }
+
+  /* Adddress Card */
   .addressCard {
+    width: 90%;
+    padding: 1rem;
     text-align: center;
   }
 
   .addressCard .iconRow {
     justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Phone and Email Card */
+  .cardsRow {
+    gap: 0.5rem;
+    width: 100%;
+    display: flex;
+    min-width: 100%;
+    margin-bottom: 0.5rem;
+    justify-content: center;
+  }
+
+  .infoCard {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .infoCard .iconRow {
+    gap: 0.75rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+    justify-content: center;
+  }
+
+  .infoCard .contactDetail {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .infoCard .cardSubheading {
+    font-size: 1.15rem;
+  }
+
+  /* Payment Card */
+  .paymentCard {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .paymentCard .iconRow {
+    gap: 0.75rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+    justify-content: center;
+  }
+
+  .paymentCard .contactDetail {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .paymentCard .cardSubheading {
+    font-size: 1.15rem;
+  }
+
+  /* Hours of Operation Card */
+  .hoursCard {
+    width: 100%;
+  }
+
+  .hoursContainer {
+    font-size: 1rem;
+  }
+
+  .addressCard .iconRow h3 {
+    font-size: 1.25rem;
+  }
+
+  .addressText {
+    font-size: 1rem;
+  }
+
+  /* Address Card */
+  .addressCard {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .addressCard .iconRow {
+    gap: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .addressCard .cardSubheading {
+    font-size: 1.15rem;
   }
 }

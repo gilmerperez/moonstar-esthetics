@@ -44,6 +44,7 @@ function Information() {
               <i className="fa-brands fa-cc-mastercard"></i>
               <i className="fa-brands fa-cc-amex"></i>
               <i className="fa-brands fa-cc-discover"></i>
+              <i className="fa-brands fa-paypal"></i>
               <i className="fa-brands fa-apple-pay"></i>
               <i className="fa-brands fa-google-pay"></i>
             </div>
@@ -56,29 +57,37 @@ function Information() {
               <i className="fa-solid fa-clock fa-xl"></i>
               <h3>Hours of Operation</h3>
             </div>
-            <ul className={styles.hoursList}>
-              <li>
-                <strong>Sunday:</strong> Closed
-              </li>
-              <li>
-                <strong>Monday:</strong> 8AM - 8:30PM
-              </li>
-              <li>
-                <strong>Tuesday:</strong> 8AM - 8:30PM
-              </li>
-              <li>
-                <strong>Wednesday:</strong> 8AM - 8:30PM
-              </li>
-              <li>
-                <strong>Thursday:</strong> 8AM - 8:30PM
-              </li>
-              <li>
-                <strong>Friday:</strong> 8AM - 8PM
-              </li>
-              <li>
-                <strong>Saturday:</strong> Closed
-              </li>
-            </ul>
+            <div className={styles.hoursContainer}>
+              <div className={styles.hoursList}>
+                <p className={styles.hoursDay}>Sunday</p>
+                <p className={styles.hoursTime}>Closed</p>
+              </div>
+              <div className={styles.hoursList}>
+                <p className={styles.hoursDay}>Monday</p>
+                <p className={styles.hoursTime}>8AM - 8:30PM</p>
+              </div>
+              <div className={styles.hoursList}>
+                <p className={styles.hoursDay}>Tuesday</p>
+                <p className={styles.hoursTime}>8AM - 8:30PM</p>
+              </div>
+              <div className={styles.hoursList}>
+                <p className={styles.hoursDay}>Wednesday</p>
+                <p className={styles.hoursTime}>8AM - 8:30PM</p>
+              </div>
+              <div className={styles.hoursList}>
+                <p className={styles.hoursDay}>Thursday</p>
+                <p className={styles.hoursTime}>8AM - 8:30PM</p>
+              </div>
+              <div className={styles.hoursList}>
+                <p className={styles.hoursDay}>Friday</p>
+                <p className={styles.hoursTime}>8AM - 8PM</p>
+              </div>
+              <div className={styles.hoursList}>
+                <p className={styles.hoursDay}>Saturday</p>
+                <p className={styles.hoursTime}>Closed</p>
+              </div>
+            </div>
+            <p className={styles.cardSubheading}>Time Zone (Eastern Daylight Time)</p>
           </div>
 
           {/* Address Card */}
@@ -92,7 +101,6 @@ function Information() {
               <i className="fa-solid fa-location-dot"></i>
               <h3>Location</h3>
             </div>
-            <p className={styles.addressText}>6881 Kingspointe Pkwy Suite 4 Orlando, FL 32819</p>
             <div className={styles.mapContainer}>
               <iframe
                 title="Moonstar Esthetics Location"
@@ -101,6 +109,7 @@ function Information() {
                 loading="lazy"
               ></iframe>
             </div>
+            <p className={styles.cardSubheading}>6881 Kingspointe Pkwy Suite 4 Orlando, FL 32819</p>
           </a>
         </section>
       </main>
