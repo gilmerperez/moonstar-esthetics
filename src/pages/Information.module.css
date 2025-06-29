@@ -171,6 +171,60 @@
   font-weight: 600;
 }
 
+/* Address Card */
+.addressCard {
+  width: 100%;
+  padding: 1.5rem;
+  text-align: left;
+  border-radius: 8px;
+  transition: 0.3s ease-in;
+  border: 2px solid var(--pink);
+  background-color: var(--header-footer-bg-color);
+  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
+}
+
+.addressCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+}
+
+.addressCard .iconRow {
+  gap: 0.75rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+  justify-content: flex-start;
+}
+
+.addressCard .iconRow i {
+  color: var(--pink);
+  font-size: 1.25rem;
+}
+
+.addressCard .iconRow h3 {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+}
+
+.addressText {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.mapContainer {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.mapContainer iframe {
+  border: 0;
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 840px) {
   .cardsRow {
     flex-wrap: wrap;
@@ -201,6 +255,14 @@
   }
 
   .hoursCard .iconRow {
+    justify-content: center;
+  }
+
+  .addressCard {
+    text-align: center;
+  }
+
+  .addressCard .iconRow {
     justify-content: center;
   }
 }

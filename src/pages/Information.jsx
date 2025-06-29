@@ -80,6 +80,28 @@ function Information() {
               </li>
             </ul>
           </div>
+
+          {/* Address Card */}
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=Moonstar+Esthetics+6881+Kingspointe+Pkwy+Suite+4+Orlando+FL+32819"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.addressCard}
+          >
+            <div className={styles.iconRow}>
+              <i className="fa-solid fa-location-dot"></i>
+              <h3>Location</h3>
+            </div>
+            <p className={styles.addressText}>6881 Kingspointe Pkwy Suite 4 Orlando, FL 32819</p>
+            <div className={styles.mapContainer}>
+              <iframe
+                title="Moonstar Esthetics Location"
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAJNKkHMAzbl4I67nEf9I1F6PaaHoY_AtY&q=Moonstar+Esthetics,6881+Kingspointe+Pkwy+Suite+4+Orlando+FL+32819"
+                allowFullScreen
+                loading="lazy"
+              ></iframe>
+            </div>
+          </a>
         </section>
       </main>
     </>
