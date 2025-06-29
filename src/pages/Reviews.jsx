@@ -79,6 +79,22 @@ function Reviews() {
               <ReviewCard key={review.id} review={review} />
             ))}
           </section>
+
+          {/* Leave Review CTA */}
+          <section className={styles.leaveReviewCard}>
+            <h2 className={styles.leaveReviewHeading}>Happy with your service?</h2>
+            <p className={styles.leaveReviewText}>
+              Share your experience and get 10% off your next service as a thank you!
+            </p>
+            <a
+              href="https://moonstaresthetics.setmore.com/#reviews"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.leaveReviewButton}
+            >
+              Leave a Review
+            </a>
+          </section>
         </section>
       </main>
     </>

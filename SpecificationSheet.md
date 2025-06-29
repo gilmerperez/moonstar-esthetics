@@ -182,7 +182,5 @@ Featured services with quick descriptions:
 
 ### ❓ Missing / To Be Determined
 
-- Make book now button on services link to setmore
-- Reviews Page: Should I add an option to leave a review and receive a discount on next visit?
 - Make footer nice and complex on big screens, switch to simple footer on small screens
 - English, Spanish, and Portugese Translation
