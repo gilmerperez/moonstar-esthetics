@@ -14,7 +14,6 @@
   gap: 1rem;
   width: 100%;
   display: flex;
-  min-width: 100%;
   margin-bottom: 1rem;
   justify-content: center;
 }
@@ -257,46 +256,28 @@
 }
 
 @media (max-width: 840px) {
-  /* Phone and Email Card */
   .cardsRow {
     align-items: center;
     flex-direction: column;
   }
 
-  .infoCard {
+  .infoCard,
+  .paymentCard,
+  .hoursCard,
+  .addressCard {
     width: 90%;
     padding: 1rem;
     text-align: center;
   }
 
-  .infoCard .iconRow {
-    margin-bottom: 0.25rem;
-    justify-content: center;
-  }
-
-  /* Payment Card */
-  .paymentCard {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
-  }
-
-  .paymentCard .iconRow {
+  .infoCard .iconRow,
+  .paymentCard .iconRow,
+  .hoursCard .iconRow,
+  .addressCard .iconRow {
     justify-content: center;
   }
 
   .paymentCard .paymentIcons {
-    justify-content: center;
-  }
-
-  /* Hours of Operation Card */
-  .hoursCard {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
-  }
-
-  .hoursCard .iconRow {
     justify-content: center;
   }
 
@@ -311,109 +292,39 @@
     gap: 1rem;
     flex-direction: row;
   }
-
-  /* Adddress Card */
-  .addressCard {
-    width: 90%;
-    padding: 1rem;
-    text-align: center;
-  }
-
-  .addressCard .iconRow {
-    justify-content: center;
-  }
 }
 
 @media (max-width: 480px) {
-  /* Phone and Email Card */
   .cardsRow {
     gap: 0.5rem;
     width: 100%;
-    display: flex;
-    min-width: 100%;
     margin-bottom: 0.5rem;
     justify-content: center;
   }
 
-  .infoCard {
+  .infoCard,
+  .paymentCard,
+  .hoursCard,
+  .addressCard {
     width: 100%;
     padding: 1rem;
     text-align: center;
   }
 
-  .infoCard .iconRow {
-    gap: 0.75rem;
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.25rem;
-    justify-content: center;
-  }
-
-  .infoCard .contactDetail {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .infoCard .cardSubheading {
+  .infoCard .contactDetail,
+  .paymentCard .cardSubheading,
+  .hoursList .hoursDay,
+  .hoursList .hoursTime,
+  .addressText,
+  .addressCard .cardSubheading {
     font-size: 1.15rem;
-  }
-
-  /* Payment Card */
-  .paymentCard {
-    width: 100%;
-    padding: 1rem;
-    text-align: center;
-  }
-
-  .paymentCard .iconRow {
-    gap: 0.75rem;
-    display: flex;
-    align-items: center;
-    margin-bottom: 0.25rem;
-    justify-content: center;
-  }
-
-  .paymentCard .contactDetail {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .paymentCard .cardSubheading {
-    font-size: 1.15rem;
-  }
-
-  /* Hours of Operation Card */
-  .hoursCard {
-    width: 100%;
-  }
-
-  .hoursContainer {
-    font-size: 1rem;
   }
 
   .addressCard .iconRow h3 {
     font-size: 1.25rem;
   }
 
-  .addressText {
+  .hoursContainer {
     font-size: 1rem;
-  }
-
-  /* Address Card */
-  .addressCard {
-    width: 100%;
-    padding: 1rem;
-    text-align: center;
-  }
-
-  .addressCard .iconRow {
-    gap: 0.75rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .addressCard .cardSubheading {
-    font-size: 1.15rem;
   }
 }
