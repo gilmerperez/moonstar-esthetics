@@ -36,7 +36,7 @@ function Information() {
           {/* Payment Card */}
           <div className={styles.paymentCard}>
             <div className={styles.iconRow}>
-              <i className="fa-solid fa-credit-card fa-xl"></i>
+              <i className="fa-solid fa-credit-card"></i>
               <h3>Payment Options</h3>
             </div>
             <div className={styles.paymentIcons}>

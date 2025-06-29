@@ -157,9 +157,9 @@
 .hoursList {
   gap: 0.5rem;
   display: flex;
-  align-items: left;
   font-size: 1.25rem;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: flex-start;
 }
 
 .hoursList li {
