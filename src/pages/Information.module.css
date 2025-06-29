@@ -119,6 +119,58 @@
   color: var(--text-secondary);
 }
 
+/* Hours of Operation Card */
+.hoursCard {
+  padding: 1.5rem;
+  text-align: left;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  transition: 0.3s ease-in;
+  border: 2px solid var(--pink);
+  background-color: var(--header-footer-bg-color);
+  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
+}
+
+.hoursCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+}
+
+.hoursCard .iconRow {
+  gap: 0.75rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  justify-content: flex-start;
+}
+
+.hoursCard .iconRow i {
+  color: var(--pink);
+  font-size: 1.25rem;
+}
+
+.hoursCard .iconRow h3 {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+}
+
+.hoursList {
+  gap: 0.5rem;
+  display: flex;
+  align-items: left;
+  font-size: 1.25rem;
+  flex-direction: column;
+}
+
+.hoursList li {
+  margin-bottom: 0.25rem;
+  color: var(--text-primary);
+}
+
+.hoursList li strong {
+  font-weight: 600;
+}
+
 @media (max-width: 840px) {
   .cardsRow {
     flex-wrap: wrap;
@@ -141,6 +193,14 @@
   }
 
   .paymentCard .paymentIcons {
+    justify-content: center;
+  }
+
+  .hoursCard {
+    text-align: center;
+  }
+
+  .hoursCard .iconRow {
     justify-content: center;
   }
 }

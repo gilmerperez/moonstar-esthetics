@@ -49,6 +49,37 @@ function Information() {
             </div>
             <p className={styles.cardSubheading}>Pay easily with any of our online payment options or in person.</p>
           </div>
+
+          {/* Hours Card */}
+          <div className={styles.hoursCard}>
+            <div className={styles.iconRow}>
+              <i className="fa-solid fa-clock fa-xl"></i>
+              <h3>Hours of Operation</h3>
+            </div>
+            <ul className={styles.hoursList}>
+              <li>
+                <strong>Sunday:</strong> Closed
+              </li>
+              <li>
+                <strong>Monday:</strong> 8AM - 8:30PM
+              </li>
+              <li>
+                <strong>Tuesday:</strong> 8AM - 8:30PM
+              </li>
+              <li>
+                <strong>Wednesday:</strong> 8AM - 8:30PM
+              </li>
+              <li>
+                <strong>Thursday:</strong> 8AM - 8:30PM
+              </li>
+              <li>
+                <strong>Friday:</strong> 8AM - 8PM
+              </li>
+              <li>
+                <strong>Saturday:</strong> Closed
+              </li>
+            </ul>
+          </div>
         </section>
       </main>
     </>
