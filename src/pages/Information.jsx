@@ -7,6 +7,8 @@ function Information() {
     document.title = "Moonstar Esthetics | Information";
   }, []);
 
+  const googleMapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
+
   return (
     <>
       <main>
@@ -104,7 +106,7 @@ function Information() {
             <div className={styles.mapContainer}>
               <iframe
                 title="Moonstar Esthetics Location"
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAJNKkHMAzbl4I67nEf9I1F6PaaHoY_AtY&q=Moonstar+Esthetics,6881+Kingspointe+Pkwy+Suite+4+Orlando+FL+32819"
+                src={`https://www.google.com/maps/embed/v1/place?key=${googleMapsApiKey}&q=Moonstar+Esthetics,6881+Kingspointe+Pkwy+Suite+4+Orlando+FL+32819`}
                 allowFullScreen
                 loading="lazy"
               ></iframe>
