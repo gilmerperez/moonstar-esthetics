@@ -122,9 +122,8 @@
 
 .filterControls {
   width: 100%;
-  display: flex;
-  margin-bottom: 1rem;
-  justify-content: flex-start;
+  text-align: left;
+  margin-bottom: 0.75rem;
 }
 
 .filterControls select {
@@ -231,6 +230,15 @@
     min-width: 150px;
   }
 
+  .filterControls {
+    margin-bottom: 0.65rem;
+  }
+
+  .filterControls select {
+    padding: 0.65rem;
+    font-size: 1.05rem;
+  }
+
   .leaveReviewHeading {
     font-size: 2rem;
   }
@@ -286,7 +294,12 @@
   }
 
   .filterControls {
-    justify-content: center;
+    margin-bottom: 0.55rem;
+  }
+
+  .filterControls select {
+    padding: 0.55rem;
+    font-size: 0.95rem;
   }
 
   .leaveReviewHeading {
