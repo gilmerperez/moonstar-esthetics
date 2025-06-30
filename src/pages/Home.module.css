@@ -8,3 +8,30 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.moonstarLogo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1.5rem;
+  transition: 0.3s ease-in;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.moonstarLogo:hover {
+  transform: scale(1.05);
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: var(--pink);
+  margin-bottom: 1rem;
+}
+
+.introduction p {
+  line-height: 1.25;
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
