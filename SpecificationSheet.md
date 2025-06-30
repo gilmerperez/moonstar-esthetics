@@ -163,6 +163,6 @@ Featured services with quick descriptions:
 
 ### ❓ Missing / To Be Determined
 
-- Home page
 - Make footer nice and complex on big screens, switch to simple footer on small screens
+- Home page
 - English, Spanish, and Portugese Translation
