@@ -1,6 +1,9 @@
 import { useEffect } from "react";
 import styles from "./Home.module.css";
+
+// Images
 import logo from "../assets/logo.png";
+import redLightTherapy from "../assets/red-light-therapy.jpeg";
 
 function Home() {
   useEffect(() => {
@@ -23,7 +26,7 @@ function Home() {
           honesty, care, and personal attention—so every client can unwind, rejuvenate, and leave feeling truly radiant.
         </p>
 
-        {/* Skincare Routine Section */}
+        {/* Skincare Routine */}
         <a href="https://www.instagram.com/moonstaresthetics/" target="_blank" rel="noopener noreferrer">
           <section className={styles.routineSection}>
             <h3 className={styles.routineHeading}>SKINCARE ROUTINE STEPS</h3>
@@ -59,6 +62,21 @@ function Home() {
             </div>
           </section>
         </a>
+
+        {/* Red Light Therapy */}
+        <section className={styles.redLightTherapySection}>
+          <div className={styles.overlayContent}>
+            <h2>5 Benefits of LED Red Light Therapy</h2>
+            <ul>
+              <li>Firms Skin</li>
+              <li>Radiant Skin</li>
+              <li>Boosts Collagen</li>
+              <li>Fades Acne Scars</li>
+              <li>Reduces Redness</li>
+            </ul>
+          </div>
+          <img src={redLightTherapy} alt="Red Light Therapy Lasers" className={styles.redLightTherapyImage} />
+        </section>
       </section>
     </main>
   );
