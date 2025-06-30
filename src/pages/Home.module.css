@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
 .homeContainer {
   width: 100%;
   display: flex;
@@ -10,28 +12,70 @@
 }
 
 .moonstarLogo {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 1.5rem;
   transition: 0.3s ease-in;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 15px var(--pink);
 }
 
 .moonstarLogo:hover {
   transform: scale(1.05);
+  box-shadow: 0 3px 30px var(--pink);
 }
 
 .heading {
-  font-size: 2.5rem;
+  text-align: center;
+  font-size: 3.5rem;
   color: var(--pink);
+  font-style: italic;
   margin-bottom: 1rem;
+  transition: 0.3s ease-in;
+  font-family: "Libre Baskerville", serif;
 }
 
-.introduction p {
+.introduction {
   line-height: 1.25;
   font-size: 1.25rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 2rem;
+  transition: 0.3s ease-in;
   color: var(--text-primary);
+}
+
+@media (max-width: 1000px) {
+  .heading {
+    font-size: 3rem;
+    margin-bottom: 0.95rem;
+  }
+
+  .introduction {
+    font-size: 1.15rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .heading {
+    font-size: 2.75rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .introduction {
+    font-size: 1.05rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .heading {
+    font-size: 2.5rem;
+    margin-bottom: 0.85rem;
+  }
+
+  .introduction {
+    font-size: 0.95rem;
+    margin-bottom: 1.15rem;
+  }
 }

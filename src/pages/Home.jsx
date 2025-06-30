@@ -13,20 +13,15 @@ function Home() {
         {/* Moonstar Esthetics Logo */}
         <img src={logo} alt="Moonstar Esthetics Logo" className={styles.moonstarLogo} />
 
+        {/* Heading */}
+        <h2 className={styles.heading}>𓇼 RADIANT SKIN IS HERE 𓇼</h2>
+
         {/* Business Instroduction */}
-        <div className={styles.introduction}>
-          <h1 className={styles.heading}>Welcome to Moonstar Esthetics</h1>
-          <p>
-            At Moonstar Esthetics, we specialize in advanced skincare treatments designed to rejuvenate, restore, and
-            elevate your natural beauty. From custom facials, dermaplaning, and chemical peels to IPL laser hair removal
-            and red light therapy, we offer a comprehensive range of services tailored to your unique needs.
-          </p>
-          <p>
-            Our studio is a calm, welcoming space where you can unwind and focus entirely on yourself. We believe that
-            self-care is essential, and our mission is to deliver expert treatments with genuine care, honesty, and
-            personalized attention that ensures every client leaves feeling radiant and confident.
-          </p>
-        </div>
+        <p className={styles.introduction}>
+          Moonstar Esthetics is your destination for advanced skincare, offering custom facials, dermaplaning, chemical
+          peels, IPL laser hair removal, and red light therapy. Our calm, welcoming studio is built on values of
+          honesty, care, and personal attention—so every client can unwind, rejuvenate, and leave feeling truly radiant.
+        </p>
       </section>
     </main>
   );
