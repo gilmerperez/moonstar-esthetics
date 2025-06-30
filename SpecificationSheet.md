@@ -163,4 +163,5 @@ Featured services with quick descriptions:
 
 ### ❓ Missing / To Be Determined
 
+- Make Information Page Google Maps API to look like the Setmore one
 - English, Spanish, and Portugese Translation

@@ -15,6 +15,7 @@
   color: var(--pink);
   margin-bottom: 1.25rem;
   transition: 0.3s ease-in;
+  font-family: "Libre Baskerville", serif;
 }
 
 .terms {

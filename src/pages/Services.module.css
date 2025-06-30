@@ -23,6 +23,7 @@
   color: var(--pink);
   margin-bottom: 0.75rem;
   transition: 0.3s ease-in;
+  font-family: "Libre Baskerville", serif;
 }
 
 .categoryDescription {
@@ -74,6 +75,7 @@
   width: 100%;
   text-align: left;
   margin-bottom: 0.75rem;
+  font-family: "Libre Baskerville", serif;
 }
 
 .filterControls select {

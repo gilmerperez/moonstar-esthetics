@@ -41,6 +41,7 @@
   margin-bottom: 0.5rem;
   transition: 0.3s ease-in;
   color: var(--text-primary);
+  font-family: "Libre Baskerville", serif;
 }
 
 .reviewMetaContent {

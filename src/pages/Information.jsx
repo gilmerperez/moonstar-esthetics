@@ -13,6 +13,14 @@ function Information() {
     <>
       <main>
         <section className={styles.informationContainer}>
+          {/* Heading */}
+          <h1 className={styles.heading}>How to Reach Us</h1>
+
+          {/* Introduction */}
+          <p className={styles.introduction}>
+            Find our location, hours, payment options, and contact details below. Let us know how we can assist you!
+          </p>
+
           <div className={styles.cardsRow}>
             {/* Phone Card */}
             <a href="tel:3213520639" className={styles.infoCard}>
@@ -89,7 +97,7 @@ function Information() {
                 <p className={styles.hoursTime}>Closed</p>
               </div>
             </div>
-            <p className={styles.cardSubheading}>Time Zone (Eastern Daylight Time)</p>
+            <p className={styles.cardSubheading}>All times displayed in Eastern Daylight Time (EDT).</p>
           </div>
 
           {/* Address Card */}
