@@ -63,6 +63,29 @@ function Home() {
           </section>
         </a>
 
+        {/* Dermaplaning */}
+        <section className={styles.dermaplaningSection}>
+          <div className={styles.dermaplaningContent}>
+            <h2 className={styles.dermaplaningHeading}>What is Dermaplaning</h2>
+            <p className={styles.dermaplaningText1}>
+              Dermaplaning is a manual exfoliation technique that involves gently scraping the surface of the skin with
+              a sterile surgical scalpel. The goal is to remove dead skin cells and fine vellus hair or more commonly
+              known as peach fuzz.
+            </p>
+            <p className={styles.dermaplaningText2}>
+              Dermaplaning is non-invasive and painless. It feels similar to a light brushing or scraping sensation.
+            </p>
+            <a
+              href="https://moonstaresthetics.setmore.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.bookButton}
+            >
+              Book Appointment
+            </a>
+          </div>
+        </section>
+
         {/* Red Light Therapy */}
         <section className={styles.redLightTherapySection}>
           <div className={styles.overlayContent}>
