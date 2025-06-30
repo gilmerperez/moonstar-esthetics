@@ -9,12 +9,14 @@
 
 /* Big Footer */
 .bigFooter {
+  gap: 3rem;
   width: 100%;
   display: none;
   text-align: left;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
+  transition: 0.3s ease-in;
 }
 
 .logoColumn {
@@ -71,17 +73,17 @@
   width: 100%;
   font-weight: 500;
   font-size: 1.25rem;
-  text-align: center;
+  text-align: left;
   margin-bottom: 0.5rem;
   color: var(--text-primary);
 }
 
 .footerNav {
-  gap: 0.35rem;
   width: 100%;
+  gap: 0.35rem;
   display: flex;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
   flex-direction: column;
 }
 
@@ -135,6 +137,10 @@
 }
 
 @media (max-width: 950px) {
+  .bigFooter {
+    gap: 2rem;
+  }
+
   .logoColumn {
     gap: 0.75rem;
   }

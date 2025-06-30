@@ -20,16 +20,6 @@ function Footer() {
             </p>
           </section>
 
-          {/* Legal Information */}
-          <section className={styles.footerColumn}>
-            <h5 className={styles.navHeader}>Legal</h5>
-            <nav className={styles.footerNav}>
-              <NavLink to="/contact">Contact</NavLink>
-              <NavLink to="/privacy-policy">Privacy Policy</NavLink>
-              <NavLink to="/terms-of-service">Terms of Service</NavLink>
-            </nav>
-          </section>
-
           {/* Site Navigation */}
           <section className={styles.footerColumn}>
             <h5 className={styles.navHeader}>Navigation</h5>
@@ -38,6 +28,16 @@ function Footer() {
               <NavLink to="/services">Services</NavLink>
               <NavLink to="/reviews">Reviews</NavLink>
               <NavLink to="/information">Information</NavLink>
+            </nav>
+          </section>
+
+          {/* Legal Information */}
+          <section className={styles.footerColumn}>
+            <h5 className={styles.navHeader}>Legal</h5>
+            <nav className={styles.footerNav}>
+              <NavLink to="/contact">Contact</NavLink>
+              <NavLink to="/privacy-policy">Privacy Policy</NavLink>
+              <NavLink to="/terms-of-service">Terms of Service</NavLink>
             </nav>
           </section>
 
