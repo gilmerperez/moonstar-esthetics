@@ -14,35 +14,106 @@
   height: 200px;
   object-fit: cover;
   border-radius: 50%;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   transition: 0.3s ease-in;
-  box-shadow: 0 3px 15px var(--pink);
+  box-shadow: 0 0 15px var(--pink);
 }
 
 .moonstarLogo:hover {
   transform: scale(1.05);
-  box-shadow: 0 3px 30px var(--pink);
+  box-shadow: 0 0 25px var(--pink);
 }
 
 .heading {
-  text-align: center;
   font-size: 3.5rem;
+  text-align: center;
   color: var(--pink);
-  font-style: italic;
   margin-bottom: 1rem;
+  letter-spacing: 5px;
   transition: 0.3s ease-in;
   font-family: "Libre Baskerville", serif;
 }
 
 .introduction {
-  line-height: 1.25;
+  line-height: 1.5;
   font-size: 1.25rem;
   margin-bottom: 2rem;
   transition: 0.3s ease-in;
   color: var(--text-primary);
 }
 
-@media (max-width: 1000px) {
+.routineSection {
+  width: 100%;
+  padding: 2.5rem;
+  border-radius: 16px;
+  transition: 0.3s ease-in;
+  box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.15);
+  background-color: var(--header-footer-bg-color);
+}
+
+.routineHeading {
+  font-weight: 600;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  margin-bottom: 0.25rem;
+  transition: 0.3s ease-in;
+  color: var(--text-primary);
+  font-family: "Libre Baskerville", serif;
+}
+
+.routineSubtextHeading {
+  margin: 0 auto;
+  max-width: 800px;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+}
+
+.routineGrid {
+  gap: 1rem;
+  display: grid;
+  margin: 0 auto;
+  align-items: center;
+  color: var(--bg-color);
+  justify-content: center;
+  grid-template-columns: auto 1fr 2fr;
+}
+
+.stepNumber {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  font-size: 1.75rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--pink);
+}
+
+.stepTitle {
+  width: auto;
+  height: 75px;
+  display: flex;
+  font-size: 1.75rem;
+  align-items: center;
+  border-radius: 50px;
+  justify-content: center;
+  background-color: var(--pink);
+}
+
+.stepDescription {
+  width: auto;
+  height: 75px;
+  display: flex;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  align-items: center;
+  border-radius: 50px;
+  justify-content: center;
+  background-color: var(--pink);
+}
+
+@media (max-width: 1100px) {
   .heading {
     font-size: 3rem;
     margin-bottom: 0.95rem;
@@ -52,28 +123,185 @@
     font-size: 1.15rem;
     margin-bottom: 1.5rem;
   }
+
+  .routineSection {
+    padding: 2.25rem;
+  }
+
+  .routineHeading {
+    font-size: 2.25rem;
+  }
+
+  .routineSubtextHeading {
+    font-size: 1.35rem;
+  }
+
+  .stepNumber {
+    font-size: 1.5rem;
+  }
+
+  .stepTitle {
+    font-size: 1.5rem;
+  }
+
+  .stepDescription {
+    padding: 1.35rem;
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 970px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 840px) {
+  .heading {
+    font-size: 2.35rem;
+  }
 }
 
 @media (max-width: 800px) {
+  .moonstarLogo {
+    width: 180px;
+    height: 180px;
+  }
+
   .heading {
-    font-size: 2.75rem;
-    margin-bottom: 0.9rem;
+    font-size: 2.25rem;
+    margin-bottom: 0.75rem;
   }
 
   .introduction {
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     margin-bottom: 1.25rem;
+  }
+
+  .routineSection {
+    padding: 2rem;
+  }
+
+  .routineHeading {
+    font-size: 2rem;
+  }
+
+  .routineSubtextHeading {
+    font-size: 1.25rem;
+  }
+
+  .routineGrid {
+    gap: 0.75rem;
+  }
+
+  .stepNumber {
+    font-size: 1.35rem;
+  }
+
+  .stepTitle {
+    font-size: 1.35rem;
+  }
+
+  .stepDescription {
+    padding: 1.25rem;
+    font-size: 1.25rem;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 780px) {
   .heading {
-    font-size: 2.5rem;
-    margin-bottom: 0.85rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .heading {
+    font-size: 1.85rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .introduction {
+    font-size: 1rem;
+    margin-bottom: 1.15rem;
+  }
+
+  .routineSection {
+    padding: 1.75rem;
+  }
+
+  .routineHeading {
+    font-size: 1.95rem;
+  }
+
+  .routineSubtextHeading {
+    font-size: 1.15rem;
+  }
+
+  .routineGrid {
+    gap: 0.5rem;
+  }
+
+  .stepNumber {
+    font-size: 1.35rem;
+  }
+
+  .stepTitle {
+    font-size: 1.2rem;
+  }
+
+  .stepDescription {
+    padding: 1.25rem;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .moonstarLogo {
+    width: 150px;
+    height: 150px;
+  }
+
+  .heading {
+    font-size: 1.75rem;
   }
 
   .introduction {
     font-size: 0.95rem;
-    margin-bottom: 1.15rem;
+    margin-bottom: 1rem;
+  }
+
+  .routineSection {
+    padding: 1.5rem;
+  }
+
+  .routineHeading {
+    font-size: 1.75rem;
+  }
+
+  .routineSubtextHeading {
+    font-size: 1rem;
+  }
+
+  .routineGrid {
+    gap: 0.25rem;
+  }
+
+  .stepNumber {
+    width: 65px;
+    height: 65px;
+    font-size: 1.25rem;
+  }
+
+  .stepTitle {
+    width: auto;
+    height: 65px;
+    font-size: 0.75rem;
+  }
+
+  .stepDescription {
+    width: auto;
+    height: 65px;
+    padding: 1rem;
+    font-size: 0.85rem;
   }
 }
