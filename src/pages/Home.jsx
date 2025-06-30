@@ -10,7 +10,7 @@ function Home() {
   return (
     <>
       <main>
-        <section className={styles.mainContainer}>Main</section>
+        <section className={styles.homeContainer}>Main</section>
       </main>
     </>
   );
