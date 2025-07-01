@@ -73,10 +73,10 @@ Moonstar Esthetics is a personal, client-centered skincare studio offering a wid
 --green: hsl(140, 45%, 60%);
 --purple: hsl(270, 40%, 45%);
 --lavender: hsl(265, 55%, 85%);
---bg-color: hsl(0, 50%, 97%);
+--bg-color: hsl(0, 0%, 98%);
 --text-primary: hsl(0, 0%, 15%);
---text-secondary: hsl(0, 0%, 30%);
---header-footer-bg-color: hsl(0, 50%, 95%);
+--text-secondary: hsl(0, 0%, 25%);
+--header-footer-bg-color: hsl(0, 0%, 100%);
 
 Aim for a calm, modern aesthetic with a soft, trustworthy purple branding
 
@@ -91,11 +91,10 @@ Aim for a calm, modern aesthetic with a soft, trustworthy purple branding
 ## 🧭 Core Features & User Flows
 
 ### 🏠 Home Page
-- English:
-  My name is AnaKarina & I'm 25 years old and I'm a licensed esthetician with 5 years of experience in the beauty industry. I specialize in customized facials, laser hair removal, and waxing / helping my clients feel confident and radiant is my passion! + Let's achieve your skin goals ! Whether you're looking for glowing skin, smooth results, or the best self-care routine, I've got you covered. Can't wait to welcome you to my treatment room! Thankful for all my clients who have been here through the years
 
-- Spanish:
-  Me llamo AnaKarina, tengo 25 años y soy esteticista colegiada con 5 años de experiencia en la industria de la belleza. Me especializo en faciales, depilación láser y cera. ¡Ayudar a mis clientas a sentirse seguras y radiantes es mi pasión! Ya sea que busques una piel radiante, resultados suaves o la mejor rutina de autocuidado, te tengo cubierta. ¡Estoy deseando darte la bienvenida a mi sala de tratamientos!
+- English: My name is AnaKarina & I'm 25 years old and I'm a licensed esthetician with 5 years of experience in the beauty industry. I specialize in customized facials, laser hair removal, and waxing / helping my clients feel confident and radiant is my passion! + Let's achieve your skin goals ! Whether you're looking for glowing skin, smooth results, or the best self-care routine, I've got you covered. Can't wait to welcome you to my treatment room! Thankful for all my clients who have been here through the years
+
+- Spanish: Me llamo AnaKarina, tengo 25 años y soy esteticista colegiada con 5 años de experiencia en la industria de la belleza. Me especializo en faciales, depilación láser y cera. ¡Ayudar a mis clientas a sentirse seguras y radiantes es mi pasión! Ya sea que busques una piel radiante, resultados suaves o la mejor rutina de autocuidado, te tengo cubierta. ¡Estoy deseando darte la bienvenida a mi sala de tratamientos!
   Agradecida con todas mis clientas que han estado aquí a lo largo de los años
 
 #### Quotes
@@ -106,9 +105,7 @@ Aim for a calm, modern aesthetic with a soft, trustworthy purple branding
 
 Featured services with quick descriptions:
 
-- Dermaplaning
 - IPL Laser Hair Removal
-- Red Light Therapy
 - Skincare Routine Steps
 
 #### List
@@ -123,10 +120,6 @@ Featured services with quick descriptions:
 #### Image Gallery
 
 - Before and after image gallery
-
-#### CTA Button
-
-- Button linking to appointment booking on Setmore
 
 ---
 

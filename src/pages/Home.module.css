@@ -11,18 +11,9 @@
 
 /* Moonstar Logo */
 .moonstarLogo {
-  width: 200px;
-  height: 200px;
+  width: 300px;
   object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 2rem;
   transition: 0.3s ease-in;
-  box-shadow: 0 0 15px var(--pink);
-}
-
-.moonstarLogo:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 25px var(--pink);
 }
 
 .heading {
@@ -41,6 +32,152 @@
   margin-bottom: 2rem;
   transition: 0.3s ease-in;
   color: var(--text-primary);
+}
+
+/* Dermaplaning */
+.dermaplaningSection {
+  width: 100%;
+  padding: 2rem;
+  position: relative;
+  text-align: center;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  background-size: cover;
+  transition: 0.5s ease-in;
+  background-position: center;
+  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
+  background-image: url("../assets/dermaplaning.jpeg");
+}
+
+.dermaplaningSection:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+}
+
+.dermaplaningSection::before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  content: "";
+  height: 100%;
+  position: absolute;
+  border-radius: 16px;
+  background-color: hsla(0, 0%, 0%, 0.35);
+}
+
+.dermaplaningContent {
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 800px;
+  position: relative;
+  transition: 0.3s ease-in;
+}
+
+.dermaplaningHeading {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: hsl(0, 0%, 100%);
+  font-family: "Libre Baskerville", serif;
+}
+
+.dermaplaningText1,
+.dermaplaningText2 {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  margin-bottom: 0.75rem;
+  color: hsl(0, 0%, 90%);
+}
+
+.dermaplaningText2 {
+  margin-bottom: 2rem;
+}
+
+.bookButton {
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  transition: 0.3s ease-in;
+  color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 90%);
+  background-color: hsla(0, 0%, 0%, 0.15);
+}
+
+.bookButton:hover {
+  background-color: hsla(0, 0%, 0%, 0.3);
+}
+
+/* Red Light Therapy */
+.redLightTherapySection {
+  width: 100%;
+  padding: 2rem;
+  position: relative;
+  text-align: center;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  background-size: cover;
+  transition: 0.5s ease-in;
+  background-position: center;
+  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
+  background-image: url("../assets/red-light-therapy.jpeg");
+}
+
+.redLightTherapySection:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
+}
+
+.redLightTherapySection::before {
+  top: 0;
+  left: 0;
+  width: 100%;
+  content: "";
+  height: 100%;
+  position: absolute;
+  border-radius: 16px;
+  background-color: hsla(0, 0%, 0%, 0.35);
+}
+
+.redLightTherapyContent {
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 800px;
+  position: relative;
+  transition: 0.3s ease-in;
+}
+
+.redLightTherapyHeading {
+  font-size: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: hsl(0, 0%, 100%);
+  font-family: "Libre Baskerville", serif;
+}
+
+.redLightTherapyText1,
+.redLightTherapyText2 {
+  font-size: 1.5rem;
+  line-height: 1.35;
+  margin-bottom: 0.75rem;
+  color: hsl(0, 0%, 90%);
+}
+
+.redLightTherapyText2 {
+  margin-bottom: 2rem;
+}
+
+.learnMoreButton {
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  transition: 0.3s ease-in;
+  color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 90%);
+  background-color: hsla(0, 0%, 0%, 0.15);
+}
+
+.learnMoreButton:hover {
+  background-color: hsla(0, 0%, 0%, 0.3);
 }
 
 /* Skincare Routine */
@@ -116,132 +253,6 @@
   background-color: var(--pink);
 }
 
-* {
-  /* border: 1px solid red; */
-}
-
-/* Dermaplaning */
-.dermaplaningSection {
-  width: 100%;
-  padding: 2rem;
-  position: relative;
-  text-align: center;
-  border-radius: 16px;
-  margin-bottom: 2rem;
-  transition: 0.5s ease;
-  background-size: cover;
-  background-position: center;
-  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
-  background-image: url("../assets/dermaplaning.jpeg");
-}
-
-.dermaplaningSection:hover {
-  transform: translateY(-3px);
-  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
-}
-
-.dermaplaningSection::before {
-  top: 0;
-  left: 0;
-  width: 100%;
-  content: "";
-  height: 100%;
-  position: absolute;
-  border-radius: 16px;
-  background-color: hsla(0, 0%, 0%, 0.3);
-}
-
-.dermaplaningContent {
-  z-index: 1;
-  margin: 0 auto;
-  max-width: 800px;
-  position: relative;
-}
-
-.dermaplaningHeading {
-  font-size: 2.5rem;
-  margin-bottom: 0.75rem;
-  color: hsl(0, 0%, 100%);
-  font-family: "Libre Baskerville", serif;
-}
-
-.dermaplaningText1 {
-  font-size: 1.5rem;
-  line-height: 1.35;
-  margin-bottom: 0.75rem;
-  color: hsl(0, 0%, 90%);
-}
-
-.dermaplaningText2 {
-  font-size: 1.5rem;
-  line-height: 1.35;
-  margin-bottom: 2rem;
-  color: hsl(0, 0%, 90%);
-}
-
-.bookButton {
-  font-weight: 500;
-  font-size: 1.5rem;
-  border-radius: 8px;
-  padding: 0.75rem 1rem;
-  transition: 0.3s ease-in;
-  color: hsl(0, 0%, 100%);
-  border: 2px solid hsl(0, 0%, 90%);
-  background-color: hsla(0, 0%, 0%, 0.15);
-}
-
-.bookButton:hover {
-  background-color: hsla(0, 0%, 0%, 0.3);
-}
-
-/* Red Light Therapy */
-.redLightTherapySection {
-  width: 100%;
-  padding: 2rem;
-  overflow: hidden;
-  position: relative;
-  border-radius: 16px;
-  transition: 0.3s ease-in;
-  box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.15);
-  background-color: var(--header-footer-bg-color);
-}
-
-.overlayContent {
-  z-index: 2;
-  margin: 0 auto;
-  max-width: 800px;
-  position: relative;
-  text-align: center;
-}
-
-.overlayContent h2 {
-  font-size: 2.25rem;
-  margin-bottom: 1rem;
-  transition: 0.3s ease-in;
-}
-
-.overlayContent ul {
-  font-weight: 500;
-  font-size: 1.5rem;
-  transition: 0.3s ease-in;
-}
-
-.overlayContent li:not(:last-child) {
-  margin-bottom: 0.35rem;
-}
-
-.redLightTherapyImage {
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-  opacity: 0.1;
-  object-fit: cover;
-  position: absolute;
-  border-radius: 16px;
-}
-
 @media (max-width: 1100px) {
   .heading {
     font-size: 3rem;
@@ -279,35 +290,78 @@
   }
 }
 
-@media (max-width: 970px) {
+@media (max-width: 840px) {
   .heading {
     font-size: 2.5rem;
   }
-}
 
-@media (max-width: 840px) {
-  .heading {
-    font-size: 2.35rem;
+  /* Dermaplaning */
+  .dermaplaningSection {
+    padding: 1.75rem;
+    margin-bottom: 1.75rem;
   }
 
-  .redLightTherapySection {
-    padding: 1.5rem;
+  .dermaplaningContent {
+    max-width: 600px;
   }
 
-  .overlayContent h2 {
-    font-size: 2rem;
-    margin-bottom: 0.75rem;
+  .dermaplaningHeading {
+    font-size: 2.25rem;
+    margin-bottom: 0.5rem;
   }
 
-  .overlayContent ul {
+  .dermaplaningText1,
+  .dermaplaningText2 {
     font-size: 1.25rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+  }
+
+  .dermaplaningText2 {
+    margin-bottom: 1.75rem;
+  }
+
+  .bookButton {
+    font-size: 1.25rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  /* Red Light Therapy */
+  .redLightTherapySection {
+    padding: 1.75rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .redLightTherapyContent {
+    max-width: 600px;
+  }
+
+  .redLightTherapyHeading {
+    font-size: 2.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .redLightTherapyText1,
+  .redLightTherapyText2 {
+    font-size: 1.25rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+  }
+
+  .redLightTherapyText2 {
+    margin-bottom: 1.75rem;
+  }
+
+  .learnMoreButton {
+    font-size: 1.25rem;
+    padding: 0.5rem 0.75rem;
+    transition: 0.3s ease-in;
   }
 }
 
 @media (max-width: 800px) {
   .moonstarLogo {
-    width: 180px;
-    height: 180px;
+    width: 250px;
   }
 
   .heading {
@@ -320,6 +374,7 @@
     margin-bottom: 1.25rem;
   }
 
+  /* Skincare Routine */
   .routineSection {
     padding: 2rem;
   }
@@ -350,12 +405,6 @@
   }
 }
 
-@media (max-width: 780px) {
-  .heading {
-    font-size: 2rem;
-  }
-}
-
 @media (max-width: 700px) {
   .heading {
     font-size: 1.85rem;
@@ -367,6 +416,7 @@
     margin-bottom: 1.15rem;
   }
 
+  /* Skincare Routine */
   .routineSection {
     padding: 1.75rem;
   }
@@ -399,8 +449,7 @@
 
 @media (max-width: 480px) {
   .moonstarLogo {
-    width: 150px;
-    height: 150px;
+    width: 180px;
   }
 
   .heading {
@@ -412,6 +461,65 @@
     margin-bottom: 1rem;
   }
 
+  /* Dermaplaning */
+  .dermaplaningSection {
+    margin-bottom: 1.5rem;
+  }
+
+  .dermaplaningContent {
+    max-width: 400px;
+  }
+
+  .dermaplaningHeading {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .dermaplaningText1,
+  .dermaplaningText2 {
+    font-size: 1rem;
+    line-height: 1.15;
+  }
+
+  .dermaplaningText2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .bookButton {
+    font-size: 1rem;
+    padding: 0.35rem 0.55rem;
+  }
+
+  /* Red Light Therapy */
+  .redLightTherapySection {
+    margin-bottom: 1.5rem;
+  }
+
+  .redLightTherapyContent {
+    max-width: 400px;
+  }
+
+  .redLightTherapyHeading {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .redLightTherapyText1,
+  .redLightTherapyText2 {
+    font-size: 1rem;
+    line-height: 1.15;
+  }
+
+  .redLightTherapyText2 {
+    margin-bottom: 1.5rem;
+  }
+
+  .learnMoreButton {
+    font-size: 1rem;
+    padding: 0.35rem 0.55rem;
+  }
+
+  /* Skincare Routine */
   .routineSection {
     padding: 1.5rem;
   }
@@ -445,18 +553,5 @@
     height: 65px;
     padding: 1rem;
     font-size: 0.85rem;
-  }
-
-  .redLightTherapySection {
-    padding: 1.25rem;
-  }
-
-  .overlayContent h2 {
-    font-size: 1.75rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .overlayContent ul {
-    font-size: 1rem;
   }
 }
