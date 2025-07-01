@@ -20,7 +20,7 @@
 .categoryTitle {
   width: 100%;
   font-size: 3rem;
-  color: var(--pink);
+  color: var(--purple);
   margin-bottom: 0.75rem;
   transition: 0.3s ease-in;
   font-family: "Raleway", sans-serif;
@@ -68,13 +68,13 @@
 }
 
 .readMoreButton:hover {
-  color: var(--text-primary);
+  color: var(--text-secondary);
 }
 
 .filterControls {
   width: 100%;
   text-align: left;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .filterControls select {
@@ -84,10 +84,10 @@
   appearance: none;
   font-size: 1.15rem;
   border-radius: 8px;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in;
   color: var(--text-primary);
   border: 2px solid var(--pink);
-  background-color: var(--header-footer-bg-color);
+  background-color: var(--bg-color);
 }
 
 .filterControls select:hover {
@@ -95,12 +95,11 @@
 }
 
 .filterControls option {
-  color: var(--text-primary);
   background-color: var(--header-footer-bg-color);
 }
 
 .serviceCards {
-  gap: 1.5rem;
+  gap: 1.25rem;
   display: grid;
   grid-template-columns: 1fr;
 }

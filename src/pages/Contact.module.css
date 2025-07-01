@@ -12,7 +12,7 @@
 .heading {
   font-size: 3rem;
   font-weight: 700;
-  color: var(--pink);
+  color: var(--purple);
   margin-bottom: 1.25rem;
   transition: 0.3s ease-in;
   font-family: "Raleway", sans-serif;
@@ -55,7 +55,7 @@ form {
   transition: 0.3s ease-in;
   color: var(--text-primary);
   padding: 1.75rem 1rem 0.75rem;
-  border: 2px solid var(--pink);
+  border: 2px solid var(--lavender);
   background-color: var(--bg-color);
 }
 
@@ -109,8 +109,14 @@ textarea:-webkit-autofill {
   padding: 0.75rem 0.75rem;
   transition: 0.3s ease-in;
   color: var(--text-primary);
-  border: 2px solid var(--pink);
+  border: 2px solid var(--purple);
   background-color: var(--header-footer-bg-color);
+}
+
+.submitBtn:hover {
+  color: var(--bg-color);
+  background-color: var(--purple);
+  box-shadow: 0 0 10px var(--purple);
 }
 
 .submitBtn i {
@@ -119,14 +125,8 @@ textarea:-webkit-autofill {
   color: var(--text-primary);
 }
 
-.submitBtn:hover {
-  background-color: var(--pink);
-  box-shadow: 0 0 15px var(--pink);
-  color: var(--header-footer-bg-color);
-}
-
 .submitBtn:hover i {
-  color: var(--header-footer-bg-color);
+  color: var(--bg-color);
 }
 
 @media (max-width: 768px) {

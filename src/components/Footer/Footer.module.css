@@ -42,7 +42,7 @@
 .moonstar {
   width: 100%;
   font-size: 2rem;
-  color: var(--pink);
+  color: var(--purple);
   text-align: center;
   transition: 0.3s ease-in;
 }
@@ -51,15 +51,15 @@
   width: 100%;
   text-align: center;
   font-size: 1.25rem;
-  color: var(--lavender);
+  color: var(--pink);
   transition: 0.3s ease-in;
 }
 
-.copyright {
+.logoColumn .copyright {
   width: 100%;
   font-size: 1rem;
   text-align: center;
-  color: var(--text-secondary);
+  color: var(--text-primary);
 }
 
 .footerColumn {
@@ -94,7 +94,7 @@
 }
 
 .footerNav a:hover {
-  color: var(--pink);
+  color: var(--purple);
 }
 
 /* Small Footer */
@@ -112,7 +112,7 @@
   flex-wrap: wrap;
   font-size: 1.25rem;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   justify-content: center;
 }
 
@@ -121,19 +121,19 @@
 }
 
 .footerLinks a:hover {
-  color: var(--pink);
+  color: var(--purple);
 }
 
 .legalDisclaimer {
   font-size: 1rem;
   max-width: 800px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   color: var(--text-secondary);
 }
 
 .copyright {
   font-size: 1rem;
-  color: var(--text-secondary);
+  color: var(--text-primary);
 }
 
 @media (max-width: 950px) {

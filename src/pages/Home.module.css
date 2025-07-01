@@ -19,9 +19,9 @@
 .heading {
   font-size: 3.5rem;
   text-align: center;
-  color: var(--pink);
   margin-bottom: 1rem;
   letter-spacing: 5px;
+  color: var(--purple);
   transition: 0.3s ease-in;
   font-family: "Raleway", sans-serif;
 }
@@ -214,9 +214,9 @@
   display: grid;
   margin: 0 auto;
   align-items: center;
-  color: var(--bg-color);
   justify-content: center;
   grid-template-columns: auto 1fr 2fr;
+  color: hsl(0, 0%, 15%);
 }
 
 .stepNumber {
@@ -227,7 +227,7 @@
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  background-color: var(--pink);
+  background-color: var(--lavender);
 }
 
 .stepTitle {
@@ -238,7 +238,7 @@
   align-items: center;
   border-radius: 50px;
   justify-content: center;
-  background-color: var(--pink);
+  background-color: var(--lavender);
 }
 
 .stepDescription {
@@ -250,7 +250,7 @@
   align-items: center;
   border-radius: 50px;
   justify-content: center;
-  background-color: var(--pink);
+  background-color: var(--lavender);
 }
 
 @media (max-width: 1100px) {

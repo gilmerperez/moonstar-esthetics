@@ -12,7 +12,7 @@
 .heading {
   font-size: 3rem;
   font-weight: 700;
-  color: var(--pink);
+  color: var(--purple);
   margin-bottom: 0.5rem;
   transition: 0.3s ease-in;
   font-family: "Raleway", sans-serif;
@@ -56,8 +56,8 @@
 .starsContainer {
   margin: 1rem 0;
   font-size: 1.5rem;
-  color: var(--pink);
   position: relative;
+  color: var(--purple);
   display: inline-block;
 }
 
@@ -73,13 +73,13 @@
   width: 0;
   height: 100%;
   overflow: hidden;
-  color: var(--pink);
   position: absolute;
   white-space: nowrap;
+  color: var(--lavender);
 }
 
 .fa-solid {
-  color: var(--pink);
+  color: var(--lavender);
 }
 
 .reviewCount {
@@ -118,13 +118,13 @@
 
 .barFill {
   height: 100%;
-  background-color: var(--pink);
+  background-color: var(--lavender);
 }
 
 .filterControls {
   width: 100%;
   text-align: left;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .filterControls select {
@@ -172,7 +172,7 @@
 .leaveReviewHeading {
   font-weight: 600;
   font-size: 2.5rem;
-  color: var(--pink);
+  color: var(--purple);
   font-family: "Raleway", sans-serif;
 }
 
@@ -193,8 +193,8 @@
 
 .leaveReviewButton:hover {
   background-color: var(--pink);
-  box-shadow: 0 0 10px var(--pink);
   color: var(--header-footer-bg-color);
+  box-shadow: 0 0 10px var(--pink);
 }
 
 @media (max-width: 840px) {

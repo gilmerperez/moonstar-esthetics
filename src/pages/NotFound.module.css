@@ -12,7 +12,7 @@
 .heading {
   font-size: 3rem;
   font-weight: 700;
-  color: var(--pink);
+  color: var(--purple);
   margin-bottom: 1.25rem;
   transition: 0.3s ease-in;
   font-family: "Raleway", sans-serif;
@@ -33,12 +33,13 @@
   padding: 0.75rem 1rem;
   transition: 0.3s ease-in;
   color: var(--text-primary);
-  border: 2px solid var(--pink);
+  border: 2px solid var(--purple);
+  background-color: var(--header-footer-bg-color);
 }
 
 .homeLink:hover {
-  background-color: var(--pink);
-  box-shadow: 0 0 15px var(--pink);
+  background-color: var(--purple);
+  box-shadow: 0 0 10px var(--purple);
   color: var(--header-footer-bg-color);
 }
 

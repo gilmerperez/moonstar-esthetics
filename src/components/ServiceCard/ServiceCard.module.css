@@ -2,10 +2,10 @@
   height: 100%;
   display: flex;
   overflow: hidden;
-  border-radius: 10px;
+  border-radius: 8px;
   transition: 0.5s ease;
   justify-content: center;
-  border: 2px solid var(--pink);
+  border: 2px solid var(--purple);
   box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
 }
 
@@ -81,8 +81,8 @@
 }
 
 .bookNowButton:hover {
-  color: var(--bg-color);
   background-color: var(--pink);
+  color: var(--header-footer-bg-color);
   box-shadow: 0 0 10px var(--pink);
 }
 
@@ -90,8 +90,8 @@
   color: var(--pink);
   font-size: 1.25rem;
   border-radius: 16px;
-  transition: 0.3s ease;
   padding: 0.5rem 0.75rem;
+  transition: 0.3s ease-in;
   border: 2px solid var(--bg-color);
   background-color: var(--bg-color);
 }
@@ -110,7 +110,7 @@
   position: fixed;
   align-items: center;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: hsla(0, 0%, 0%, 0.5);
 }
 
 .modalContent {
@@ -123,8 +123,8 @@
 
 .modalHeading {
   font-size: 2rem;
-  color: var(--pink);
   margin-bottom: 1rem;
+  color: var(--purple);
 }
 
 .modalText {
@@ -145,8 +145,8 @@
 }
 
 .modalCloseButton:hover {
-  color: var(--bg-color);
   background-color: var(--pink);
+  color: var(--header-footer-bg-color);
   box-shadow: 0 0 10px var(--pink);
 }
 

@@ -6,7 +6,7 @@
   border-radius: 8px;
   justify-content: center;
   transition: 0.5s ease-in;
-  border: 2px solid var(--pink);
+  border: 2px solid var(--purple);
   box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
 }
 
@@ -27,7 +27,7 @@
   color: var(--bg-color);
   justify-content: center;
   transition: 0.3s ease-in;
-  background-color: var(--pink);
+  background-color: var(--lavender);
   font-family: "Raleway", sans-serif;
 }
 
@@ -52,10 +52,10 @@
 }
 
 .starsContainer {
-  color: var(--pink);
   position: relative;
   font-size: 1.15rem;
   display: inline-block;
+  color: var(--lavender);
   transition: 0.3s ease-in;
 }
 
@@ -71,7 +71,7 @@
   width: 0;
   height: 100%;
   overflow: hidden;
-  color: var(--pink);
+  color: var(--lavender);
   position: absolute;
   white-space: nowrap;
 }

@@ -21,14 +21,14 @@
 
 .moonstar {
   font-size: 2rem;
-  color: var(--lavender);
+  color: var(--purple);
   transition: 0.3s ease-in;
   font-family: "Raleway", sans-serif;
 }
 
 .esthetics {
-  font-size: 1.25rem;
   color: var(--pink);
+  font-size: 1.25rem;
   transition: 0.3s ease-in;
   font-family: "Raleway", sans-serif;
 }
@@ -51,7 +51,7 @@
 }
 
 .activeLink {
-  color: var(--pink);
+  color: var(--lavender);
 }
 
 .navItems a {
@@ -62,7 +62,7 @@
 @media (hover: hover) {
   /* Prevent hover effect on active link */
   .navItems a:hover:not(.activeLink) {
-    color: var(--pink);
+    color: var(--lavender);
     transform: translateY(-2px);
   }
 }
@@ -75,7 +75,7 @@
 .functionalButtons {
   gap: 1rem;
   display: flex;
-  font-size: 1rem;
+  font-size: 1.1rem;
   align-items: center;
   justify-content: center;
   transition: 0.3s ease-in;
@@ -103,13 +103,13 @@
   padding: 0.5rem 0.75rem;
   transition: 0.3s ease-in;
   color: var(--text-primary);
-  border: 2px solid var(--pink);
+  border: 2px solid var(--purple);
   background-color: var(--header-footer-bg-color);
 }
 
 .bookNowButton:hover {
-  background-color: var(--pink);
-  box-shadow: 0 0 10px var(--pink);
+  background-color: var(--purple);
+  box-shadow: 0 0 10px var(--purple);
   color: var(--header-footer-bg-color);
 }
 
@@ -366,7 +366,7 @@
 }
 
 .sidebarNavItems a:hover:not(.activeLink) {
-  color: var(--lavender);
+  color: var(--pink);
   transform: translateX(5px);
 }
 
