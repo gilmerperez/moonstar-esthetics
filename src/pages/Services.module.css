@@ -20,7 +20,7 @@
 .categoryTitle {
   width: 100%;
   font-size: 3rem;
-  color: var(--purple);
+  color: var(--primary);
   margin-bottom: 0.75rem;
   transition: 0.3s ease-in;
   font-family: "Raleway", sans-serif;
@@ -86,12 +86,12 @@
   border-radius: 8px;
   transition: 0.3s ease-in;
   color: var(--text-primary);
-  border: 2px solid var(--pink);
+  border: 2px solid var(--secondary);
   background-color: var(--bg-color);
 }
 
 .filterControls select:hover {
-  box-shadow: 0 0 10px var(--pink);
+  box-shadow: 0 0 10px var(--secondary);
 }
 
 .filterControls option {

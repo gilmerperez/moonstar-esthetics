@@ -55,10 +55,10 @@ Moonstar Esthetics is a personal, client-centered skincare studio offering a wid
 #### Dark Mode:
 
 --cream: hsl(0, 50%, 96.1%);
---pink: hsl(300, 26%, 71%);
+--secondary: hsl(300, 26%, 71%);
 --blue: hsl(225, 46.5%, 75.1%);
 --green: hsl(84, 61.9%, 79.4%);
---purple: hsl(261, 44.5%, 73.1%);
+--primary: hsl(261, 44.5%, 73.1%);
 --dark-purple: hsl(290, 27%, 35%);
 --lavender: hsl(265, 55%, 85%);
 --bg-color: hsl(0, 0%, 12%);
@@ -69,10 +69,10 @@ Moonstar Esthetics is a personal, client-centered skincare studio offering a wid
 #### Light Mode:
 
 --cream: hsl(0, 50%, 96.1%);
---pink: hsl(320, 60%, 76%);
+--secondary: hsl(261, 44.5%, 73.1%);
 --blue: hsl(225, 46.5%, 75.1%);
 --green: hsl(84, 61.9%, 79.4%);
---purple: hsl(261, 44.5%, 73.1%);
+--primary: hsl(320, 60%, 76%);
 --dark-purple: hsl(290, 27%, 35%);
 --lavender: hsl(265, 55%, 85%);
 --bg-color: hsl(0, 0%, 98%);

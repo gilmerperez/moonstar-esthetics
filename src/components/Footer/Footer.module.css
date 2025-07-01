@@ -42,7 +42,7 @@
 .moonstar {
   width: 100%;
   font-size: 2rem;
-  color: var(--purple);
+  color: var(--primary);
   text-align: center;
   transition: 0.3s ease-in;
 }
@@ -51,7 +51,7 @@
   width: 100%;
   text-align: center;
   font-size: 1.25rem;
-  color: var(--pink);
+  color: var(--secondary);
   transition: 0.3s ease-in;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .footerNav a:hover {
-  color: var(--purple);
+  color: var(--primary);
 }
 
 /* Small Footer */
@@ -121,7 +121,7 @@
 }
 
 .footerLinks a:hover {
-  color: var(--purple);
+  color: var(--primary);
 }
 
 .legalDisclaimer {
