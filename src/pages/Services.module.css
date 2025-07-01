@@ -74,7 +74,7 @@
 .filterControls {
   width: 100%;
   text-align: left;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .filterControls select {
@@ -99,7 +99,7 @@
 }
 
 .serviceCards {
-  gap: 1.25rem;
+  gap: 1rem;
   display: grid;
   grid-template-columns: 1fr;
 }

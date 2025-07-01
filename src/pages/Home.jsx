@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import styles from "./Home.module.css";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/moonstar-logo.png";
 
 function Home() {
   useEffect(() => {
@@ -33,7 +33,8 @@ function Home() {
               known as peach fuzz.
             </p>
             <p className={styles.dermaplaningText2}>
-              Dermaplaning is non-invasive and painless. It feels similar to a light brushing or scraping sensation.
+              Want to learn more about dermaplaning and see real results? Visit my page to explore this service and
+              more.
             </p>
             <a
               href="https://moonstaresthetics.setmore.com/"
@@ -65,6 +66,28 @@ function Home() {
               className={styles.learnMoreButton}
             >
               Learn More
+            </a>
+          </div>
+        </section>
+
+        {/* IPL Laser Hair Removal */}
+        <section className={styles.iplSection}>
+          <div className={styles.iplContent}>
+            <h2 className={styles.iplHeading}>What is IPL Laser Hair Removal</h2>
+            <p className={styles.iplText1}>
+              IPL (Intense Pulsed Light) hair removal is a non-invasive treatment that uses broad-spectrum light to
+              target and heat hair follicles, reducing and inhibiting future hair growth over time.
+            </p>
+            <p className={styles.iplText2}>
+              Discover smooth, hair-free skin and book your IPL session today for long-lasting results.
+            </p>
+            <a
+              href="https://moonstaresthetics.setmore.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={styles.bookButton}
+            >
+              Book Appointment
             </a>
           </div>
         </section>

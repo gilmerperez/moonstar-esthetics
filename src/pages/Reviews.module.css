@@ -57,7 +57,7 @@
   margin: 1rem 0;
   font-size: 1.5rem;
   position: relative;
-  color: var(--primary);
+  color: var(--secondary);
   display: inline-block;
 }
 
@@ -75,11 +75,11 @@
   overflow: hidden;
   position: absolute;
   white-space: nowrap;
-  color: var(--lavender);
+  color: var(--secondary);
 }
 
 .fa-solid {
-  color: var(--lavender);
+  color: var(--secondary);
 }
 
 .reviewCount {
@@ -118,13 +118,13 @@
 
 .barFill {
   height: 100%;
-  background-color: var(--lavender);
+  background-color: var(--secondary);
 }
 
 .filterControls {
   width: 100%;
   text-align: left;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .filterControls select {
@@ -148,7 +148,7 @@
 }
 
 .reviewCards {
-  gap: 1.5rem;
+  gap: 1rem;
   width: 100%;
   display: flex;
   flex-direction: column;

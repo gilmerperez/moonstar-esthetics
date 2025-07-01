@@ -93,11 +93,13 @@ function Reviews() {
           </section>
 
           {/* Review Cards */}
-          <section className={styles.reviewCards}>
-            {sortedReviews.map((review) => (
-              <ReviewCard key={review.id} review={review} />
-            ))}
-          </section>
+          <a href="https://moonstaresthetics.setmore.com/#reviews" target="_blank" rel="noopener noreferrer">
+            <section className={styles.reviewCards}>
+              {sortedReviews.map((review) => (
+                <ReviewCard key={review.id} review={review} />
+              ))}
+            </section>
+          </a>
 
           {/* Leave Review CTA */}
           <section className={styles.leaveReviewCard}>

@@ -26,7 +26,7 @@ function ServiceCard({ service }) {
           {/* Book Now Button */}
           <div className={styles.buttonContainer}>
             <button className={styles.bookNowButton}>
-              <a href="https://moonstaresthetics.setmore.com/book" target="_blank" rel="noopener noreferrer">
+              <a href="https://moonstaresthetics.setmore.com/" target="_blank" rel="noopener noreferrer">
                 Book Now
               </a>
             </button>

@@ -63,14 +63,30 @@
   background-image: url("../assets/images/red-light-therapy.jpeg");
 }
 
+.iplSection {
+  width: 100%;
+  padding: 2rem;
+  position: relative;
+  text-align: center;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+  background-size: cover;
+  transition: 0.5s ease-in;
+  background-position: center;
+  box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
+  background-image: url("../assets/images/laser-hair-removal-1.JPG");
+}
+
 .dermaplaningSection:hover,
-.redLightTherapySection:hover {
+.redLightTherapySection:hover,
+.iplSection:hover {
   transform: translateY(-3px);
   box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
 }
 
 .dermaplaningSection::before,
-.redLightTherapySection::before {
+.redLightTherapySection::before,
+.iplSection::before {
   top: 0;
   left: 0;
   width: 100%;
@@ -82,7 +98,8 @@
 }
 
 .dermaplaningContent,
-.redLightTherapyContent {
+.redLightTherapyContent,
+.iplContent {
   z-index: 1;
   margin: 0 auto;
   max-width: 800px;
@@ -91,7 +108,8 @@
 }
 
 .dermaplaningHeading,
-.redLightTherapyHeading {
+.redLightTherapyHeading,
+.iplHeading {
   font-size: 2.5rem;
   margin-bottom: 0.75rem;
   color: hsl(0, 0%, 100%);
@@ -101,7 +119,9 @@
 .dermaplaningText1,
 .dermaplaningText2,
 .redLightTherapyText1,
-.redLightTherapyText2 {
+.redLightTherapyText2,
+.iplText1,
+.iplText2 {
   font-size: 1.5rem;
   line-height: 1.35;
   margin-bottom: 0.75rem;
@@ -109,7 +129,8 @@
 }
 
 .dermaplaningText2,
-.redLightTherapyText2 {
+.redLightTherapyText2,
+.iplText2 {
   margin-bottom: 2rem;
 }
 
@@ -138,16 +159,16 @@
   margin-bottom: 2rem;
   transition: 0.3s ease-in;
   box-shadow: 0 0 15px hsla(0, 0%, 0%, 0.15);
-  background-color: var(--header-footer-bg-color);
+  background-color: var(--cream);
 }
 
 .routineHeading {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 2.5rem;
   letter-spacing: 3px;
   margin-bottom: 0.25rem;
+  color: hsl(0, 0%, 10%);
   transition: 0.3s ease-in;
-  color: var(--text-primary);
   font-family: "Raleway", sans-serif;
 }
 
@@ -156,7 +177,7 @@
   max-width: 800px;
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: var(--text-secondary);
+  color: hsl(0, 0%, 15%);
 }
 
 .routineGrid {
