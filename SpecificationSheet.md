@@ -54,16 +54,23 @@ Moonstar Esthetics is a personal, client-centered skincare studio offering a wid
 
 #### Dark Mode:
 
---cream: hsl(0, 50%, 96%);
---pink: hsl(300, 40%, 87%);
---blue: hsl(225, 45%, 75%);
---green: hsl(83, 62%, 80%);
+--cream: hsl(0, 50%, 96.1%);
+--pink: hsl(300, 25%, 70%);
+--blue: hsl(225, 46.5%, 75.1%);
+--green: hsl(84, 61.9%, 79.4%);
 --purple: hsl(290, 27%, 35%);
---lavender: hsl(268, 19%, 75%);
---bg-color: hsl(0, 0%, 12.25%);
---text-primary: hsl(0, 0%, 90%);
---text-secondary: hsl(0, 0%, 70%);
+--lavender: hsl(261, 45%, 73%);
+--bg-color: hsl(0, 0%, 12%);
+--text-primary: hsl(0, 0%, 100%);
+--text-secondary: hsl(0, 0%, 75%);
 --header-footer-bg-color: hsl(0, 0%, 10%);
+
+new pink hsl(300, 25.70%, 71.00%)
+new purple hsl(261, 44.50%, 73.10%)
+new cream hsl(0, 50.00%, 96.10%)
+new blue hsl(225, 46.50%, 75.10%)
+new green hsl(84, 61.90%, 79.40%)
+new lavender hsl(270, 19.00%, 75.30%)
 
 #### Light Mode:
 
@@ -158,5 +165,7 @@ Featured services with quick descriptions:
 
 ### ❓ Missing / To Be Determined
 
+- Get a good font
+- Get the colors right
 - Make Information Page Google Maps API to look like the Setmore one
 - English, Spanish, and Portugese Translation

@@ -15,7 +15,7 @@
   color: var(--pink);
   margin-bottom: 0.5rem;
   transition: 0.3s ease-in;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .introduction {
@@ -125,7 +125,6 @@
   width: 100%;
   text-align: left;
   margin-bottom: 0.75rem;
-  font-family: "Libre Baskerville", serif;
 }
 
 .filterControls select {
@@ -174,7 +173,7 @@
   font-weight: 600;
   font-size: 2.5rem;
   color: var(--pink);
-  font-family: "Libre Baskerville", serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .leaveReviewText {

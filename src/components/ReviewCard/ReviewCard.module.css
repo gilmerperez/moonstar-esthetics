@@ -28,6 +28,7 @@
   justify-content: center;
   transition: 0.3s ease-in;
   background-color: var(--pink);
+  font-family: "Raleway", sans-serif;
 }
 
 .reviewContent {
@@ -41,7 +42,6 @@
   margin-bottom: 0.5rem;
   transition: 0.3s ease-in;
   color: var(--text-primary);
-  font-family: "Libre Baskerville", serif;
 }
 
 .reviewMetaContent {

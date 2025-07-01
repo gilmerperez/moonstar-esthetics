@@ -15,7 +15,7 @@
   color: var(--pink);
   margin-bottom: 1.25rem;
   transition: 0.3s ease-in;
-  font-family: "Libre Baskerville", serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .introduction {
@@ -69,6 +69,7 @@
   font-weight: 600;
   font-size: 1.5rem;
   color: var(--text-primary);
+  font-family: "Raleway", sans-serif;
 }
 
 .infoCard .contactDetail {
@@ -118,6 +119,7 @@
   font-weight: 600;
   font-size: 1.5rem;
   color: var(--text-primary);
+  font-family: "Raleway", sans-serif;
 }
 
 .paymentCard .paymentIcons {
@@ -174,6 +176,7 @@
   font-weight: 600;
   font-size: 1.5rem;
   color: var(--text-primary);
+  font-family: "Raleway", sans-serif;
 }
 
 .hoursContainer {
@@ -245,6 +248,7 @@
   font-weight: 600;
   font-size: 1.5rem;
   color: var(--text-primary);
+  font-family: "Raleway", sans-serif;
 }
 
 .addressText {

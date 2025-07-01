@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import logo from "../assets/logo.png";
 import styles from "./Home.module.css";
+import logo from "../assets/images/logo.png";
 
 function Home() {
   useEffect(() => {

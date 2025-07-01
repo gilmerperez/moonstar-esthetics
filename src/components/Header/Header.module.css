@@ -10,8 +10,8 @@
 
 .moonstarLogo {
   display: flex;
-  font-weight: 500;
   line-height: 1;
+  font-weight: 500;
   align-items: center;
   white-space: nowrap;
   flex-direction: column;
@@ -21,14 +21,16 @@
 
 .moonstar {
   font-size: 2rem;
-  color: var(--pink);
+  color: var(--lavender);
   transition: 0.3s ease-in;
+  font-family: "Raleway", sans-serif;
 }
 
 .esthetics {
   font-size: 1.25rem;
-  color: var(--lavender);
+  color: var(--pink);
   transition: 0.3s ease-in;
+  font-family: "Raleway", sans-serif;
 }
 
 .navContainer {
