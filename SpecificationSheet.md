@@ -55,12 +55,12 @@ Moonstar Esthetics is a personal, client-centered skincare studio offering a wid
 #### Dark Mode:
 
 --cream: hsl(0, 50%, 96.1%);
---pink: hsl(300, 25.7%, 71%);
+--pink: hsl(300, 26%, 71%);
 --blue: hsl(225, 46.5%, 75.1%);
 --green: hsl(84, 61.9%, 79.4%);
 --purple: hsl(261, 44.5%, 73.1%);
 --dark-purple: hsl(290, 27%, 35%);
---lavender: hsl(270, 19%, 75.3%);
+--lavender: hsl(265, 55%, 85%);
 --bg-color: hsl(0, 0%, 12%);
 --text-primary: hsl(0, 0%, 100%);
 --text-secondary: hsl(0, 0%, 75%);
@@ -78,7 +78,7 @@ Moonstar Esthetics is a personal, client-centered skincare studio offering a wid
 --bg-color: hsl(0, 0%, 98%);
 --text-primary: hsl(0, 0%, 15%);
 --text-secondary: hsl(0, 0%, 30%);
---header-footer-bg-color: hsl(0, 0%, 100%);
+--header-footer-bg-color: hsl(0, 50%, 97%);
 
 Aim for a calm, modern aesthetic with a soft, trustworthy purple branding
 
@@ -161,6 +161,5 @@ Featured services with quick descriptions:
 ### ❓ Missing / To Be Determined
 
 - Get a good font
-- Get the colors right
 - Make Information Page Google Maps API to look like the Setmore one
 - English, Spanish, and Portugese Translation
