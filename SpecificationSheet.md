@@ -55,34 +55,29 @@ Moonstar Esthetics is a personal, client-centered skincare studio offering a wid
 #### Dark Mode:
 
 --cream: hsl(0, 50%, 96.1%);
---pink: hsl(300, 25%, 70%);
+--pink: hsl(300, 25.7%, 71%);
 --blue: hsl(225, 46.5%, 75.1%);
 --green: hsl(84, 61.9%, 79.4%);
---purple: hsl(290, 27%, 35%);
---lavender: hsl(261, 45%, 73%);
+--purple: hsl(261, 44.5%, 73.1%);
+--dark-purple: hsl(290, 27%, 35%);
+--lavender: hsl(270, 19%, 75.3%);
 --bg-color: hsl(0, 0%, 12%);
 --text-primary: hsl(0, 0%, 100%);
 --text-secondary: hsl(0, 0%, 75%);
 --header-footer-bg-color: hsl(0, 0%, 10%);
 
-new pink hsl(300, 25.70%, 71.00%)
-new purple hsl(261, 44.50%, 73.10%)
-new cream hsl(0, 50.00%, 96.10%)
-new blue hsl(225, 46.50%, 75.10%)
-new green hsl(84, 61.90%, 79.40%)
-new lavender hsl(270, 19.00%, 75.30%)
-
 #### Light Mode:
 
---cream: hsl(35, 100%, 91%);
+--cream: hsl(0, 50%, 96.1%);
 --pink: hsl(320, 60%, 76%);
---blue: hsl(225, 65%, 60%);
---green: hsl(140, 45%, 60%);
---purple: hsl(270, 40%, 45%);
+--blue: hsl(225, 46.5%, 75.1%);
+--green: hsl(84, 61.9%, 79.4%);
+--purple: hsl(261, 44.5%, 73.1%);
+--dark-purple: hsl(290, 27%, 35%);
 --lavender: hsl(265, 55%, 85%);
 --bg-color: hsl(0, 0%, 98%);
 --text-primary: hsl(0, 0%, 15%);
---text-secondary: hsl(0, 0%, 25%);
+--text-secondary: hsl(0, 0%, 30%);
 --header-footer-bg-color: hsl(0, 0%, 100%);
 
 Aim for a calm, modern aesthetic with a soft, trustworthy purple branding

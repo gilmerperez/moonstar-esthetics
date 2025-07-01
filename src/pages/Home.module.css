@@ -46,7 +46,7 @@
   transition: 0.5s ease-in;
   background-position: center;
   box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
-  background-image: url("../assets/dermaplaning.jpeg");
+  background-image: url("../assets/images/dermaplaning.jpeg");
 }
 
 .dermaplaningSection:hover {
@@ -119,7 +119,7 @@
   transition: 0.5s ease-in;
   background-position: center;
   box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
-  background-image: url("../assets/red-light-therapy.jpeg");
+  background-image: url("../assets/images/red-light-therapy.jpeg");
 }
 
 .redLightTherapySection:hover {
