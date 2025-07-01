@@ -133,7 +133,7 @@
   appearance: none;
   font-size: 1.15rem;
   border-radius: 8px;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in;
   color: var(--text-primary);
   border: 2px solid var(--secondary);
   background-color: var(--header-footer-bg-color);
@@ -184,8 +184,8 @@
   font-weight: 500;
   font-size: 1.25rem;
   border-radius: 8px;
-  transition: 0.3s ease;
   padding: 0.5rem 0.75rem;
+  transition: 0.3s ease-in;
   color: var(--text-primary);
   border: 2px solid var(--secondary);
   background-color: var(--header-footer-bg-color);

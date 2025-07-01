@@ -34,7 +34,7 @@
   color: var(--text-primary);
 }
 
-/* Dermaplaning */
+/* Service Cards */
 .dermaplaningSection {
   width: 100%;
   padding: 2rem;
@@ -49,65 +49,6 @@
   background-image: url("../assets/images/dermaplaning.jpeg");
 }
 
-.dermaplaningSection:hover {
-  transform: translateY(-3px);
-  box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
-}
-
-.dermaplaningSection::before {
-  top: 0;
-  left: 0;
-  width: 100%;
-  content: "";
-  height: 100%;
-  position: absolute;
-  border-radius: 16px;
-  background-color: hsla(0, 0%, 0%, 0.35);
-}
-
-.dermaplaningContent {
-  z-index: 1;
-  margin: 0 auto;
-  max-width: 800px;
-  position: relative;
-  transition: 0.3s ease-in;
-}
-
-.dermaplaningHeading {
-  font-size: 2.5rem;
-  margin-bottom: 0.75rem;
-  color: hsl(0, 0%, 100%);
-  font-family: "Raleway", sans-serif;
-}
-
-.dermaplaningText1,
-.dermaplaningText2 {
-  font-size: 1.5rem;
-  line-height: 1.35;
-  margin-bottom: 0.75rem;
-  color: hsl(0, 0%, 90%);
-}
-
-.dermaplaningText2 {
-  margin-bottom: 2rem;
-}
-
-.bookButton {
-  font-weight: 500;
-  font-size: 1.5rem;
-  border-radius: 8px;
-  padding: 0.75rem 1rem;
-  transition: 0.3s ease-in;
-  color: hsl(0, 0%, 100%);
-  border: 2px solid hsl(0, 0%, 90%);
-  background-color: hsla(0, 0%, 0%, 0.15);
-}
-
-.bookButton:hover {
-  background-color: hsla(0, 0%, 0%, 0.3);
-}
-
-/* Red Light Therapy */
 .redLightTherapySection {
   width: 100%;
   padding: 2rem;
@@ -122,11 +63,13 @@
   background-image: url("../assets/images/red-light-therapy.jpeg");
 }
 
+.dermaplaningSection:hover,
 .redLightTherapySection:hover {
   transform: translateY(-3px);
   box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
 }
 
+.dermaplaningSection::before,
 .redLightTherapySection::before {
   top: 0;
   left: 0;
@@ -138,6 +81,7 @@
   background-color: hsla(0, 0%, 0%, 0.35);
 }
 
+.dermaplaningContent,
 .redLightTherapyContent {
   z-index: 1;
   margin: 0 auto;
@@ -146,6 +90,7 @@
   transition: 0.3s ease-in;
 }
 
+.dermaplaningHeading,
 .redLightTherapyHeading {
   font-size: 2.5rem;
   margin-bottom: 0.75rem;
@@ -153,6 +98,8 @@
   font-family: "Raleway", sans-serif;
 }
 
+.dermaplaningText1,
+.dermaplaningText2,
 .redLightTherapyText1,
 .redLightTherapyText2 {
   font-size: 1.5rem;
@@ -161,10 +108,12 @@
   color: hsl(0, 0%, 90%);
 }
 
+.dermaplaningText2,
 .redLightTherapyText2 {
   margin-bottom: 2rem;
 }
 
+.bookButton,
 .learnMoreButton {
   font-weight: 500;
   font-size: 1.5rem;
@@ -176,6 +125,7 @@
   background-color: hsla(0, 0%, 0%, 0.15);
 }
 
+.bookButton:hover,
 .learnMoreButton:hover {
   background-color: hsla(0, 0%, 0%, 0.3);
 }
@@ -295,52 +245,26 @@
     font-size: 2.5rem;
   }
 
-  /* Dermaplaning */
-  .dermaplaningSection {
-    padding: 1.75rem;
-    margin-bottom: 1.75rem;
-  }
-
-  .dermaplaningContent {
-    max-width: 600px;
-  }
-
-  .dermaplaningHeading {
-    font-size: 2.25rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .dermaplaningText1,
-  .dermaplaningText2 {
-    font-size: 1.25rem;
-    line-height: 1.25;
-    margin-bottom: 0.5rem;
-  }
-
-  .dermaplaningText2 {
-    margin-bottom: 1.75rem;
-  }
-
-  .bookButton {
-    font-size: 1.25rem;
-    padding: 0.5rem 0.75rem;
-  }
-
-  /* Red Light Therapy */
+  /* Service Cards */
+  .dermaplaningSection,
   .redLightTherapySection {
     padding: 1.75rem;
     margin-bottom: 1.75rem;
   }
 
+  .dermaplaningContent,
   .redLightTherapyContent {
     max-width: 600px;
   }
 
+  .dermaplaningHeading,
   .redLightTherapyHeading {
     font-size: 2.25rem;
     margin-bottom: 0.5rem;
   }
 
+  .dermaplaningText1,
+  .dermaplaningText2,
   .redLightTherapyText1,
   .redLightTherapyText2 {
     font-size: 1.25rem;
@@ -348,14 +272,15 @@
     margin-bottom: 0.5rem;
   }
 
+  .dermaplaningText2,
   .redLightTherapyText2 {
     margin-bottom: 1.75rem;
   }
 
+  .bookButton,
   .learnMoreButton {
     font-size: 1.25rem;
     padding: 0.5rem 0.75rem;
-    transition: 0.3s ease-in;
   }
 }
 
@@ -461,59 +386,37 @@
     margin-bottom: 1rem;
   }
 
-  /* Dermaplaning */
-  .dermaplaningSection {
-    margin-bottom: 1.5rem;
-  }
-
-  .dermaplaningContent {
-    max-width: 400px;
-  }
-
-  .dermaplaningHeading {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-
-  .dermaplaningText1,
-  .dermaplaningText2 {
-    font-size: 1rem;
-    line-height: 1.15;
-  }
-
-  .dermaplaningText2 {
-    margin-bottom: 1.5rem;
-  }
-
-  .bookButton {
-    font-size: 1rem;
-    padding: 0.35rem 0.55rem;
-  }
-
-  /* Red Light Therapy */
+  /* Service Cards */
+  .dermaplaningSection,
   .redLightTherapySection {
     margin-bottom: 1.5rem;
   }
 
+  .dermaplaningContent,
   .redLightTherapyContent {
     max-width: 400px;
   }
 
+  .dermaplaningHeading,
   .redLightTherapyHeading {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
 
+  .dermaplaningText1,
+  .dermaplaningText2,
   .redLightTherapyText1,
   .redLightTherapyText2 {
     font-size: 1rem;
     line-height: 1.15;
   }
 
+  .dermaplaningText2,
   .redLightTherapyText2 {
     margin-bottom: 1.5rem;
   }
 
+  .bookButton,
   .learnMoreButton {
     font-size: 1rem;
     padding: 0.35rem 0.55rem;
