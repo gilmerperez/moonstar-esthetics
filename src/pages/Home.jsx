@@ -3,6 +3,7 @@ import styles from "./Home.module.css";
 import logo from "../assets/images/moonstar-logo.png";
 import AHAvsBHA from "../components/AHAvsBHA/AHAvsBHA";
 import AnaKarina from "../components/AnaKarina/AnaKarina";
+import PopularServices from "../components/PopularServices/PopularServices";
 import SkincareRoutine from "../components/SkincareRoutine/SkincareRoutine";
 
 function Home() {
@@ -102,6 +103,9 @@ function Home() {
 
           {/* AHAs vs BHAs */}
           <AHAvsBHA />
+
+          {/* Popular Services */}
+          <PopularServices />
 
           {/* Skincare Routine */}
           <SkincareRoutine />

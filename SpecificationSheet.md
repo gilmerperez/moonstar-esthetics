@@ -101,7 +101,6 @@ Aim for a calm, modern aesthetic with a soft, trustworthy purple branding
 
 - THE BEST INVESTMENT YOU CAN MAKE IS IN YOURSELF
 
-
 #### List
 
 - Esthetician Skin Care Tips:
@@ -155,4 +154,5 @@ Aim for a calm, modern aesthetic with a soft, trustworthy purple branding
 - Make hover effect appear only on computer screens, not on mobile
 - Get a good font
 - Make Information Page Google Maps API to look like the Setmore one
+- When you are done, go through, try to make eveyrthing as efficient as possible.
 - English, Spanish, and Portugese Translation
