@@ -6,9 +6,10 @@
   margin-bottom: 2rem;
   background-size: cover;
   transition: 0.3s ease-in;
+  color: hsl(0, 0%, 100%);
   background-position: center;
   box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
-  background-image: url("../../assets/images/cream.jpg");
+  background-image: url("../../assets/images/cream.png");
 }
 
 .ahaBhaSection:hover {
@@ -21,8 +22,8 @@
   height: 100%;
   padding: 2rem;
   display: flex;
-  align-items: center;
   border-radius: 8px;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
   background-color: hsla(0, 0%, 0%, 0.3);
@@ -31,8 +32,9 @@
 .heading {
   width: 100%;
   font-size: 2.5rem;
+  text-align: center;
   margin-bottom: 0.5rem;
-  color: hsl(0, 0%, 100%);
+  transition: 0.3s ease-in;
   font-family: "Raleway", sans-serif;
 }
 
@@ -42,33 +44,44 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1 1 45%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .subHeading {
   width: 100%;
   font-size: 2rem;
+  text-align: center;
   margin-bottom: 0.5rem;
-  color: hsl(0, 0%, 95%);
-  font-family: "Raleway", sans-serif;
+  transition: 0.3s ease-in;
 }
 
 .listBox {
-  padding: 1rem 0;
-  padding-left: 2.25rem;
+  flex: 1;
+  width: 100%;
+  display: flex;
   text-align: left;
   line-height: 1.5;
   font-size: 1.5rem;
   border-radius: 8px;
   list-style-type: disc;
-  color: hsl(0, 0%, 90%);
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.75rem 2.5rem;
   transition: 0.3s ease-in;
-  background-color: hsla(0, 0%, 100%, 0.1);
+  background-color: hsla(0, 0%, 0%, 0.15);
   box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.15);
 }
 
 .listBox:hover {
+  background-color: hsla(0, 0%, 0%, 0.3);
   box-shadow: 5px 5px 15px hsla(0, 0%, 0%, 0.3);
 }
 
@@ -76,11 +89,39 @@
   margin-bottom: 0.5rem;
 }
 
-/* Responsive */
-@media (max-width: 1060px) {
+@media (max-width: 1050px) {
   .contentGrid {
-    align-items: center;
+    gap: 1rem;
     flex-direction: column;
+  }
+
+  .column {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .subHeading {
+    text-align: left;
+  }
+
+  .listBox {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .ahaBhaSection {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .overlay {
+    padding: 1.75rem;
+  }
+
+  .heading {
+    font-size: 2.25rem;
+    margin-bottom: 0.25rem;
   }
 
   .subHeading {
@@ -88,6 +129,38 @@
   }
 
   .listBox {
-    font-size: 1.1rem;
+    line-height: 1.25;
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .ahaBhaSection {
+    padding: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .overlay {
+    padding: 1.5rem;
+  }
+
+  .contentGrid {
+    gap: 0.5rem;
+  }
+
+  .heading {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .subHeading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.25rem;
+  }
+
+  .listBox {
+    font-size: 1rem;
+    line-height: 1.25;
   }
 }

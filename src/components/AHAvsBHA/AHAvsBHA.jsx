@@ -10,22 +10,22 @@ function AHAvsBHA() {
           <div className={styles.column}>
             <h3 className={styles.subHeading}>AHA</h3>
             <ul className={styles.listBox}>
-              <li>Exfoliates surface of the skin, brightens skin tone</li>
-              <li>Water-soluble, for dry skin types</li>
-              <li>Reduces fine lines and texture</li>
-              <li>Common AHAs: glycolic, lactic acids</li>
-              <li>Ideal for uneven, dull skin</li>
+              <li>Exfoliates the skin's surface and brightens overall tone.</li>
+              <li>Water-soluble; best suited for dry or normal skin types.</li>
+              <li>Helps reduce fine lines, rough texture, and dullness.</li>
+              <li>Common AHAs include glycolic and lactic acids.</li>
+              <li>Ideal for uneven, dehydrated, or lackluster skin.</li>
             </ul>
           </div>
           {/* BHAs */}
           <div className={styles.column}>
             <h3 className={styles.subHeading}>BHA</h3>
             <ul className={styles.listBox}>
-              <li>Penetrates pores, clears oil buildup</li>
-              <li>Oil-soluble, for oily skin types</li>
-              <li>Targets acne and blackheads</li>
-              <li>Common BHAs: Salicyclic acid</li>
-              <li>Ideal for acne-prone skin</li>
+              <li>Penetrates deep into pores to clear oil buildup.</li>
+              <li>Oil-soluble; perfect for oily and combination skin.</li>
+              <li>Targets acne, blackheads, and clogged pores.</li>
+              <li>Common BHA: salicylic acid.</li>
+              <li>Ideal for acne-prone or congested skin.</li>
             </ul>
           </div>
         </div>
