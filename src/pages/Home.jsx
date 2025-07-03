@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import styles from "./Home.module.css";
 import logo from "../assets/images/moonstar-logo.png";
+import OwnerSpotlight from "../components/OwnerSpotlight/OwnerSpotlight";
 
 function Home() {
   useEffect(() => {
@@ -12,6 +13,9 @@ function Home() {
       <section className={styles.homeContainer}>
         {/* Moonstar Esthetics Logo */}
         <img src={logo} alt="Moonstar Esthetics Logo" className={styles.moonstarLogo} />
+
+        {/* AnaKarina's Introduction */}
+        <OwnerSpotlight />
 
         {/* Heading */}
         <h2 className={styles.heading}>RADIANT SKIN IS HERE</h2>
