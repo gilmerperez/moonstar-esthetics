@@ -1,10 +1,4 @@
-import { useEffect, useState } from "react";
 import styles from "./OwnerSpotlight.module.css";
-import anakarina1 from "../../assets/images/anakarina-1.jpeg";
-import anakarina2 from "../../assets/images/anakarina-2.JPG";
-import anakarina3 from "../../assets/images/anakarina-3.JPG";
-
-const images = [anakarina1, anakarina2, anakarina3];
 
 // Calculate current age
 const birthDate = new Date(1999, 9, 20);
@@ -19,20 +13,10 @@ if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate()))
 const yearsOfExperience = age - 20;
 
 function OwnerSpotlight() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-
-  // Cycle through images
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % images.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <section className={styles.ownerSpotlightSection}>
       {/* Images */}
-      <div className={styles.imageContainer} style={{ backgroundImage: `url(${images[currentIndex]})` }}></div>
+      <div className={styles.imageContainer}></div>
 
       {/* Description */}
       <p className={styles.description}>
