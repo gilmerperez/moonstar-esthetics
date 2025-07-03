@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import styles from "./Home.module.css";
 import logo from "../assets/images/moonstar-logo.png";
-import OwnerSpotlight from "../components/OwnerSpotlight/OwnerSpotlight";
+import AnaKarina from "../components/AnaKarina/AnaKarina";
 
 function Home() {
   useEffect(() => {
@@ -25,7 +25,7 @@ function Home() {
         </p>
 
         {/* AnaKarina's Introduction */}
-        <OwnerSpotlight />
+        <AnaKarina />
 
         {/* Dermaplaning */}
         <section className={styles.dermaplaningSection}>

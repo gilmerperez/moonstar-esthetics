@@ -1,4 +1,4 @@
-import styles from "./OwnerSpotlight.module.css";
+import styles from "./AnaKarina.module.css";
 
 // Calculate current age
 const birthDate = new Date(1999, 9, 20);
@@ -12,9 +12,9 @@ if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate()))
 // Calculate years of experience
 const yearsOfExperience = age - 20;
 
-function OwnerSpotlight() {
+function AnaKarina() {
   return (
-    <section className={styles.ownerSpotlightSection}>
+    <section className={styles.anakarinaSection}>
       {/* Images */}
       <div className={styles.imageContainer}></div>
 
@@ -31,4 +31,4 @@ function OwnerSpotlight() {
   );
 }
 
-export default OwnerSpotlight;
+export default AnaKarina;

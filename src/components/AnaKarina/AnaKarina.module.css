@@ -1,4 +1,4 @@
-.ownerSpotlightSection {
+.anakarinaSection {
   width: 100%;
   padding: 2rem;
   margin: 0 auto;
@@ -11,7 +11,7 @@
   box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.15);
 }
 
-.ownerSpotlightSection:hover {
+.anakarinaSection:hover {
   transform: translateY(-5px);
   box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.3);
 }
@@ -48,7 +48,7 @@
 }
 
 @media (max-width: 1100px) {
-  .ownerSpotlightSection {
+  .anakarinaSection {
     padding: 1.75rem;
     margin-bottom: 1.5rem;
   }
@@ -59,7 +59,7 @@
 }
 
 @media (max-width: 800px) {
-  .ownerSpotlightSection {
+  .anakarinaSection {
     padding: 1.5rem;
     margin-bottom: 1.25rem;
   }
@@ -74,7 +74,7 @@
 }
 
 @media (max-width: 700px) {
-  .ownerSpotlightSection {
+  .anakarinaSection {
     padding: 1.25rem;
     margin-bottom: 1.15rem;
   }
@@ -85,7 +85,7 @@
 }
 
 @media (max-width: 480px) {
-  .ownerSpotlightSection {
+  .anakarinaSection {
     padding: 1rem;
     margin-bottom: 1rem;
   }
