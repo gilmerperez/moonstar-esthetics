@@ -481,13 +481,13 @@
   .stepTitle {
     width: auto;
     height: 65px;
-    font-size: 0.75rem;
+    font-size: 0.70rem;
   }
 
   .stepDescription {
     width: auto;
     height: 65px;
     padding: 1rem;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
   }
 }
