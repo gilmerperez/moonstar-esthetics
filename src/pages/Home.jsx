@@ -14,9 +14,6 @@ function Home() {
         {/* Moonstar Esthetics Logo */}
         <img src={logo} alt="Moonstar Esthetics Logo" className={styles.moonstarLogo} />
 
-        {/* AnaKarina's Introduction */}
-        <OwnerSpotlight />
-
         {/* Heading */}
         <h2 className={styles.heading}>RADIANT SKIN IS HERE</h2>
 
@@ -26,6 +23,9 @@ function Home() {
           peels, IPL laser hair removal, and red light therapy. Our calm, welcoming studio is built on values of
           honesty, care, and personal attention—so every client can unwind, rejuvenate, and leave feeling truly radiant.
         </p>
+
+        {/* AnaKarina's Introduction */}
+        <OwnerSpotlight />
 
         {/* Dermaplaning */}
         <section className={styles.dermaplaningSection}>
