@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import styles from "./Home.module.css";
 import logo from "../assets/images/moonstar-logo.png";
+import AHAvsBHA from "../components/AHAvsBHA/AHAvsBHA";
 import AnaKarina from "../components/AnaKarina/AnaKarina";
 
 function Home() {
@@ -95,6 +96,9 @@ function Home() {
             </a>
           </div>
         </section>
+
+        {/* AHAs vs BHAs */}
+        <AHAvsBHA />
 
         {/* Skincare Routine */}
         <a href="https://www.instagram.com/moonstaresthetics/" target="_blank" rel="noopener noreferrer">
