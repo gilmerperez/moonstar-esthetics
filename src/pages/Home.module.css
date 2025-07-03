@@ -268,18 +268,21 @@
 
   /* Service Cards */
   .dermaplaningSection,
-  .redLightTherapySection {
+  .redLightTherapySection,
+  .iplSection {
     padding: 1.75rem;
     margin-bottom: 1.75rem;
   }
 
   .dermaplaningContent,
-  .redLightTherapyContent {
+  .redLightTherapyContent,
+  .dermaplaningContent {
     max-width: 600px;
   }
 
   .dermaplaningHeading,
-  .redLightTherapyHeading {
+  .redLightTherapyHeading,
+  .iplHeading {
     font-size: 2.25rem;
     margin-bottom: 0.5rem;
   }
@@ -287,14 +290,17 @@
   .dermaplaningText1,
   .dermaplaningText2,
   .redLightTherapyText1,
-  .redLightTherapyText2 {
+  .redLightTherapyText2,
+  .iplText1,
+  .iplText2 {
     font-size: 1.25rem;
     line-height: 1.25;
     margin-bottom: 0.5rem;
   }
 
   .dermaplaningText2,
-  .redLightTherapyText2 {
+  .redLightTherapyText2,
+  .iplText2 {
     margin-bottom: 1.75rem;
   }
 
@@ -409,17 +415,20 @@
 
   /* Service Cards */
   .dermaplaningSection,
-  .redLightTherapySection {
+  .redLightTherapySection,
+  .iplSection {
     margin-bottom: 1.5rem;
   }
 
   .dermaplaningContent,
-  .redLightTherapyContent {
+  .redLightTherapyContent,
+  .dermaplaningContent {
     max-width: 400px;
   }
 
   .dermaplaningHeading,
-  .redLightTherapyHeading {
+  .redLightTherapyHeading,
+  .iplHeading {
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
   }
@@ -427,13 +436,16 @@
   .dermaplaningText1,
   .dermaplaningText2,
   .redLightTherapyText1,
-  .redLightTherapyText2 {
+  .redLightTherapyText2,
+  .iplText1,
+  .iplText2 {
     font-size: 1rem;
     line-height: 1.15;
   }
 
   .dermaplaningText2,
-  .redLightTherapyText2 {
+  .redLightTherapyText2,
+  .iplText2 {
     margin-bottom: 1.5rem;
   }
 

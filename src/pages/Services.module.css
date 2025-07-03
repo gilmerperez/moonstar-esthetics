@@ -61,14 +61,15 @@
 .readMoreButton {
   background: none;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.15rem;
   display: inline-block;
   transition: 0.3s ease-in;
   color: var(--text-secondary);
 }
 
 .readMoreButton:hover {
-  color: var(--text-secondary);
+  color: var(--text-primary);
+  transform: translateY(-3px);
 }
 
 .filterControls {
@@ -122,7 +123,7 @@
   }
 
   .readMoreButton {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .filterControls select {
@@ -149,7 +150,7 @@
   }
 
   .readMoreButton {
-    font-size: 1.15rem;
+    font-size: 0.85rem;
   }
 
   .filterControls select {
