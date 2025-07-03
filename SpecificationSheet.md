@@ -94,8 +94,6 @@ Aim for a calm, modern aesthetic with a soft, trustworthy purple branding
 
 ### 🏠 Home Page
 
-- English: My name is AnaKarina & I'm 25 years old and I'm a licensed esthetician with 5 years of experience in the beauty industry. I specialize in customized facials, laser hair removal, and waxing / helping my clients feel confident and radiant is my passion! + Let's achieve your skin goals ! Whether you're looking for glowing skin, smooth results, or the best self-care routine, I've got you covered. Can't wait to welcome you to my treatment room! Thankful for all my clients who have been here through the years
-
 - Spanish: Me llamo AnaKarina, tengo 25 años y soy esteticista colegiada con 5 años de experiencia en la industria de la belleza. Me especializo en faciales, depilación láser y cera. ¡Ayudar a mis clientas a sentirse seguras y radiantes es mi pasión! Ya sea que busques una piel radiante, resultados suaves o la mejor rutina de autocuidado, te tengo cubierta. ¡Estoy deseando darte la bienvenida a mi sala de tratamientos!
   Agradecida con todas mis clientas que han estado aquí a lo largo de los años
 
@@ -103,12 +101,6 @@ Aim for a calm, modern aesthetic with a soft, trustworthy purple branding
 
 - THE BEST INVESTMENT YOU CAN MAKE IS IN YOURSELF
 
-#### Featured Section
-
-Featured services with quick descriptions:
-
-- IPL Laser Hair Removal
-- Skincare Routine Steps
 
 #### List
 
