@@ -15,65 +15,67 @@ function PopularServices() {
 
         {/* Services */}
         <div className={styles.servicesList}>
-          {/* 1st Item */}
+          {/* 1st Service */}
           <div className={styles.serviceItem}>
-            <span className={styles.serviceName}>Signature Facial</span>
+            <span className={styles.serviceName}>Full Facial</span>
             <span className={styles.line}></span>
-            <span className={styles.price}>$120</span>
+            <span className={styles.servicePrice}>$68</span>
           </div>
-          {/* 2nd Item */}
+          {/* 2nd Service */}
           <div className={styles.serviceItem}>
-            <span className={styles.serviceName}>Laser Hair Removal (Small Area)</span>
+            <span className={styles.serviceName}>Dermaplaning + Facial</span>
             <span className={styles.line}></span>
-            <span className={styles.price}>$80</span>
+            <span className={styles.servicePrice}>$90</span>
           </div>
-          {/* 3rd Item */}
+          {/* 3rd Service */}
           <div className={styles.serviceItem}>
-            <span className={styles.serviceName}>Dermaplaning</span>
+            <span className={styles.serviceName}>Acne Treatment Facial</span>
             <span className={styles.line}></span>
-            <span className={styles.price}>$95</span>
+            <span className={styles.servicePrice}>$100</span>
           </div>
-          {/* 4th Item */}
+          {/* 4th Service */}
           <div className={styles.serviceItem}>
-            <span className={styles.serviceName}>Hydrating Facial</span>
+            <span className={styles.serviceName}>Rejuvinating Facial (IPL)</span>
             <span className={styles.line}></span>
-            <span className={styles.price}>$110</span>
+            <span className={styles.servicePrice}>$100</span>
           </div>
-          {/* 5th Item */}
+
+          {/* 5th Service */}
           <div className={styles.serviceItem}>
-            <span className={styles.serviceName}>Acne Clearing Treatment</span>
+            <span className={styles.serviceName}>Full Body IPL</span>
             <span className={styles.line}></span>
-            <span className={styles.price}>$130</span>
+            <span className={styles.servicePrice}>$280</span>
           </div>
-          {/* 6th Item */}
+          {/* 6th Service */}
           <div className={styles.serviceItem}>
-            <span className={styles.serviceName}>LED Light Therapy</span>
+            <span className={styles.serviceName}>Full Face IPL</span>
             <span className={styles.line}></span>
-            <span className={styles.price}>$70</span>
+            <span className={styles.servicePrice}>$45</span>
           </div>
-          {/* 7th Item */}
+          {/* 7th Service */}
           <div className={styles.serviceItem}>
-            <span className={styles.serviceName}>Chemical Peel</span>
+            <span className={styles.serviceName}>Brazilian + Underarms IPL</span>
             <span className={styles.line}></span>
-            <span className={styles.price}>$140</span>
+            <span className={styles.servicePrice}>$100</span>
           </div>
-          {/* 8th Item */}
+          {/* 8th Service */}
           <div className={styles.serviceItem}>
-            <span className={styles.serviceName}>Full Face Waxing</span>
+            <span className={styles.serviceName}>Underarms Wax</span>
             <span className={styles.line}></span>
-            <span className={styles.price}>$55</span>
+            <span className={styles.servicePrice}>$18</span>
           </div>
-          {/* 9th Item */}
+          {/* 9th Service */}
           <div className={styles.serviceItem}>
-            <span className={styles.serviceName}>Back Facial</span>
+            <span className={styles.serviceName}>Full Face Wax</span>
             <span className={styles.line}></span>
-            <span className={styles.price}>$125</span>
+            <span className={styles.servicePrice}>$25</span>
           </div>
-          {/* 10th Item */}
+
+          {/* 10th Service */}
           <div className={styles.serviceItem}>
-            <span className={styles.serviceName}>IPL Pigmentation Treatment</span>
+            <span className={styles.serviceName}>Full Legs Wax</span>
             <span className={styles.line}></span>
-            <span className={styles.price}>$150</span>
+            <span className={styles.servicePrice}>$60</span>
           </div>
         </div>
       </div>
